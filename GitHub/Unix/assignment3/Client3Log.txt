@@ -1,0 +1,1141 @@
+[2018-7-21 18:35:20]Initialized
+[2018-7-21 18:35:20]Connected to Server @[127.0.0.1:25001]
+[2018-7-21 18:35:23]COMMAND: date
+[2018-7-21 18:35:23]Sat Jul 21 18:35:23 PDT 2018
+
+[2018-7-21 18:35:23]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:23]COMMAND: uname -a
+[2018-7-21 18:35:23]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:35:26]COMMAND: date
+[2018-7-21 18:35:26]Sat Jul 21 18:35:26 PDT 2018
+
+[2018-7-21 18:35:26]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:26]COMMAND: uname -a
+[2018-7-21 18:35:26]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:35:29]COMMAND: date
+[2018-7-21 18:35:29]Sat Jul 21 18:35:29 PDT 2018
+
+[2018-7-21 18:35:29]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:29]COMMAND: uname -a
+[2018-7-21 18:35:29]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:35:32]COMMAND: date
+[2018-7-21 18:35:32]Sat Jul 21 18:35:32 PDT 2018
+
+[2018-7-21 18:35:32]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:32]COMMAND: uname -a
+[2018-7-21 18:35:32]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:35:35]COMMAND: date
+[2018-7-21 18:35:35]Sat Jul 21 18:35:35 PDT 2018
+
+[2018-7-21 18:35:35]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:35]COMMAND: uname -a
+[2018-7-21 18:35:35]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:35:38]COMMAND: date
+[2018-7-21 18:35:38]Sat Jul 21 18:35:38 PDT 2018
+
+[2018-7-21 18:35:38]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:38]COMMAND: uname -a
+[2018-7-21 18:35:38]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:35:41]COMMAND: date
+[2018-7-21 18:35:41]Sat Jul 21 18:35:41 PDT 2018
+
+[2018-7-21 18:35:41]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:41]COMMAND: uname -a
+[2018-7-21 18:35:41]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:35:44]COMMAND: date
+[2018-7-21 18:35:44]Sat Jul 21 18:35:44 PDT 2018
+
+[2018-7-21 18:35:44]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:44]COMMAND: uname -a
+[2018-7-21 18:35:44]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:35:47]COMMAND: date
+[2018-7-21 18:35:47]Sat Jul 21 18:35:47 PDT 2018
+
+[2018-7-21 18:35:47]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:47]COMMAND: uname -a
+[2018-7-21 18:35:47]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:35:50]COMMAND: date
+[2018-7-21 18:35:50]Sat Jul 21 18:35:50 PDT 2018
+
+[2018-7-21 18:35:50]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:50]COMMAND: uname -a
+[2018-7-21 18:35:50]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:35:53]COMMAND: date
+[2018-7-21 18:35:53]Sat Jul 21 18:35:53 PDT 2018
+
+[2018-7-21 18:35:53]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:53]COMMAND: uname -a
+[2018-7-21 18:35:53]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:35:56]COMMAND: date
+[2018-7-21 18:35:56]Sat Jul 21 18:35:56 PDT 2018
+
+[2018-7-21 18:35:56]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:56]-rw-r--r--  1 progamut  staff  0 Jul 21 18:35 junk.txt
+
+[2018-7-21 18:35:56]COMMAND: uname -a
+[2018-7-21 18:35:56]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:35:59]COMMAND: date
+[2018-7-21 18:35:59]Sat Jul 21 18:35:59 PDT 2018
+
+[2018-7-21 18:35:59]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:59]-rw-r--r--  1 progamut  staff  0 Jul 21 18:35 junk.txt
+
+[2018-7-21 18:35:59]COMMAND: uname -a
+[2018-7-21 18:35:59]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:36:2]COMMAND: date
+[2018-7-21 18:36:2]Sat Jul 21 18:36:02 PDT 2018
+
+[2018-7-21 18:36:2]COMMAND: ls -l junk.txt
+[2018-7-21 18:36:2]-rw-r--r--  1 progamut  staff  0 Jul 21 18:35 junk.txt
+
+[2018-7-21 18:36:2]COMMAND: uname -a
+[2018-7-21 18:36:2]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:36:5]COMMAND: date
+[2018-7-21 18:36:5]Sat Jul 21 18:36:05 PDT 2018
+
+[2018-7-21 18:36:5]COMMAND: ls -l junk.txt
+[2018-7-21 18:36:5]-rw-r--r--  1 progamut  staff  0 Jul 21 18:36 junk.txt
+
+[2018-7-21 18:36:5]COMMAND: uname -a
+[2018-7-21 18:36:5]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:36:8]COMMAND: date
+[2018-7-21 18:36:8]Sat Jul 21 18:36:08 PDT 2018
+
+[2018-7-21 18:36:8]COMMAND: ls -l junk.txt
+[2018-7-21 18:36:8]-rw-r--r--  1 progamut  staff  0 Jul 21 18:36 junk.txt
+
+[2018-7-21 18:36:8]COMMAND: uname -a
+[2018-7-21 18:36:8]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:36:11]COMMAND: date
+[2018-7-21 18:36:11]COMMAND: ls -l junk.txt
+[2018-7-21 18:36:11]COMMAND: uname -a
+[2018-7-21 18:36:14]COMMAND: date
+[2018-7-21 18:36:14]COMMAND: ls -l junk.txt
+[2018-7-21 18:36:14]COMMAND: uname -a
+[2018-7-21 18:36:17]COMMAND: date
+[2018-7-21 18:36:17]COMMAND: ls -l junk.txt
+[2018-7-21 18:36:17]COMMAND: uname -a
+[2018-7-21 18:36:20]COMMAND: date
+[2018-7-21 18:36:20]COMMAND: ls -l junk.txt
+[2018-7-21 18:36:20]COMMAND: uname -a
+[2018-7-21 18:36:23]COMMAND: date
+[2018-7-21 18:36:23]COMMAND: ls -l junk.txt
+[2018-7-21 18:36:23]COMMAND: uname -a
+[2018-7-21 18:36:26]COMMAND: date
+[2018-7-21 18:36:26]COMMAND: ls -l junk.txt
+[2018-7-21 18:36:26]COMMAND: uname -a
+[2018-7-21 18:36:29]COMMAND: date
+[2018-7-21 18:36:29]COMMAND: ls -l junk.txt
+[2018-7-21 18:36:29]COMMAND: uname -a
+[2018-7-21 18:36:32]COMMAND: date
+[2018-7-21 18:36:32]COMMAND: ls -l junk.txt
+[2018-7-21 18:36:32]COMMAND: uname -a
+[2018-7-21 18:36:35]COMMAND: date
+[2018-7-21 18:36:35]Sat Jul 21 18:36:35 PDT 2018
+
+[2018-7-21 18:36:35]COMMAND: ls -l junk.txt
+[2018-7-21 18:36:35]COMMAND: uname -a
+[2018-7-21 18:36:38]COMMAND: date
+[2018-7-21 18:36:38]COMMAND: ls -l junk.txt
+[2018-7-21 18:36:38]COMMAND: uname -a
+[2018-7-21 18:37:45]Initialized
+[2018-7-21 18:37:45]Connected to Server @[127.0.0.1:25001]
+[2018-7-21 18:37:48]COMMAND: date
+[2018-7-21 18:37:48]Sat Jul 21 18:37:48 PDT 2018
+
+[2018-7-21 18:37:48]COMMAND: ls -l junk.txt
+[2018-7-21 18:37:48]COMMAND: uname -a
+[2018-7-21 18:37:48]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:37:51]COMMAND: date
+[2018-7-21 18:37:51]Sat Jul 21 18:37:51 PDT 2018
+
+[2018-7-21 18:37:51]COMMAND: ls -l junk.txt
+[2018-7-21 18:37:51]COMMAND: uname -a
+[2018-7-21 18:37:51]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:37:54]COMMAND: date
+[2018-7-21 18:37:54]Sat Jul 21 18:37:54 PDT 2018
+
+[2018-7-21 18:37:54]COMMAND: ls -l junk.txt
+[2018-7-21 18:37:54]COMMAND: uname -a
+[2018-7-21 18:37:54]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:37:57]COMMAND: date
+[2018-7-21 18:37:57]Sat Jul 21 18:37:57 PDT 2018
+
+[2018-7-21 18:37:57]COMMAND: ls -l junk.txt
+[2018-7-21 18:37:57]COMMAND: uname -a
+[2018-7-21 18:37:57]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:38:0]COMMAND: date
+[2018-7-21 18:38:0]Sat Jul 21 18:38:00 PDT 2018
+
+[2018-7-21 18:38:0]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:0]COMMAND: uname -a
+[2018-7-21 18:38:0]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:38:3]COMMAND: date
+[2018-7-21 18:38:3]Sat Jul 21 18:38:03 PDT 2018
+
+[2018-7-21 18:38:3]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:3]COMMAND: uname -a
+[2018-7-21 18:38:3]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:38:6]COMMAND: date
+[2018-7-21 18:38:6]Sat Jul 21 18:38:06 PDT 2018
+
+[2018-7-21 18:38:6]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:6]COMMAND: uname -a
+[2018-7-21 18:38:6]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:38:9]COMMAND: date
+[2018-7-21 18:38:9]Sat Jul 21 18:38:09 PDT 2018
+
+[2018-7-21 18:38:9]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:9]COMMAND: uname -a
+[2018-7-21 18:38:9]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:38:12]COMMAND: date
+[2018-7-21 18:38:12]Sat Jul 21 18:38:12 PDT 2018
+
+[2018-7-21 18:38:12]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:12]COMMAND: uname -a
+[2018-7-21 18:38:12]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:38:15]COMMAND: date
+[2018-7-21 18:38:15]Sat Jul 21 18:38:15 PDT 2018
+
+[2018-7-21 18:38:15]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:15]COMMAND: uname -a
+[2018-7-21 18:38:15]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:38:18]COMMAND: date
+[2018-7-21 18:38:18]Sat Jul 21 18:38:18 PDT 2018
+
+[2018-7-21 18:38:18]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:18]COMMAND: uname -a
+[2018-7-21 18:38:18]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:38:21]COMMAND: date
+[2018-7-21 18:38:21]Sat Jul 21 18:38:21 PDT 2018
+
+[2018-7-21 18:38:21]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:21]COMMAND: uname -a
+[2018-7-21 18:38:21]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:38:24]COMMAND: date
+[2018-7-21 18:38:24]Sat Jul 21 18:38:24 PDT 2018
+
+[2018-7-21 18:38:24]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:24]COMMAND: uname -a
+[2018-7-21 18:38:24]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:38:27]COMMAND: date
+[2018-7-21 18:38:27]Sat Jul 21 18:38:27 PDT 2018
+
+[2018-7-21 18:38:27]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:27]COMMAND: uname -a
+[2018-7-21 18:38:27]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:38:30]COMMAND: date
+[2018-7-21 18:38:30]Sat Jul 21 18:38:30 PDT 2018
+
+[2018-7-21 18:38:30]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:30]COMMAND: uname -a
+[2018-7-21 18:38:30]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:38:33]COMMAND: date
+[2018-7-21 18:38:33]Sat Jul 21 18:38:33 PDT 2018
+
+[2018-7-21 18:38:33]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:33]COMMAND: uname -a
+[2018-7-21 18:38:33]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:38:36]COMMAND: date
+[2018-7-21 18:38:36]Sat Jul 21 18:38:36 PDT 2018
+
+[2018-7-21 18:38:36]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:36]COMMAND: uname -a
+[2018-7-21 18:38:36]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:38:39]COMMAND: date
+[2018-7-21 18:38:39]Sat Jul 21 18:38:39 PDT 2018
+
+[2018-7-21 18:38:39]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:39]COMMAND: uname -a
+[2018-7-21 18:38:39]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:38:42]COMMAND: date
+[2018-7-21 18:38:42]Sat Jul 21 18:38:42 PDT 2018
+
+[2018-7-21 18:38:42]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:42]COMMAND: uname -a
+[2018-7-21 18:38:42]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:38:45]COMMAND: date
+[2018-7-21 18:38:45]Sat Jul 21 18:38:45 PDT 2018
+
+[2018-7-21 18:38:45]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:45]COMMAND: uname -a
+[2018-7-21 18:38:45]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:38:48]COMMAND: date
+[2018-7-21 18:38:48]Sat Jul 21 18:38:48 PDT 2018
+
+[2018-7-21 18:38:48]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:48]COMMAND: uname -a
+[2018-7-21 18:38:48]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:38:51]COMMAND: date
+[2018-7-21 18:38:51]Sat Jul 21 18:38:51 PDT 2018
+
+[2018-7-21 18:38:51]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:51]COMMAND: uname -a
+[2018-7-21 18:38:51]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:38:54]COMMAND: date
+[2018-7-21 18:38:54]Sat Jul 21 18:38:54 PDT 2018
+
+[2018-7-21 18:38:54]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:54]COMMAND: uname -a
+[2018-7-21 18:38:54]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:38:57]COMMAND: date
+[2018-7-21 18:38:57]Sat Jul 21 18:38:57 PDT 2018
+
+[2018-7-21 18:38:57]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:57]COMMAND: uname -a
+[2018-7-21 18:38:57]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:39:0]COMMAND: date
+[2018-7-21 18:39:0]Sat Jul 21 18:39:00 PDT 2018
+
+[2018-7-21 18:39:0]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:0]COMMAND: uname -a
+[2018-7-21 18:39:0]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:39:3]COMMAND: date
+[2018-7-21 18:39:3]Sat Jul 21 18:39:03 PDT 2018
+
+[2018-7-21 18:39:3]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:3]COMMAND: uname -a
+[2018-7-21 18:39:3]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:39:6]COMMAND: date
+[2018-7-21 18:39:6]Sat Jul 21 18:39:06 PDT 2018
+
+[2018-7-21 18:39:6]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:6]COMMAND: uname -a
+[2018-7-21 18:39:6]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:39:9]COMMAND: date
+[2018-7-21 18:39:9]Sat Jul 21 18:39:09 PDT 2018
+
+[2018-7-21 18:39:9]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:9]COMMAND: uname -a
+[2018-7-21 18:39:9]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:39:12]COMMAND: date
+[2018-7-21 18:39:12]Sat Jul 21 18:39:12 PDT 2018
+
+[2018-7-21 18:39:12]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:12]COMMAND: uname -a
+[2018-7-21 18:39:12]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:39:15]COMMAND: date
+[2018-7-21 18:39:15]Sat Jul 21 18:39:15 PDT 2018
+
+[2018-7-21 18:39:15]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:15]COMMAND: uname -a
+[2018-7-21 18:39:15]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:39:18]COMMAND: date
+[2018-7-21 18:39:18]Sat Jul 21 18:39:18 PDT 2018
+
+[2018-7-21 18:39:18]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:18]COMMAND: uname -a
+[2018-7-21 18:39:18]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:39:21]COMMAND: date
+[2018-7-21 18:39:21]Sat Jul 21 18:39:21 PDT 2018
+
+[2018-7-21 18:39:21]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:21]COMMAND: uname -a
+[2018-7-21 18:39:21]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:39:24]COMMAND: date
+[2018-7-21 18:39:24]Sat Jul 21 18:39:24 PDT 2018
+
+[2018-7-21 18:39:24]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:24]COMMAND: uname -a
+[2018-7-21 18:39:24]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:39:27]COMMAND: date
+[2018-7-21 18:39:27]Sat Jul 21 18:39:27 PDT 2018
+
+[2018-7-21 18:39:27]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:27]COMMAND: uname -a
+[2018-7-21 18:39:27]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:39:30]COMMAND: date
+[2018-7-21 18:39:30]Sat Jul 21 18:39:30 PDT 2018
+
+[2018-7-21 18:39:30]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:30]COMMAND: uname -a
+[2018-7-21 18:39:30]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:39:33]COMMAND: date
+[2018-7-21 18:39:33]Sat Jul 21 18:39:33 PDT 2018
+
+[2018-7-21 18:39:33]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:33]COMMAND: uname -a
+[2018-7-21 18:39:33]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:39:36]COMMAND: date
+[2018-7-21 18:39:36]Sat Jul 21 18:39:36 PDT 2018
+
+[2018-7-21 18:39:36]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:36]COMMAND: uname -a
+[2018-7-21 18:39:36]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:39:39]COMMAND: date
+[2018-7-21 18:39:39]Sat Jul 21 18:39:39 PDT 2018
+
+[2018-7-21 18:39:39]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:39]COMMAND: uname -a
+[2018-7-21 18:39:39]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:39:42]COMMAND: date
+[2018-7-21 18:39:42]Sat Jul 21 18:39:42 PDT 2018
+
+[2018-7-21 18:39:42]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:42]COMMAND: uname -a
+[2018-7-21 18:39:42]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:39:45]COMMAND: date
+[2018-7-21 18:39:45]Sat Jul 21 18:39:45 PDT 2018
+
+[2018-7-21 18:39:45]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:45]COMMAND: uname -a
+[2018-7-21 18:39:45]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:39:48]COMMAND: date
+[2018-7-21 18:39:48]Sat Jul 21 18:39:48 PDT 2018
+
+[2018-7-21 18:39:48]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:48]COMMAND: uname -a
+[2018-7-21 18:39:48]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:39:51]COMMAND: date
+[2018-7-21 18:39:51]Sat Jul 21 18:39:51 PDT 2018
+
+[2018-7-21 18:39:51]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:51]COMMAND: uname -a
+[2018-7-21 18:39:51]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:39:54]COMMAND: date
+[2018-7-21 18:39:54]Sat Jul 21 18:39:54 PDT 2018
+
+[2018-7-21 18:39:54]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:54]COMMAND: uname -a
+[2018-7-21 18:39:54]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:39:57]COMMAND: date
+[2018-7-21 18:39:57]Sat Jul 21 18:39:57 PDT 2018
+
+[2018-7-21 18:39:57]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:57]COMMAND: uname -a
+[2018-7-21 18:39:57]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:40:0]COMMAND: date
+[2018-7-21 18:40:0]Sat Jul 21 18:40:00 PDT 2018
+
+[2018-7-21 18:40:0]COMMAND: ls -l junk.txt
+[2018-7-21 18:40:0]COMMAND: uname -a
+[2018-7-21 18:40:0]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:40:3]COMMAND: date
+[2018-7-21 18:40:3]Sat Jul 21 18:40:03 PDT 2018
+
+[2018-7-21 18:40:3]COMMAND: ls -l junk.txt
+[2018-7-21 18:40:3]COMMAND: uname -a
+[2018-7-21 18:40:3]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:40:6]COMMAND: date
+[2018-7-21 18:40:6]Sat Jul 21 18:40:06 PDT 2018
+
+[2018-7-21 18:40:6]COMMAND: ls -l junk.txt
+[2018-7-21 18:40:6]COMMAND: uname -a
+[2018-7-21 18:40:6]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:40:9]COMMAND: date
+[2018-7-21 18:40:10]Sat Jul 21 18:40:10 PDT 2018
+
+[2018-7-21 18:40:10]COMMAND: ls -l junk.txt
+[2018-7-21 18:40:10]COMMAND: uname -a
+[2018-7-21 18:40:10]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:40:13]COMMAND: date
+[2018-7-21 18:40:13]Sat Jul 21 18:40:13 PDT 2018
+
+[2018-7-21 18:40:13]COMMAND: ls -l junk.txt
+[2018-7-21 18:40:13]COMMAND: uname -a
+[2018-7-21 18:40:13]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:40:16]COMMAND: date
+[2018-7-21 18:40:16]Sat Jul 21 18:40:16 PDT 2018
+
+[2018-7-21 18:40:16]COMMAND: ls -l junk.txt
+[2018-7-21 18:40:16]COMMAND: uname -a
+[2018-7-21 18:40:16]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:40:19]COMMAND: date
+[2018-7-21 18:40:19]Sat Jul 21 18:40:19 PDT 2018
+
+[2018-7-21 18:40:19]COMMAND: ls -l junk.txt
+[2018-7-21 18:40:19]COMMAND: uname -a
+[2018-7-21 18:40:22]COMMAND: date
+[2018-7-21 18:40:22]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:40:22]COMMAND: ls -l junk.txt
+[2018-7-21 18:40:22]Sat Jul 21 18:40:22 PDT 2018
+
+[2018-7-21 18:40:22]COMMAND: uname -a
+[2018-7-21 18:40:25]COMMAND: date
+[2018-7-21 18:40:25]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:40:25]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:27]Initialized
+[2018-7-21 18:50:27]Connected to Server @[127.0.0.1:25001]
+[2018-7-21 18:50:28]COMMAND: date
+[2018-7-21 18:50:28]Sat Jul 21 18:50:28 PDT 2018
+
+[2018-7-21 18:50:28]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:28]COMMAND: uname -a
+[2018-7-21 18:50:28]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:50:29]COMMAND: date
+[2018-7-21 18:50:29]Sat Jul 21 18:50:29 PDT 2018
+
+[2018-7-21 18:50:29]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:29]COMMAND: uname -a
+[2018-7-21 18:50:29]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:50:30]COMMAND: date
+[2018-7-21 18:50:30]Sat Jul 21 18:50:30 PDT 2018
+
+[2018-7-21 18:50:30]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:30]COMMAND: uname -a
+[2018-7-21 18:50:30]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:50:31]COMMAND: date
+[2018-7-21 18:50:31]Sat Jul 21 18:50:31 PDT 2018
+
+[2018-7-21 18:50:31]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:31]COMMAND: uname -a
+[2018-7-21 18:50:31]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:50:32]COMMAND: date
+[2018-7-21 18:50:32]Sat Jul 21 18:50:32 PDT 2018
+
+[2018-7-21 18:50:32]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:32]COMMAND: uname -a
+[2018-7-21 18:50:32]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:50:34]COMMAND: date
+[2018-7-21 18:50:34]Sat Jul 21 18:50:34 PDT 2018
+
+[2018-7-21 18:50:34]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:34]COMMAND: uname -a
+[2018-7-21 18:50:34]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:50:35]COMMAND: date
+[2018-7-21 18:50:35]Sat Jul 21 18:50:35 PDT 2018
+
+[2018-7-21 18:50:35]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:35]COMMAND: uname -a
+[2018-7-21 18:50:35]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:50:36]COMMAND: date
+[2018-7-21 18:50:36]Sat Jul 21 18:50:36 PDT 2018
+
+[2018-7-21 18:50:36]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:36]COMMAND: uname -a
+[2018-7-21 18:50:36]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:50:37]COMMAND: date
+[2018-7-21 18:50:37]Sat Jul 21 18:50:37 PDT 2018
+
+[2018-7-21 18:50:37]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:37]COMMAND: uname -a
+[2018-7-21 18:50:37]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:50:38]COMMAND: date
+[2018-7-21 18:50:38]Sat Jul 21 18:50:38 PDT 2018
+
+[2018-7-21 18:50:38]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:38]COMMAND: uname -a
+[2018-7-21 18:50:38]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:50:39]COMMAND: date
+[2018-7-21 18:50:39]Sat Jul 21 18:50:39 PDT 2018
+
+[2018-7-21 18:50:39]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:39]COMMAND: uname -a
+[2018-7-21 18:50:39]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:50:40]COMMAND: date
+[2018-7-21 18:50:40]Sat Jul 21 18:50:40 PDT 2018
+
+[2018-7-21 18:50:40]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:40]COMMAND: uname -a
+[2018-7-21 18:50:40]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:50:41]COMMAND: date
+[2018-7-21 18:50:41]Sat Jul 21 18:50:41 PDT 2018
+
+[2018-7-21 18:50:41]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:41]COMMAND: uname -a
+[2018-7-21 18:50:41]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:50:42]COMMAND: date
+[2018-7-21 18:50:42]Sat Jul 21 18:50:42 PDT 2018
+
+[2018-7-21 18:50:42]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:42]COMMAND: uname -a
+[2018-7-21 18:50:42]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:50:43]COMMAND: date
+[2018-7-21 18:50:43]Sat Jul 21 18:50:43 PDT 2018
+
+[2018-7-21 18:50:43]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:43]COMMAND: uname -a
+[2018-7-21 18:50:43]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:50:44]COMMAND: date
+[2018-7-21 18:50:44]Sat Jul 21 18:50:44 PDT 2018
+
+[2018-7-21 18:50:44]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:44]COMMAND: uname -a
+[2018-7-21 18:50:44]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:50:45]COMMAND: date
+[2018-7-21 18:50:45]Sat Jul 21 18:50:45 PDT 2018
+
+[2018-7-21 18:50:45]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:45]COMMAND: uname -a
+[2018-7-21 18:50:45]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:50:46]COMMAND: date
+[2018-7-21 18:50:46]Sat Jul 21 18:50:46 PDT 2018
+
+[2018-7-21 18:50:46]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:46]COMMAND: uname -a
+[2018-7-21 18:50:46]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:50:47]COMMAND: date
+[2018-7-21 18:50:47]Sat Jul 21 18:50:47 PDT 2018
+
+[2018-7-21 18:50:47]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:47]COMMAND: uname -a
+[2018-7-21 18:50:47]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:50:48]COMMAND: date
+[2018-7-21 18:50:48]Sat Jul 21 18:50:48 PDT 2018
+
+[2018-7-21 18:50:48]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:48]COMMAND: uname -a
+[2018-7-21 18:50:48]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:50:49]COMMAND: date
+[2018-7-21 18:50:49]Sat Jul 21 18:50:49 PDT 2018
+
+[2018-7-21 18:50:49]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:49]COMMAND: uname -a
+[2018-7-21 18:50:49]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:50:50]COMMAND: date
+[2018-7-21 18:50:50]Sat Jul 21 18:50:50 PDT 2018
+
+[2018-7-21 18:50:50]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:50]COMMAND: uname -a
+[2018-7-21 18:50:50]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:50:51]COMMAND: date
+[2018-7-21 18:50:51]Sat Jul 21 18:50:51 PDT 2018
+
+[2018-7-21 18:50:51]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:51]COMMAND: uname -a
+[2018-7-21 18:50:51]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:50:52]COMMAND: date
+[2018-7-21 18:50:52]Sat Jul 21 18:50:52 PDT 2018
+
+[2018-7-21 18:50:52]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:52]COMMAND: uname -a
+[2018-7-21 18:50:52]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:50:53]COMMAND: date
+[2018-7-21 18:50:53]Sat Jul 21 18:50:53 PDT 2018
+
+[2018-7-21 18:50:53]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:53]COMMAND: uname -a
+[2018-7-21 18:50:53]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:50:54]COMMAND: date
+[2018-7-21 18:50:54]Sat Jul 21 18:50:54 PDT 2018
+
+[2018-7-21 18:50:54]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:54]COMMAND: uname -a
+[2018-7-21 18:50:54]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:50:55]COMMAND: date
+[2018-7-21 18:50:55]Sat Jul 21 18:50:55 PDT 2018
+
+[2018-7-21 18:50:55]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:55]COMMAND: uname -a
+[2018-7-21 18:50:55]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:50:56]COMMAND: date
+[2018-7-21 18:50:56]Sat Jul 21 18:50:56 PDT 2018
+
+[2018-7-21 18:50:56]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:56]COMMAND: uname -a
+[2018-7-21 18:50:56]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:50:57]COMMAND: date
+[2018-7-21 18:50:57]Sat Jul 21 18:50:57 PDT 2018
+
+[2018-7-21 18:50:57]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:57]COMMAND: uname -a
+[2018-7-21 18:50:57]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:50:58]COMMAND: date
+[2018-7-21 18:50:58]Sat Jul 21 18:50:58 PDT 2018
+
+[2018-7-21 18:50:58]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:58]-rw-r--r--  1 progamut  staff  0 Jul 21 18:50 junk.txt
+
+[2018-7-21 18:50:58]COMMAND: uname -a
+[2018-7-21 18:50:58]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:50:59]COMMAND: date
+[2018-7-21 18:50:59]Sat Jul 21 18:50:59 PDT 2018
+
+[2018-7-21 18:50:59]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:59]COMMAND: uname -a
+[2018-7-21 18:50:59]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:51:0]COMMAND: date
+[2018-7-21 18:51:0]Sat Jul 21 18:51:00 PDT 2018
+
+[2018-7-21 18:51:0]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:0]COMMAND: uname -a
+[2018-7-21 18:51:0]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:51:1]COMMAND: date
+[2018-7-21 18:51:1]Sat Jul 21 18:51:01 PDT 2018
+
+[2018-7-21 18:51:1]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:1]-rw-r--r--  1 progamut  staff  0 Jul 21 18:51 junk.txt
+
+[2018-7-21 18:51:1]COMMAND: uname -a
+[2018-7-21 18:51:1]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:51:2]COMMAND: date
+[2018-7-21 18:51:2]Sat Jul 21 18:51:02 PDT 2018
+
+[2018-7-21 18:51:2]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:2]COMMAND: uname -a
+[2018-7-21 18:51:2]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:51:3]COMMAND: date
+[2018-7-21 18:51:3]Sat Jul 21 18:51:03 PDT 2018
+
+[2018-7-21 18:51:3]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:3]COMMAND: uname -a
+[2018-7-21 18:51:3]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:51:4]COMMAND: date
+[2018-7-21 18:51:4]Sat Jul 21 18:51:04 PDT 2018
+
+[2018-7-21 18:51:4]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:4]-rw-r--r--  1 progamut  staff  0 Jul 21 18:51 junk.txt
+
+[2018-7-21 18:51:4]COMMAND: uname -a
+[2018-7-21 18:51:4]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:51:5]COMMAND: date
+[2018-7-21 18:51:5]Sat Jul 21 18:51:05 PDT 2018
+
+[2018-7-21 18:51:5]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:5]COMMAND: uname -a
+[2018-7-21 18:51:5]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:51:6]COMMAND: date
+[2018-7-21 18:51:6]Sat Jul 21 18:51:06 PDT 2018
+
+[2018-7-21 18:51:6]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:6]COMMAND: uname -a
+[2018-7-21 18:51:6]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:51:7]COMMAND: date
+[2018-7-21 18:51:7]Sat Jul 21 18:51:07 PDT 2018
+
+[2018-7-21 18:51:7]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:7]-rw-r--r--  1 progamut  staff  0 Jul 21 18:51 junk.txt
+
+[2018-7-21 18:51:7]COMMAND: uname -a
+[2018-7-21 18:51:7]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:51:8]COMMAND: date
+[2018-7-21 18:51:8]Sat Jul 21 18:51:08 PDT 2018
+
+[2018-7-21 18:51:8]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:8]COMMAND: uname -a
+[2018-7-21 18:51:8]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:51:9]COMMAND: date
+[2018-7-21 18:51:9]Sat Jul 21 18:51:09 PDT 2018
+
+[2018-7-21 18:51:9]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:9]COMMAND: uname -a
+[2018-7-21 18:51:9]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:51:10]COMMAND: date
+[2018-7-21 18:51:10]Sat Jul 21 18:51:10 PDT 2018
+
+[2018-7-21 18:51:10]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:10]-rw-r--r--  1 progamut  staff  0 Jul 21 18:51 junk.txt
+
+[2018-7-21 18:51:10]COMMAND: uname -a
+[2018-7-21 18:51:10]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:51:11]COMMAND: date
+[2018-7-21 18:51:11]Sat Jul 21 18:51:11 PDT 2018
+
+[2018-7-21 18:51:11]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:11]COMMAND: uname -a
+[2018-7-21 18:51:11]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:51:12]COMMAND: date
+[2018-7-21 18:51:12]Sat Jul 21 18:51:12 PDT 2018
+
+[2018-7-21 18:51:12]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:12]COMMAND: uname -a
+[2018-7-21 18:51:12]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:51:13]COMMAND: date
+[2018-7-21 18:51:13]Sat Jul 21 18:51:13 PDT 2018
+
+[2018-7-21 18:51:13]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:13]-rw-r--r--  1 progamut  staff  0 Jul 21 18:51 junk.txt
+
+[2018-7-21 18:51:13]COMMAND: uname -a
+[2018-7-21 18:51:13]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:51:14]COMMAND: date
+[2018-7-21 18:51:14]Sat Jul 21 18:51:14 PDT 2018
+
+[2018-7-21 18:51:14]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:14]COMMAND: uname -a
+[2018-7-21 18:51:14]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:51:15]COMMAND: date
+[2018-7-21 18:51:15]Sat Jul 21 18:51:15 PDT 2018
+
+[2018-7-21 18:51:15]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:15]COMMAND: uname -a
+[2018-7-21 18:51:15]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:51:16]COMMAND: date
+[2018-7-21 18:51:16]Sat Jul 21 18:51:16 PDT 2018
+
+[2018-7-21 18:51:16]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:16]-rw-r--r--  1 progamut  staff  0 Jul 21 18:51 junk.txt
+
+[2018-7-21 18:51:16]COMMAND: uname -a
+[2018-7-21 18:51:17]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:51:18]COMMAND: date
+[2018-7-21 18:51:18]Sat Jul 21 18:51:18 PDT 2018
+
+[2018-7-21 18:51:18]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:18]COMMAND: uname -a
+[2018-7-21 18:51:18]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:51:19]COMMAND: date
+[2018-7-21 18:51:19]Sat Jul 21 18:51:19 PDT 2018
+
+[2018-7-21 18:51:19]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:19]COMMAND: uname -a
+[2018-7-21 18:51:19]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:51:20]COMMAND: date
+[2018-7-21 18:51:20]Sat Jul 21 18:51:20 PDT 2018
+
+[2018-7-21 18:51:20]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:20]-rw-r--r--  1 progamut  staff  0 Jul 21 18:51 junk.txt
+
+[2018-7-21 18:51:20]COMMAND: uname -a
+[2018-7-21 18:51:20]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:51:21]COMMAND: date
+[2018-7-21 18:51:21]Sat Jul 21 18:51:21 PDT 2018
+
+[2018-7-21 18:51:21]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:21]COMMAND: uname -a
+[2018-7-21 18:51:21]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:51:22]COMMAND: date
+[2018-7-21 18:51:22]Sat Jul 21 18:51:22 PDT 2018
+
+[2018-7-21 18:51:22]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:22]COMMAND: uname -a
+[2018-7-21 18:51:22]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:51:23]COMMAND: date
+[2018-7-21 18:51:23]Sat Jul 21 18:51:23 PDT 2018
+
+[2018-7-21 18:51:23]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:23]-rw-r--r--  1 progamut  staff  0 Jul 21 18:51 junk.txt
+
+[2018-7-21 18:51:23]COMMAND: uname -a
+[2018-7-21 18:51:23]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:51:24]COMMAND: date
+[2018-7-21 18:51:24]Sat Jul 21 18:51:24 PDT 2018
+
+[2018-7-21 18:51:24]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:24]COMMAND: uname -a
+[2018-7-21 18:51:24]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:51:25]COMMAND: date
+[2018-7-21 18:51:25]Sat Jul 21 18:51:25 PDT 2018
+
+[2018-7-21 18:51:25]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:25]COMMAND: uname -a
+[2018-7-21 18:51:25]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:51:26]COMMAND: date
+[2018-7-21 18:51:26]Sat Jul 21 18:51:26 PDT 2018
+
+[2018-7-21 18:51:26]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:26]-rw-r--r--  1 progamut  staff  0 Jul 21 18:51 junk.txt
+
+[2018-7-21 18:51:26]COMMAND: uname -a
+[2018-7-21 18:51:26]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:51:27]COMMAND: date
+[2018-7-21 18:51:27]Sat Jul 21 18:51:27 PDT 2018
+
+[2018-7-21 18:51:27]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:27]COMMAND: uname -a
+[2018-7-21 18:51:27]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:51:28]COMMAND: date
+[2018-7-21 18:51:28]Sat Jul 21 18:51:28 PDT 2018
+
+[2018-7-21 18:51:28]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:28]COMMAND: uname -a
+[2018-7-21 18:51:28]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:51:29]COMMAND: date
+[2018-7-21 18:51:29]Sat Jul 21 18:51:29 PDT 2018
+
+[2018-7-21 18:51:29]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:29]-rw-r--r--  1 progamut  staff  0 Jul 21 18:51 junk.txt
+
+[2018-7-21 18:51:29]COMMAND: uname -a
+[2018-7-21 18:51:29]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:51:30]COMMAND: date
+[2018-7-21 18:51:30]Sat Jul 21 18:51:30 PDT 2018
+
+[2018-7-21 18:51:30]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:30]COMMAND: uname -a
+[2018-7-21 18:51:30]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:51:31]COMMAND: date
+[2018-7-21 18:51:31]Sat Jul 21 18:51:31 PDT 2018
+
+[2018-7-21 18:51:31]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:31]COMMAND: uname -a
+[2018-7-21 18:51:31]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:51:32]COMMAND: date
+[2018-7-21 18:51:32]Sat Jul 21 18:51:32 PDT 2018
+
+[2018-7-21 18:51:32]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:32]COMMAND: uname -a
+[2018-7-21 18:51:32]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:51:33]COMMAND: date
+[2018-7-21 18:51:33]Sat Jul 21 18:51:33 PDT 2018
+
+[2018-7-21 18:51:33]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:33]COMMAND: uname -a
+[2018-7-21 18:51:33]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:51:34]COMMAND: date
+[2018-7-21 18:51:34]Sat Jul 21 18:51:34 PDT 2018
+
+[2018-7-21 18:51:34]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:34]COMMAND: uname -a
+[2018-7-21 18:51:34]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:51:35]COMMAND: date
+[2018-7-21 18:51:35]Sat Jul 21 18:51:35 PDT 2018
+
+[2018-7-21 18:51:35]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:35]COMMAND: uname -a
+[2018-7-21 18:51:35]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:51:36]COMMAND: date
+[2018-7-21 18:51:36]Sat Jul 21 18:51:36 PDT 2018
+
+[2018-7-21 18:51:36]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:36]COMMAND: uname -a
+[2018-7-21 18:51:36]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:51:37]COMMAND: date
+[2018-7-21 18:51:37]Sat Jul 21 18:51:37 PDT 2018
+
+[2018-7-21 18:51:37]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:37]COMMAND: uname -a
+[2018-7-21 18:51:37]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:51:38]COMMAND: date
+[2018-7-21 18:51:38]Sat Jul 21 18:51:38 PDT 2018
+
+[2018-7-21 18:51:38]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:38]COMMAND: uname -a
+[2018-7-21 18:51:38]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 18:51:39]COMMAND: date
+[2018-7-21 18:51:39]Sat Jul 21 18:51:39 PDT 2018
+
+[2018-7-21 18:51:39]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:39]COMMAND: uname -a
+[2018-7-21 18:51:39]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 19:7:13]Initialized
+[2018-7-21 19:7:13]Connected to Server @[127.0.0.1:25001]
+[2018-7-21 19:7:14]COMMAND: date
+[2018-7-21 19:7:14]Sat Jul 21 19:07:14 PDT 2018
+
+[2018-7-21 19:7:14]COMMAND: ls -l junk.txt
+[2018-7-21 19:7:14]COMMAND: uname -a
+[2018-7-21 19:7:14]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 19:7:15]COMMAND: date
+[2018-7-21 19:7:15]Sat Jul 21 19:07:15 PDT 2018
+
+[2018-7-21 19:7:15]COMMAND: ls -l junk.txt
+[2018-7-21 19:7:15]-rw-r--r--  1 progamut  staff  0 Jul 21 19:07 junk.txt
+
+[2018-7-21 19:7:15]COMMAND: uname -a
+[2018-7-21 19:7:15]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 19:7:16]COMMAND: date
+[2018-7-21 19:7:16]Sat Jul 21 19:07:16 PDT 2018
+
+[2018-7-21 19:7:16]COMMAND: ls -l junk.txt
+[2018-7-21 19:7:16]COMMAND: uname -a
+[2018-7-21 19:7:16]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 19:7:17]COMMAND: date
+[2018-7-21 19:7:17]Sat Jul 21 19:07:17 PDT 2018
+
+[2018-7-21 19:7:17]COMMAND: ls -l junk.txt
+[2018-7-21 19:7:17]COMMAND: uname -a
+[2018-7-21 19:7:17]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 19:7:18]COMMAND: date
+[2018-7-21 19:7:18]Sat Jul 21 19:07:18 PDT 2018
+
+[2018-7-21 19:7:18]COMMAND: ls -l junk.txt
+[2018-7-21 19:7:18]-rw-r--r--  1 progamut  staff  0 Jul 21 19:07 junk.txt
+
+[2018-7-21 19:7:18]COMMAND: uname -a
+[2018-7-21 19:7:18]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 19:7:19]COMMAND: date
+[2018-7-21 19:7:19]Sat Jul 21 19:07:19 PDT 2018
+
+[2018-7-21 19:7:19]COMMAND: ls -l junk.txt
+[2018-7-21 19:7:19]COMMAND: uname -a
+[2018-7-21 19:7:19]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 19:7:20]COMMAND: date
+[2018-7-21 19:7:20]Sat Jul 21 19:07:20 PDT 2018
+
+[2018-7-21 19:7:20]COMMAND: ls -l junk.txt
+[2018-7-21 19:7:20]COMMAND: uname -a
+[2018-7-21 19:7:20]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 19:7:21]COMMAND: date
+[2018-7-21 19:7:21]Sat Jul 21 19:07:21 PDT 2018
+
+[2018-7-21 19:7:21]COMMAND: ls -l junk.txt
+[2018-7-21 19:7:21]-rw-r--r--  1 progamut  staff  0 Jul 21 19:07 junk.txt
+
+[2018-7-21 19:7:21]COMMAND: uname -a
+[2018-7-21 19:7:21]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 19:7:22]COMMAND: date
+[2018-7-21 19:7:22]Sat Jul 21 19:07:22 PDT 2018
+
+[2018-7-21 19:7:22]COMMAND: ls -l junk.txt
+[2018-7-21 19:7:22]COMMAND: uname -a
+[2018-7-21 19:7:22]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 19:7:23]COMMAND: date
+[2018-7-21 19:7:23]Sat Jul 21 19:07:23 PDT 2018
+
+[2018-7-21 19:7:23]COMMAND: ls -l junk.txt
+[2018-7-21 19:7:23]COMMAND: uname -a
+[2018-7-21 19:7:23]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 19:7:24]COMMAND: date
+[2018-7-21 19:7:24]Sat Jul 21 19:07:24 PDT 2018
+
+[2018-7-21 19:7:24]COMMAND: ls -l junk.txt
+[2018-7-21 19:7:25]-rw-r--r--  1 progamut  staff  0 Jul 21 19:07 junk.txt
+
+[2018-7-21 19:7:25]COMMAND: uname -a
+[2018-7-21 19:7:25]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 19:7:26]COMMAND: date
+[2018-7-21 19:7:26]Sat Jul 21 19:07:26 PDT 2018
+
+[2018-7-21 19:7:26]COMMAND: ls -l junk.txt
+[2018-7-21 19:7:26]COMMAND: uname -a
+[2018-7-21 19:7:26]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 19:7:27]COMMAND: date
+[2018-7-21 19:7:27]Sat Jul 21 19:07:27 PDT 2018
+
+[2018-7-21 19:7:27]COMMAND: ls -l junk.txt
+[2018-7-21 19:7:27]COMMAND: uname -a
+[2018-7-21 19:7:27]Darwin Harshavardhans-MacBook-Air.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
+
+[2018-7-21 19:7:28]COMMAND: date
+[2018-7-21 19:7:28]Unable to send command to server

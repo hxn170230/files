@@ -1,0 +1,1384 @@
+[2018-7-21 17:18:56]Initialized
+[2018-7-21 17:18:56]Connected to Server @[127.0.0.1:25000]
+[2018-7-21 17:18:56]Received result(1, 2, OK) from server
+[2018-7-21 17:19:33]Initialized
+[2018-7-21 17:19:33]Connected to Server @[127.0.0.1:25000]
+[2018-7-21 17:19:33]Received result(1, 2, OK) from server
+[2018-7-21 17:19:36]Initialized
+[2018-7-21 17:19:36]Connected to Server @[127.0.0.1:25000]
+[2018-7-21 17:19:36]Received result(1, 2, OK) from server
+[2018-7-21 17:25:26]Initialized
+[2018-7-21 17:25:26]Connected to Server @[127.0.0.1:25000]
+[2018-7-21 17:25:36]Received result(0, 0, ) from server
+[2018-7-21 17:27:15]Initialized
+[2018-7-21 17:27:15]Connected to Server @[127.0.0.1:25000]
+[2018-7-21 17:27:15]Received result(1, 2, OK) from server
+[2018-7-21 17:28:12]Initialized
+[2018-7-21 17:28:12]Connected to Server @[127.0.0.1:25000]
+[2018-7-21 17:28:12]Received result(1, 2, OK) from server
+[2018-7-21 17:29:1]Initialized
+[2018-7-21 17:29:1]Connected to Server @[127.0.0.1:25000]
+[2018-7-21 17:29:7]Received result(0, 0, ) from server
+[2018-7-21 17:29:40]Initialized
+[2018-7-21 17:29:40]Connected to Server @[127.0.0.1:25001]
+[2018-7-21 17:29:40]Received result(1, 2, OK) from server
+[2018-7-21 17:31:54]Initialized
+[2018-7-21 17:31:54]Connected to Server @[127.0.0.1:25001]
+[2018-7-21 17:31:54]Received result(1, 894, total 248
+-rwxr-xr-x  1 progamut  staff   1276 Jul 21 17:31 Client1Log.txt
+-rw-r--r--  1 progamut  staff    361 Jul 21 16:01 Makefile
+-rwxr-xr-x  1 progamut  staff  34654 Jul 21 17:31 ServerLog.txt
+-rwxr-xr-x  1 progamut  staff  13948 Jul 21 17:25 client
+-rw-r--r--  1 progamut  staff   3059 Jul 21 17:25 client.c
+-rw-r--r--  1 progamut  staff    183 Jul 21 16:01 client.h
+-rw-r--r--  1 progamut  staff   3968 Jul 21 17:25 client.o
+-rw-r--r--  1 progamut  staff   1175 Jul 21 15:48 log.c
+-rw-r--r--  1 progamut  staff    159 Jul 21 15:49 log.h
+-rw-r--r--  1 progamut  staff   2636 Jul 21 16:02 log.o
+-rw-r--r--  1 progamut  staff    380 Jul 21 15:00 message.h
+-rwxr-xr-x  1 progamut  staff  14852 Jul 21 17:31 server
+-rw-r--r--  1 progamut  staff   5329 Jul 21 17:31 server.c
+-rw-r--r--  1 progamut  staff    342 Jul 21 16:15 server.h
+-rw-r--r--  1 progamut  staff   6960 Jul 21 17:31 server.o
+) from server
+[2018-7-21 17:31:57]Initialized
+[2018-7-21 17:31:57]Connected to Server @[127.0.0.1:25001]
+[2018-7-21 17:31:57]Received result(1, 894, total 248
+-rwxr-xr-x  1 progamut  staff   2319 Jul 21 17:31 Client1Log.txt
+-rw-r--r--  1 progamut  staff    361 Jul 21 16:01 Makefile
+-rwxr-xr-x  1 progamut  staff  35792 Jul 21 17:31 ServerLog.txt
+-rwxr-xr-x  1 progamut  staff  13948 Jul 21 17:25 client
+-rw-r--r--  1 progamut  staff   3059 Jul 21 17:25 client.c
+-rw-r--r--  1 progamut  staff    183 Jul 21 16:01 client.h
+-rw-r--r--  1 progamut  staff   3968 Jul 21 17:25 client.o
+-rw-r--r--  1 progamut  staff   1175 Jul 21 15:48 log.c
+-rw-r--r--  1 progamut  staff    159 Jul 21 15:49 log.h
+-rw-r--r--  1 progamut  staff   2636 Jul 21 16:02 log.o
+-rw-r--r--  1 progamut  staff    380 Jul 21 15:00 message.h
+-rwxr-xr-x  1 progamut  staff  14852 Jul 21 17:31 server
+-rw-r--r--  1 progamut  staff   5329 Jul 21 17:31 server.c
+-rw-r--r--  1 progamut  staff    342 Jul 21 16:15 server.h
+-rw-r--r--  1 progamut  staff   6960 Jul 21 17:31 server.o
+) from server
+[2018-7-21 17:32:2]Initialized
+[2018-7-21 17:32:2]Connected to Server @[127.0.0.1:25001]
+[2018-7-21 17:32:2]Received result(1, 894, total 256
+-rwxr-xr-x  1 progamut  staff   3360 Jul 21 17:32 Client1Log.txt
+-rw-r--r--  1 progamut  staff    361 Jul 21 16:01 Makefile
+-rwxr-xr-x  1 progamut  staff  36928 Jul 21 17:32 ServerLog.txt
+-rwxr-xr-x  1 progamut  staff  13948 Jul 21 17:25 client
+-rw-r--r--  1 progamut  staff   3059 Jul 21 17:25 client.c
+-rw-r--r--  1 progamut  staff    183 Jul 21 16:01 client.h
+-rw-r--r--  1 progamut  staff   3968 Jul 21 17:25 client.o
+-rw-r--r--  1 progamut  staff   1175 Jul 21 15:48 log.c
+-rw-r--r--  1 progamut  staff    159 Jul 21 15:49 log.h
+-rw-r--r--  1 progamut  staff   2636 Jul 21 16:02 log.o
+-rw-r--r--  1 progamut  staff    380 Jul 21 15:00 message.h
+-rwxr-xr-x  1 progamut  staff  14852 Jul 21 17:31 server
+-rw-r--r--  1 progamut  staff   5329 Jul 21 17:31 server.c
+-rw-r--r--  1 progamut  staff    342 Jul 21 16:15 server.h
+-rw-r--r--  1 progamut  staff   6960 Jul 21 17:31 server.o
+) from server
+[2018-7-21 17:37:23]Initialized
+[2018-7-21 17:37:23]Connected to Server @[127.0.0.1:25001]
+[2018-7-21 17:37:28]Closing connections with Server
+[2018-7-21 17:39:44]Initialized
+[2018-7-21 17:39:44]Connected to Server @[127.0.0.1:25001]
+[2018-7-21 17:39:47]total 272
+-rwxr-xr-x  1 progamut  staff   4545 Jul 21 17:39 Client1Log.txt
+-rw-r--r--  1 progamut  staff    361 Jul 21 16:01 Makefile
+-rwxr-xr-x  1 progamut  staff  38237 Jul 21 17:39 ServerLog.txt
+-rwxr-xr-x  1 progamut  staff  14076 Jul 21 17:39 client
+-rw-r--r--  1 progamut  staff   3308 Jul 21 17:39 client.c
+-rw-r--r--  1 progamut  staff    183 Jul 21 16:01 client.h
+-rw-r--r--  1 progamut  staff   4400 Jul 21 17:39 client.o
+-rw-r--r--  1 progamut  staff   1175 Jul 21 15:48 log.c
+-rw-r--r--  1 progamut  staff    159 Jul 21 15:49 log.h
+-rw-r--r--  1 progamut  staff   2636 Jul 21 16:02 log.o
+-rw-r--r--  1 progamut  staff    380 Jul 21 15:00 message.h
+-rwxr-xr-x  1 progamut  staff  14852 Jul 21 17:39 server
+-rw-r--r--  1 progamut  staff   5330 Jul 21 17:39 server.c
+-rw-r--r--  1 progamut  staff    342 Jul 21 16:15 server.h
+-rw-r--r--  1 progamut  staff   6960 Jul 21 17:39 server.o
+
+[2018-7-21 17:39:53]Unable to send command to server
+[2018-7-21 17:43:22]Initialized
+[2018-7-21 17:43:22]Connected to Server @[127.0.0.1:25001]
+[2018-7-21 17:43:25]total 272
+-rwxr-xr-x  1 progamut  staff   5604 Jul 21 17:43 Client1Log.txt
+-rw-r--r--  1 progamut  staff    361 Jul 21 16:01 Makefile
+-rwxr-xr-x  1 progamut  staff  39414 Jul 21 17:43 ServerLog.txt
+-rwxr-xr-x  1 progamut  staff  14076 Jul 21 17:39 client
+-rw-r--r--  1 progamut  staff   3308 Jul 21 17:39 client.c
+-rw-r--r--  1 progamut  staff    183 Jul 21 16:01 client.h
+-rw-r--r--  1 progamut  staff   4400 Jul 21 17:39 client.o
+-rw-r--r--  1 progamut  staff   1175 Jul 21 15:48 log.c
+-rw-r--r--  1 progamut  staff    159 Jul 21 15:49 log.h
+-rw-r--r--  1 progamut  staff   2636 Jul 21 16:02 log.o
+-rw-r--r--  1 progamut  staff    380 Jul 21 15:00 message.h
+-rwxr-xr-x  1 progamut  staff  14852 Jul 21 17:43 server
+-rw-r--r--  1 progamut  staff   5556 Jul 21 17:43 server.c
+-rw-r--r--  1 progamut  staff    342 Jul 21 16:15 server.h
+-rw-r--r--  1 progamut  staff   7024 Jul 21 17:43 server.o
+
+[2018-7-21 17:43:32]total 272
+-rwxr-xr-x  1 progamut  staff   6519 Jul 21 17:43 Client1Log.txt
+-rw-r--r--  1 progamut  staff    361 Jul 21 16:01 Makefile
+-rwxr-xr-x  1 progamut  staff  40441 Jul 21 17:43 ServerLog.txt
+-rwxr-xr-x  1 progamut  staff  14076 Jul 21 17:39 client
+-rw-r--r--  1 progamut  staff   3308 Jul 21 17:39 client.c
+-rw-r--r--  1 progamut  staff    183 Jul 21 16:01 client.h
+-rw-r--r--  1 progamut  staff   4400 Jul 21 17:39 client.o
+-rw-r--r--  1 progamut  staff   1175 Jul 21 15:48 log.c
+-rw-r--r--  1 progamut  staff    159 Jul 21 15:49 log.h
+-rw-r--r--  1 progamut  staff   2636 Jul 21 16:02 log.o
+-rw-r--r--  1 progamut  staff    380 Jul 21 15:00 message.h
+-rwxr-xr-x  1 progamut  staff  14852 Jul 21 17:43 server
+-rw-r--r--  1 progamut  staff   5556 Jul 21 17:43 server.c
+-rw-r--r--  1 progamut  staff    342 Jul 21 16:15 server.h
+-rw-r--r--  1 progamut  staff   7024 Jul 21 17:43 server.o
+
+[2018-7-21 17:46:12]Initialized
+[2018-7-21 17:46:12]Connected to Server @[127.0.0.1:25001]
+[2018-7-21 17:46:13]COMMAND: ls -l
+
+[2018-7-21 17:46:13]total 280
+-rwxr-xr-x  1 progamut  staff   7561 Jul 21 17:46 Client1Log.txt
+-rw-r--r--  1 progamut  staff    361 Jul 21 16:01 Makefile
+-rwxr-xr-x  1 progamut  staff  41925 Jul 21 17:46 ServerLog.txt
+-rwxr-xr-x  1 progamut  staff  14076 Jul 21 17:46 client
+-rw-r--r--  1 progamut  staff   3356 Jul 21 17:46 client.c
+-rw-r--r--  1 progamut  staff    183 Jul 21 16:01 client.h
+-rw-r--r--  1 progamut  staff   4456 Jul 21 17:46 client.o
+-rw-r--r--  1 progamut  staff   1175 Jul 21 15:48 log.c
+-rw-r--r--  1 progamut  staff    159 Jul 21 15:49 log.h
+-rw-r--r--  1 progamut  staff   2636 Jul 21 16:02 log.o
+-rw-r--r--  1 progamut  staff    380 Jul 21 15:00 message.h
+-rwxr-xr-x  1 progamut  staff  14852 Jul 21 17:44 server
+-rw-r--r--  1 progamut  staff   5598 Jul 21 17:44 server.c
+-rw-r--r--  1 progamut  staff    342 Jul 21 16:15 server.h
+-rw-r--r--  1 progamut  staff   7048 Jul 21 17:44 server.o
+
+[2018-7-21 17:46:15]COMMAND: ls -l
+
+[2018-7-21 17:46:15]total 288
+-rwxr-xr-x  1 progamut  staff   8512 Jul 21 17:46 Client1Log.txt
+-rw-r--r--  1 progamut  staff    361 Jul 21 16:01 Makefile
+-rwxr-xr-x  1 progamut  staff  42952 Jul 21 17:46 ServerLog.txt
+-rwxr-xr-x  1 progamut  staff  14076 Jul 21 17:46 client
+-rw-r--r--  1 progamut  staff   3356 Jul 21 17:46 client.c
+-rw-r--r--  1 progamut  staff    183 Jul 21 16:01 client.h
+-rw-r--r--  1 progamut  staff   4456 Jul 21 17:46 client.o
+-rw-r--r--  1 progamut  staff   1175 Jul 21 15:48 log.c
+-rw-r--r--  1 progamut  staff    159 Jul 21 15:49 log.h
+-rw-r--r--  1 progamut  staff   2636 Jul 21 16:02 log.o
+-rw-r--r--  1 progamut  staff    380 Jul 21 15:00 message.h
+-rwxr-xr-x  1 progamut  staff  14852 Jul 21 17:44 server
+-rw-r--r--  1 progamut  staff   5598 Jul 21 17:44 server.c
+-rw-r--r--  1 progamut  staff    342 Jul 21 16:15 server.h
+-rw-r--r--  1 progamut  staff   7048 Jul 21 17:44 server.o
+
+[2018-7-21 17:46:24]COMMAND: ls -l Makefile
+
+[2018-7-21 17:46:24]total 288
+-rwxr-xr-x  1 progamut  staff   9472 Jul 21 17:46 Client1Log.txt
+-rw-r--r--  1 progamut  staff    361 Jul 21 16:01 Makefile
+-rwxr-xr-x  1 progamut  staff  43979 Jul 21 17:46 ServerLog.txt
+-rwxr-xr-x  1 progamut  staff  14076 Jul 21 17:46 client
+-rw-r--r--  1 progamut  staff   3356 Jul 21 17:46 client.c
+-rw-r--r--  1 progamut  staff    183 Jul 21 16:01 client.h
+-rw-r--r--  1 progamut  staff   4456 Jul 21 17:46 client.o
+-rw-r--r--  1 progamut  staff   1175 Jul 21 15:48 log.c
+-rw-r--r--  1 progamut  staff    159 Jul 21 15:49 log.h
+-rw-r--r--  1 progamut  staff   2636 Jul 21 16:02 log.o
+-rw-r--r--  1 progamut  staff    380 Jul 21 15:00 message.h
+-rwxr-xr-x  1 progamut  staff  14852 Jul 21 17:44 server
+-rw-r--r--  1 progamut  staff   5598 Jul 21 17:44 server.c
+-rw-r--r--  1 progamut  staff    342 Jul 21 16:15 server.h
+-rw-r--r--  1 progamut  staff   7048 Jul 21 17:44 server.o
+
+[2018-7-21 17:46:41]COMMAND: exit
+
+[2018-7-21 17:46:41]Closing connections with Server
+[2018-7-21 17:47:4]Initialized
+[2018-7-21 17:47:4]Connected to Server @[127.0.0.1:25001]
+[2018-7-21 17:47:15]COMMAND: ls -l
+
+[2018-7-21 17:47:15]ls: illegal option -- 
+
+usage: ls [-ABCFGHLOPRSTUWabcdefghiklmnopqrstuwx1] [file ...]
+
+[2018-7-21 17:48:37]Initialized
+[2018-7-21 17:48:37]Connected to Server @[127.0.0.1:25001]
+[2018-7-21 17:48:38]COMMAND: ls -l
+[2018-7-21 17:48:38]total 296
+-rwxr-xr-x  1 progamut  staff  10832 Jul 21 17:48 Client1Log.txt
+-rw-r--r--  1 progamut  staff    361 Jul 21 16:01 Makefile
+-rwxr-xr-x  1 progamut  staff  46025 Jul 21 17:48 ServerLog.txt
+-rwxr-xr-x  1 progamut  staff  14076 Jul 21 17:48 client
+-rw-r--r--  1 progamut  staff   3368 Jul 21 17:48 client.c
+-rw-r--r--  1 progamut  staff    183 Jul 21 16:01 client.h
+-rw-r--r--  1 progamut  staff   4512 Jul 21 17:48 client.o
+-rw-r--r--  1 progamut  staff   1175 Jul 21 15:48 log.c
+-rw-r--r--  1 progamut  staff    159 Jul 21 15:49 log.h
+-rw-r--r--  1 progamut  staff   2636 Jul 21 16:02 log.o
+-rw-r--r--  1 progamut  staff    380 Jul 21 15:00 message.h
+-rwxr-xr-x  1 progamut  staff  14852 Jul 21 17:48 server
+-rw-r--r--  1 progamut  staff   5605 Jul 21 17:48 server.c
+-rw-r--r--  1 progamut  staff    342 Jul 21 16:15 server.h
+-rw-r--r--  1 progamut  staff   7056 Jul 21 17:48 server.o
+
+[2018-7-21 17:48:40]COMMAND: ls -l
+[2018-7-21 17:48:40]total 296
+-rwxr-xr-x  1 progamut  staff  11782 Jul 21 17:48 Client1Log.txt
+-rw-r--r--  1 progamut  staff    361 Jul 21 16:01 Makefile
+-rwxr-xr-x  1 progamut  staff  47052 Jul 21 17:48 ServerLog.txt
+-rwxr-xr-x  1 progamut  staff  14076 Jul 21 17:48 client
+-rw-r--r--  1 progamut  staff   3368 Jul 21 17:48 client.c
+-rw-r--r--  1 progamut  staff    183 Jul 21 16:01 client.h
+-rw-r--r--  1 progamut  staff   4512 Jul 21 17:48 client.o
+-rw-r--r--  1 progamut  staff   1175 Jul 21 15:48 log.c
+-rw-r--r--  1 progamut  staff    159 Jul 21 15:49 log.h
+-rw-r--r--  1 progamut  staff   2636 Jul 21 16:02 log.o
+-rw-r--r--  1 progamut  staff    380 Jul 21 15:00 message.h
+-rwxr-xr-x  1 progamut  staff  14852 Jul 21 17:48 server
+-rw-r--r--  1 progamut  staff   5605 Jul 21 17:48 server.c
+-rw-r--r--  1 progamut  staff    342 Jul 21 16:15 server.h
+-rw-r--r--  1 progamut  staff   7056 Jul 21 17:48 server.o
+
+[2018-7-21 17:48:43]COMMAND: ls -l Makefile
+[2018-7-21 17:48:43]-rw-r--r--  1 progamut  staff  361 Jul 21 16:01 Makefile
+
+[2018-7-21 17:49:16]COMMAND: ls -l client.c
+[2018-7-21 17:49:16]-rw-r--r--  1 progamut  staff  3368 Jul 21 17:48 client.c
+
+[2018-7-21 17:52:42]COMMAND: exit
+[2018-7-21 17:52:42]Closing connections with Server
+[2018-7-21 17:52:49]Initialized
+[2018-7-21 17:52:54]Initialized
+[2018-7-21 17:52:54]Connected to Server @[127.0.0.1:25000]
+[2018-7-21 17:53:2]COMMAND: ls -l
+[2018-7-21 17:53:2]total 320
+-rwxr-xr-x  1 progamut  staff  13185 Jul 21 17:53 Client1Log.txt
+-rwxr-xr-x  1 progamut  staff   1290 Jul 21 17:52 Client2Log.txt
+-rw-r--r--  1 progamut  staff    361 Jul 21 16:01 Makefile
+-rwxr-xr-x  1 progamut  staff  50954 Jul 21 17:53 ServerLog.txt
+-rwxr-xr-x  1 progamut  staff  14076 Jul 21 17:52 client
+-rw-r--r--  1 progamut  staff   3378 Jul 21 17:51 client.c
+-rw-r--r--  1 progamut  staff    183 Jul 21 16:01 client.h
+-rw-r--r--  1 progamut  staff   4480 Jul 21 17:52 client.o
+-rw-r--r--  1 progamut  staff   1175 Jul 21 15:48 log.c
+-rw-r--r--  1 progamut  staff    159 Jul 21 15:49 log.h
+-rw-r--r--  1 progamut  staff   2636 Jul 21 16:02 log.o
+-rw-r--r--  1 progamut  staff    417 Jul 21 17:51 message.h
+-rwxr-xr-x  1 progamut  staff  14852 Jul 21 17:52 server
+-rw-r--r--  1 progamut  staff   5616 Jul 21 17:52 server.c
+-rw-r--r--  1 progamut  staff    342 Jul 21 16:15 server.h
+-rw-r--r--  1 progamut  staff   7056 Jul 21 17:52 server.o
+
+[2018-7-21 17:53:7]COMMAND: cat message.h
+[2018-7-21 17:53:7]#ifndef __MESSAGE_H
+
+#define MAX_DATA_SIZE 4096
+
+typedef enum {
+	CONNECTION_STATE_INITIALIZED,
+	CONNECTION_STATE_CONNECTING,
+	CONNECTION_STATE_CONNECTED,
+	CONNECTION_STATE_DISCONNECTING,
+	CONNECTION_STATE_DISCONNECTED,
+}CONNECTION_STATE;
+
+typedef enum {
+	MESSAGE_TYPE_COMMAND,
+	MESSAGE_TYPE_RESULT,
+}MESSAGE_TYPE;
+
+typedef struct {
+	MESSAGE_TYPE messageId;
+	int length;
+	char data[MAX_DATA_SIZE];
+}message_t;
+
+#endif
+
+[2018-7-21 17:55:38]COMMAND: exit
+[2018-7-21 17:55:38]Closing connections with Server
+[2018-7-21 17:55:44]Initialized
+[2018-7-21 17:55:47]Initialized
+[2018-7-21 17:55:47]Connected to Server @[127.0.0.1:25001]
+[2018-7-21 17:55:58]COMMAND: ls -l
+[2018-7-21 17:55:58]total 336
+-rwxr-xr-x  1 progamut  staff  14887 Jul 21 17:55 Client1Log.txt
+-rwxr-xr-x  1 progamut  staff   2945 Jul 21 17:55 Client2Log.txt
+-rw-r--r--  1 progamut  staff    401 Jul 21 17:54 Makefile
+-rwxr-xr-x  1 progamut  staff  59292 Jul 21 17:55 ServerLog.txt
+-rwxr-xr-x  1 progamut  staff  14076 Jul 21 17:54 client
+-rw-r--r--  1 progamut  staff   3378 Jul 21 17:51 client.c
+-rw-r--r--  1 progamut  staff    183 Jul 21 16:01 client.h
+-rw-r--r--  1 progamut  staff   4480 Jul 21 17:54 client.o
+-rw-r--r--  1 progamut  staff   1175 Jul 21 15:48 log.c
+-rw-r--r--  1 progamut  staff    159 Jul 21 15:49 log.h
+-rw-r--r--  1 progamut  staff   2636 Jul 21 17:54 log.o
+-rw-r--r--  1 progamut  staff    422 Jul 21 17:54 message.h
+-rwxr-xr-x  1 progamut  staff  14852 Jul 21 17:54 server
+-rw-r--r--  1 progamut  staff   5616 Jul 21 17:52 server.c
+-rw-r--r--  1 progamut  staff    342 Jul 21 16:15 server.h
+-rw-r--r--  1 progamut  staff   7056 Jul 21 17:54 server.o
+
+[2018-7-21 17:56:1]COMMAND: cat client.c
+[2018-7-21 17:56:1]Unable to send command to server
+[2018-7-21 17:59:16]Initialized
+[2018-7-21 17:59:22]Initialized
+[2018-7-21 17:59:22]Connected to Server @[127.0.0.1:25000]
+[2018-7-21 17:59:32]COMMAND: touch File.txt
+[2018-7-21 17:59:48]Unable to send command to server
+[2018-7-21 18:0:51]Initialized
+[2018-7-21 18:0:51]Connected to Server @[127.0.0.1:25000]
+[2018-7-21 18:0:54]COMMAND: touch File.txt
+[2018-7-21 18:1:0]Unable to send command to server
+[2018-7-21 18:3:56]Initialized
+[2018-7-21 18:3:56]Connected to Server @[127.0.0.1:25000]
+[2018-7-21 18:4:0]COMMAND: touch File.txt
+[2018-7-21 18:4:8]Unable to send command to server
+[2018-7-21 18:6:2]Initialized
+[2018-7-21 18:6:2]Connected to Server @[127.0.0.1:25000]
+[2018-7-21 18:6:5]COMMAND: touch file
+[2018-7-21 18:6:5]
+[2018-7-21 18:7:35]Initialized
+[2018-7-21 18:7:35]Connected to Server @[127.0.0.1:25000]
+[2018-7-21 18:7:43]COMMAND: 
+[2018-7-21 18:7:43]Unable to send command to server
+[2018-7-21 18:8:1]Initialized
+[2018-7-21 18:8:1]Connected to Server @[127.0.0.1:25000]
+[2018-7-21 18:8:1]COMMAND: 
+[2018-7-21 18:8:1]
+[2018-7-21 18:8:2]COMMAND: 
+[2018-7-21 18:8:2]
+[2018-7-21 18:8:2]COMMAND: 
+[2018-7-21 18:8:2]
+[2018-7-21 18:8:4]COMMAND: 
+[2018-7-21 18:8:4]
+[2018-7-21 18:8:8]COMMAND: 
+[2018-7-21 18:8:8]
+[2018-7-21 18:8:43]Initialized
+[2018-7-21 18:8:43]Connected to Server @[127.0.0.1:25000]
+[2018-7-21 18:10:52]Initialized
+[2018-7-21 18:10:52]Connected to Server @[127.0.0.1:25000]
+[2018-7-21 18:10:53]COMMAND: 
+[2018-7-21 18:10:53]
+[2018-7-21 18:10:58]Initialized
+[2018-7-21 18:10:58]Connected to Server @[127.0.0.1:25000]
+[2018-7-21 18:11:3]COMMAND: 
+[2018-7-21 18:11:3]
+[2018-7-21 18:11:3]COMMAND: 
+[2018-7-21 18:11:3]
+[2018-7-21 18:11:3]COMMAND: 
+[2018-7-21 18:11:3]
+[2018-7-21 18:11:3]COMMAND: 
+[2018-7-21 18:11:3]
+[2018-7-21 18:11:3]COMMAND: 
+[2018-7-21 18:11:3]
+[2018-7-21 18:11:6]COMMAND: la
+[2018-7-21 18:11:6]
+[2018-7-21 18:11:10]COMMAND: ls -l
+[2018-7-21 18:11:10]Unable to send command to server
+[2018-7-21 18:12:12]Initialized
+[2018-7-21 18:12:12]Connected to Server @[127.0.0.1:25000]
+[2018-7-21 18:12:14]COMMAND: la
+[2018-7-21 18:12:14]
+[2018-7-21 18:12:17]COMMAND: ls -l
+[2018-7-21 18:12:17]Unable to send command to server
+[2018-7-21 18:15:17]Initialized
+[2018-7-21 18:15:17]Connected to Server @[127.0.0.1:25000]
+[2018-7-21 18:15:18]COMMAND: 
+[2018-7-21 18:15:18]
+[2018-7-21 18:15:23]COMMAND: la
+[2018-7-21 18:15:23]
+[2018-7-21 18:15:26]COMMAND: ls
+[2018-7-21 18:15:26]Client1Log.txt
+Client2Log.txt
+File.txt
+Makefile
+ServerLog.txt
+client
+client.c
+client.h
+client.o
+file
+log.c
+log.h
+log.o
+message.h
+server
+server.c
+server.h
+server.o
+
+[2018-7-21 18:15:37]COMMAND: ls -l
+[2018-7-21 18:15:37]Unable to send command to server
+[2018-7-21 18:15:47]Initialized
+[2018-7-21 18:15:47]Connected to Server @[127.0.0.1:25001]
+[2018-7-21 18:15:48]COMMAND: ls -ol
+[2018-7-21 18:15:48]total 488
+-rwxr-xr-x  1 progamut  18745 Jul 21 18:15 Client1Log.txt
+-rwxr-xr-x  1 progamut   2945 Jul 21 17:55 Client2Log.txt
+-rw-r--r--  1 progamut      0 Jul 21 18:04 File.txt
+-rw-r--r--  1 progamut    401 Jul 21 17:54 Makefile
+-rwxr-xr-x  1 progamut  80377 Jul 21 18:15 ServerLog.txt
+-rwxr-xr-x  1 progamut  14076 Jul 21 17:54 client
+-rw-r--r--  1 progamut   3378 Jul 21 17:51 client.c
+-rw-r--r--  1 progamut    183 Jul 21 16:01 client.h
+-rw-r--r--  1 progamut   4480 Jul 21 17:54 client.o
+-rw-r--r--  1 progamut      0 Jul 21 18:06 file
+-rw-r--r--  1 progamut   1175 Jul 21 15:48 log.c
+-rw-r--r--  1 progamut    159 Jul 21 15:49 log.h
+-rw-r--r--  1 progamut   2636 Jul 21 17:54 log.o
+-rw-r--r--  1 progamut    422 Jul 21 17:54 message.h
+-rwxr-xr-x  1 progamut  14748 Jul 21 18:15 server
+-rw-r--r--  1 progamut   6093 Jul 21 18:15 server.c
+-rw-r--r--  1 progamut    342 Jul 21 16:15 server.h
+-rw-r--r--  1 progamut   7424 Jul 21 18:15 server.o
+
+[2018-7-21 18:15:51]COMMAND: ls -l
+[2018-7-21 18:15:51]Unable to send command to server
+[2018-7-21 18:16:0]Initialized
+[2018-7-21 18:16:1]Connected to Server @[127.0.0.1:25002]
+[2018-7-21 18:16:2]COMMAND: ls -l
+[2018-7-21 18:16:2]Unable to send command to server
+[2018-7-21 18:17:59]Initialized
+[2018-7-21 18:17:59]Connected to Server @[127.0.0.1:25002]
+[2018-7-21 18:18:1]COMMAND: ls -l
+[2018-7-21 18:18:1]Unable to send command to server
+[2018-7-21 18:18:35]Initialized
+[2018-7-21 18:18:35]Connected to Server @[127.0.0.1:25001]
+[2018-7-21 18:18:36]COMMAND: ls -l
+[2018-7-21 18:18:36]Unable to send command to server
+[2018-7-21 18:19:51]Initialized
+[2018-7-21 18:19:51]Connected to Server @[127.0.0.1:25001]
+[2018-7-21 18:19:52]COMMAND: ls -l
+[2018-7-21 18:19:52]total 488
+-rwxr-xr-x  1 progamut  staff  20458 Jul 21 18:19 Client1Log.txt
+-rwxr-xr-x  1 progamut  staff   2945 Jul 21 17:55 Client2Log.txt
+-rw-r--r--  1 progamut  staff      0 Jul 21 18:04 File.txt
+-rw-r--r--  1 progamut  staff    411 Jul 21 18:19 Makefile
+-rwxr-xr-x  1 progamut  staff  86924 Jul 21 18:19 ServerLog.txt
+-rwxr-xr-x  1 progamut  staff  14076 Jul 21 18:19 client
+-rw-r--r--  1 progamut  staff   3378 Jul 21 17:51 client.c
+-rw-r--r--  1 progamut  staff    183 Jul 21 16:01 client.h
+-rw-r--r--  1 progamut  staff   4480 Jul 21 17:54 client.o
+-rw-r--r--  1 progamut  staff      0 Jul 21 18:06 file
+-rw-r--r--  1 progamut  staff   1205 Jul 21 18:19 log.c
+-rw-r--r--  1 progamut  staff    159 Jul 21 15:49 log.h
+-rw-r--r--  1 progamut  staff   2636 Jul 21 18:19 log.o
+-rw-r--r--  1 progamut  staff    422 Jul 21 17:54 message.h
+-rwxr-xr-x  1 progamut  staff  14748 Jul 21 18:19 server
+-rw-r--r--  1 progamut  staff   6179 Jul 21 18:18 server.c
+-rw-r--r--  1 progamut  staff    342 Jul 21 16:15 server.h
+-rw-r--r--  1 progamut  staff   7536 Jul 21 18:18 server.o
+
+[2018-7-21 18:19:55]COMMAND: la
+[2018-7-21 18:19:55]
+[2018-7-21 18:19:58]COMMAND: ls -l
+[2018-7-21 18:19:58]total 496
+-rwxr-xr-x  1 progamut  staff  21640 Jul 21 18:19 Client1Log.txt
+-rwxr-xr-x  1 progamut  staff   2945 Jul 21 17:55 Client2Log.txt
+-rw-r--r--  1 progamut  staff      0 Jul 21 18:04 File.txt
+-rw-r--r--  1 progamut  staff    411 Jul 21 18:19 Makefile
+-rwxr-xr-x  1 progamut  staff  89384 Jul 21 18:19 ServerLog.txt
+-rwxr-xr-x  1 progamut  staff  14076 Jul 21 18:19 client
+-rw-r--r--  1 progamut  staff   3378 Jul 21 17:51 client.c
+-rw-r--r--  1 progamut  staff    183 Jul 21 16:01 client.h
+-rw-r--r--  1 progamut  staff   4480 Jul 21 17:54 client.o
+-rw-r--r--  1 progamut  staff      0 Jul 21 18:06 file
+-rw-r--r--  1 progamut  staff   1205 Jul 21 18:19 log.c
+-rw-r--r--  1 progamut  staff    159 Jul 21 15:49 log.h
+-rw-r--r--  1 progamut  staff   2636 Jul 21 18:19 log.o
+-rw-r--r--  1 progamut  staff    422 Jul 21 17:54 message.h
+-rwxr-xr-x  1 progamut  staff  14748 Jul 21 18:19 server
+-rw-r--r--  1 progamut  staff   6179 Jul 21 18:18 server.c
+-rw-r--r--  1 progamut  staff    342 Jul 21 16:15 server.h
+-rw-r--r--  1 progamut  staff   7536 Jul 21 18:18 server.o
+
+[2018-7-21 18:20:2]COMMAND: touch file
+[2018-7-21 18:20:2]
+[2018-7-21 18:20:17]COMMAND: ls -l
+[2018-7-21 18:20:17]total 496
+-rwxr-xr-x  1 progamut  staff  22828 Jul 21 18:20 Client1Log.txt
+-rwxr-xr-x  1 progamut  staff   2945 Jul 21 17:55 Client2Log.txt
+-rw-r--r--  1 progamut  staff      0 Jul 21 18:04 File.txt
+-rw-r--r--  1 progamut  staff    411 Jul 21 18:19 Makefile
+-rwxr-xr-x  1 progamut  staff  91901 Jul 21 18:20 ServerLog.txt
+-rwxr-xr-x  1 progamut  staff  14076 Jul 21 18:19 client
+-rw-r--r--  1 progamut  staff   3378 Jul 21 17:51 client.c
+-rw-r--r--  1 progamut  staff    183 Jul 21 16:01 client.h
+-rw-r--r--  1 progamut  staff   4480 Jul 21 17:54 client.o
+-rw-r--r--  1 progamut  staff      0 Jul 21 18:20 file
+-rw-r--r--  1 progamut  staff   1205 Jul 21 18:19 log.c
+-rw-r--r--  1 progamut  staff    159 Jul 21 15:49 log.h
+-rw-r--r--  1 progamut  staff   2636 Jul 21 18:19 log.o
+-rw-r--r--  1 progamut  staff    422 Jul 21 17:54 message.h
+-rwxr-xr-x  1 progamut  staff  14748 Jul 21 18:19 server
+-rw-r--r--  1 progamut  staff   6179 Jul 21 18:18 server.c
+-rw-r--r--  1 progamut  staff    342 Jul 21 16:15 server.h
+-rw-r--r--  1 progamut  staff   7536 Jul 21 18:18 server.o
+
+[2018-7-21 18:20:46]COMMAND: cat file
+[2018-7-21 18:20:46]
+[2018-7-21 18:20:56]COMMAND: ls -l
+[2018-7-21 18:20:56]total 496
+-rwxr-xr-x  1 progamut  staff  24016 Jul 21 18:20 Client1Log.txt
+-rwxr-xr-x  1 progamut  staff   2945 Jul 21 17:55 Client2Log.txt
+-rw-r--r--  1 progamut  staff      0 Jul 21 18:04 File.txt
+-rw-r--r--  1 progamut  staff    411 Jul 21 18:19 Makefile
+-rwxr-xr-x  1 progamut  staff  94418 Jul 21 18:20 ServerLog.txt
+-rwxr-xr-x  1 progamut  staff  14076 Jul 21 18:19 client
+-rw-r--r--  1 progamut  staff   3378 Jul 21 17:51 client.c
+-rw-r--r--  1 progamut  staff    183 Jul 21 16:01 client.h
+-rw-r--r--  1 progamut  staff   4480 Jul 21 17:54 client.o
+-rw-r--r--  1 progamut  staff      0 Jul 21 18:20 file
+-rw-r--r--  1 progamut  staff   1205 Jul 21 18:19 log.c
+-rw-r--r--  1 progamut  staff    159 Jul 21 15:49 log.h
+-rw-r--r--  1 progamut  staff   2636 Jul 21 18:19 log.o
+-rw-r--r--  1 progamut  staff    422 Jul 21 17:54 message.h
+-rwxr-xr-x  1 progamut  staff  14748 Jul 21 18:19 server
+-rw-r--r--  1 progamut  staff   6179 Jul 21 18:18 server.c
+-rw-r--r--  1 progamut  staff    342 Jul 21 16:15 server.h
+-rw-r--r--  1 progamut  staff   7536 Jul 21 18:18 server.o
+
+[2018-7-21 18:20:57]COMMAND: exit
+[2018-7-21 18:20:57]Closing connections with Server
+[2018-7-21 18:21:34]Initialized
+[2018-7-21 18:21:34]Connected to Server @[127.0.0.1:25001]
+[2018-7-21 18:21:38]COMMAND: ls -l
+[2018-7-21 18:21:38]total 504
+-rwxr-xr-x  1 progamut  staff   25322 Jul 21 18:21 Client1Log.txt
+-rwxr-xr-x  1 progamut  staff    2945 Jul 21 17:55 Client2Log.txt
+-rw-r--r--  1 progamut  staff       0 Jul 21 18:04 File.txt
+-rw-r--r--  1 progamut  staff     411 Jul 21 18:19 Makefile
+-rwxr-xr-x  1 progamut  staff  112334 Jul 21 18:21 ServerLog.txt
+-rwxr-xr-x  1 progamut  staff   14076 Jul 21 18:19 client
+-rw-r--r--  1 progamut  staff    3378 Jul 21 17:51 client.c
+-rw-r--r--  1 progamut  staff     183 Jul 21 16:01 client.h
+-rw-r--r--  1 progamut  staff    4480 Jul 21 17:54 client.o
+-rw-r--r--  1 progamut  staff       0 Jul 21 18:20 file
+-rw-r--r--  1 progamut  staff    1205 Jul 21 18:19 log.c
+-rw-r--r--  1 progamut  staff     159 Jul 21 15:49 log.h
+-rw-r--r--  1 progamut  staff    2636 Jul 21 18:19 log.o
+-rw-r--r--  1 progamut  staff     422 Jul 21 17:54 message.h
+-rwxr-xr-x  1 progamut  staff   14748 Jul 21 18:21 server
+-rw-r--r--  1 progamut  staff    6103 Jul 21 18:21 server.c
+-rw-r--r--  1 progamut  staff     342 Jul 21 16:15 server.h
+-rw-r--r--  1 progamut  staff    7456 Jul 21 18:21 server.o
+
+[2018-7-21 18:21:40]COMMAND: ls -l
+[2018-7-21 18:21:40]total 504
+-rwxr-xr-x  1 progamut  staff   26469 Jul 21 18:21 Client1Log.txt
+-rwxr-xr-x  1 progamut  staff    2945 Jul 21 17:55 Client2Log.txt
+-rw-r--r--  1 progamut  staff       0 Jul 21 18:04 File.txt
+-rw-r--r--  1 progamut  staff     411 Jul 21 18:19 Makefile
+-rwxr-xr-x  1 progamut  staff  113610 Jul 21 18:21 ServerLog.txt
+-rwxr-xr-x  1 progamut  staff   14076 Jul 21 18:19 client
+-rw-r--r--  1 progamut  staff    3378 Jul 21 17:51 client.c
+-rw-r--r--  1 progamut  staff     183 Jul 21 16:01 client.h
+-rw-r--r--  1 progamut  staff    4480 Jul 21 17:54 client.o
+-rw-r--r--  1 progamut  staff       0 Jul 21 18:20 file
+-rw-r--r--  1 progamut  staff    1205 Jul 21 18:19 log.c
+-rw-r--r--  1 progamut  staff     159 Jul 21 15:49 log.h
+-rw-r--r--  1 progamut  staff    2636 Jul 21 18:19 log.o
+-rw-r--r--  1 progamut  staff     422 Jul 21 17:54 message.h
+-rwxr-xr-x  1 progamut  staff   14748 Jul 21 18:21 server
+-rw-r--r--  1 progamut  staff    6103 Jul 21 18:21 server.c
+-rw-r--r--  1 progamut  staff     342 Jul 21 16:15 server.h
+-rw-r--r--  1 progamut  staff    7456 Jul 21 18:21 server.o
+
+[2018-7-21 18:21:49]COMMAND: cat Makefile
+[2018-7-21 18:21:49]all: server client
+
+client: client.o log.o client.h log.h message.h
+	gcc -o client client.o log.o
+
+client.o: client.c log.h client.h message.h
+	gcc -c -Wall client.c
+
+server: server.o log.o server.h log.h message.h
+	gcc -o server server.o log.o
+
+log.o: log.c log.h message.h
+	gcc -c -Wall log.c
+
+server.o: server.c server.h log.h message.h
+	gcc -c -Wall server.c
+
+clean:
+	rm -rf server.o log.o
+	rm -rf client.o
+
+[2018-7-21 18:21:57]COMMAND: touch abc
+[2018-7-21 18:21:57]
+[2018-7-21 18:21:58]COMMAND: ls -l
+[2018-7-21 18:21:58]total 504
+-rwxr-xr-x  1 progamut  staff   28150 Jul 21 18:21 Client1Log.txt
+-rwxr-xr-x  1 progamut  staff    2945 Jul 21 17:55 Client2Log.txt
+-rw-r--r--  1 progamut  staff       0 Jul 21 18:04 File.txt
+-rw-r--r--  1 progamut  staff     411 Jul 21 18:19 Makefile
+-rwxr-xr-x  1 progamut  staff  115679 Jul 21 18:21 ServerLog.txt
+-rw-r--r--  1 progamut  staff       0 Jul 21 18:21 abc
+-rwxr-xr-x  1 progamut  staff   14076 Jul 21 18:19 client
+-rw-r--r--  1 progamut  staff    3378 Jul 21 17:51 client.c
+-rw-r--r--  1 progamut  staff     183 Jul 21 16:01 client.h
+-rw-r--r--  1 progamut  staff    4480 Jul 21 17:54 client.o
+-rw-r--r--  1 progamut  staff       0 Jul 21 18:20 file
+-rw-r--r--  1 progamut  staff    1205 Jul 21 18:19 log.c
+-rw-r--r--  1 progamut  staff     159 Jul 21 15:49 log.h
+-rw-r--r--  1 progamut  staff    2636 Jul 21 18:19 log.o
+-rw-r--r--  1 progamut  staff     422 Jul 21 17:54 message.h
+-rwxr-xr-x  1 progamut  staff   14748 Jul 21 18:21 server
+-rw-r--r--  1 progamut  staff    6103 Jul 21 18:21 server.c
+-rw-r--r--  1 progamut  staff     342 Jul 21 16:15 server.h
+-rw-r--r--  1 progamut  staff    7456 Jul 21 18:21 server.o
+
+[2018-7-21 18:22:9]COMMAND: rm -rf abc
+[2018-7-21 18:22:9]
+[2018-7-21 18:22:11]COMMAND: ls -l
+[2018-7-21 18:22:11]total 512
+-rwxr-xr-x  1 progamut  staff   29411 Jul 21 18:22 Client1Log.txt
+-rwxr-xr-x  1 progamut  staff    2945 Jul 21 17:55 Client2Log.txt
+-rw-r--r--  1 progamut  staff       0 Jul 21 18:04 File.txt
+-rw-r--r--  1 progamut  staff     411 Jul 21 18:19 Makefile
+-rwxr-xr-x  1 progamut  staff  117198 Jul 21 18:22 ServerLog.txt
+-rwxr-xr-x  1 progamut  staff   14076 Jul 21 18:19 client
+-rw-r--r--  1 progamut  staff    3378 Jul 21 17:51 client.c
+-rw-r--r--  1 progamut  staff     183 Jul 21 16:01 client.h
+-rw-r--r--  1 progamut  staff    4480 Jul 21 17:54 client.o
+-rw-r--r--  1 progamut  staff       0 Jul 21 18:20 file
+-rw-r--r--  1 progamut  staff    1205 Jul 21 18:19 log.c
+-rw-r--r--  1 progamut  staff     159 Jul 21 15:49 log.h
+-rw-r--r--  1 progamut  staff    2636 Jul 21 18:19 log.o
+-rw-r--r--  1 progamut  staff     422 Jul 21 17:54 message.h
+-rwxr-xr-x  1 progamut  staff   14748 Jul 21 18:21 server
+-rw-r--r--  1 progamut  staff    6103 Jul 21 18:21 server.c
+-rw-r--r--  1 progamut  staff     342 Jul 21 16:15 server.h
+-rw-r--r--  1 progamut  staff    7456 Jul 21 18:21 server.o
+
+[2018-7-21 18:25:27]Initialized
+[2018-7-21 18:25:27]Connected to Server @[127.0.0.1:25001]
+[2018-7-21 18:25:28]COMMAND: date
+[2018-7-21 18:25:28]Sat Jul 21 18:25:28 PDT 2018
+
+[2018-7-21 18:25:31]COMMAND: exit
+[2018-7-21 18:25:31]Closing connections with Server
+[2018-7-21 18:28:12]Initialized
+[2018-7-21 18:28:12]Connected to Server @[127.0.0.1:25001]
+[2018-7-21 18:28:24]COMMAND: date;ls -l junk.txt;
+[2018-7-21 18:28:32]COMMAND: ls -l
+[2018-7-21 18:28:32]total 512
+-rwxr-xr-x  1 progamut  staff   30960 Jul 21 18:28 Client1Log.txt
+-rwxr-xr-x  1 progamut  staff    2945 Jul 21 17:55 Client2Log.txt
+-rw-r--r--  1 progamut  staff       0 Jul 21 18:04 File.txt
+-rw-r--r--  1 progamut  staff     411 Jul 21 18:19 Makefile
+-rwxr-xr-x  1 progamut  staff  119341 Jul 21 18:28 ServerLog.txt
+-rwxr-xr-x  1 progamut  staff   14076 Jul 21 18:28 client
+-rw-r--r--  1 progamut  staff    3491 Jul 21 18:28 client.c
+-rw-r--r--  1 progamut  staff     183 Jul 21 16:01 client.h
+-rw-r--r--  1 progamut  staff    4576 Jul 21 18:28 client.o
+-rw-r--r--  1 progamut  staff       0 Jul 21 18:20 file
+-rw-r--r--  1 progamut  staff    1205 Jul 21 18:19 log.c
+-rw-r--r--  1 progamut  staff     159 Jul 21 15:49 log.h
+-rw-r--r--  1 progamut  staff    2636 Jul 21 18:19 log.o
+-rw-r--r--  1 progamut  staff     422 Jul 21 17:54 message.h
+-rwxr-xr-x  1 progamut  staff   14748 Jul 21 18:24 server
+-rw-r--r--  1 progamut  staff    6100 Jul 21 18:24 server.c
+-rw-r--r--  1 progamut  staff     342 Jul 21 16:15 server.h
+-rw-r--r--  1 progamut  staff    7416 Jul 21 18:24 server.o
+
+[2018-7-21 18:34:14]Initialized
+[2018-7-21 18:34:14]Connected to Server @[127.0.0.1:25001]
+[2018-7-21 18:34:17]COMMAND: date
+[2018-7-21 18:34:17]Sat Jul 21 18:34:17 PDT 2018
+
+[2018-7-21 18:34:17]COMMAND: ls -l junk.txt
+[2018-7-21 18:34:17]COMMAND: touch junk.txt
+[2018-7-21 18:34:20]COMMAND: date
+[2018-7-21 18:34:20]Sat Jul 21 18:34:20 PDT 2018
+
+[2018-7-21 18:34:20]COMMAND: ls -l junk.txt
+[2018-7-21 18:34:20]-rw-r--r--  1 progamut  staff  0 Jul 21 18:34 junk.txt
+
+[2018-7-21 18:34:20]COMMAND: touch junk.txt
+[2018-7-21 18:34:23]COMMAND: date
+[2018-7-21 18:34:23]Sat Jul 21 18:34:23 PDT 2018
+
+[2018-7-21 18:34:23]COMMAND: ls -l junk.txt
+[2018-7-21 18:34:23]-rw-r--r--  1 progamut  staff  0 Jul 21 18:34 junk.txt
+
+[2018-7-21 18:34:23]COMMAND: touch junk.txt
+[2018-7-21 18:34:26]COMMAND: date
+[2018-7-21 18:34:26]Sat Jul 21 18:34:26 PDT 2018
+
+[2018-7-21 18:34:26]COMMAND: ls -l junk.txt
+[2018-7-21 18:34:26]-rw-r--r--  1 progamut  staff  0 Jul 21 18:34 junk.txt
+
+[2018-7-21 18:34:26]COMMAND: touch junk.txt
+[2018-7-21 18:34:29]COMMAND: date
+[2018-7-21 18:34:29]Sat Jul 21 18:34:29 PDT 2018
+
+[2018-7-21 18:34:29]COMMAND: ls -l junk.txt
+[2018-7-21 18:34:29]-rw-r--r--  1 progamut  staff  0 Jul 21 18:34 junk.txt
+
+[2018-7-21 18:34:29]COMMAND: touch junk.txt
+[2018-7-21 18:34:32]COMMAND: date
+[2018-7-21 18:34:32]Sat Jul 21 18:34:32 PDT 2018
+
+[2018-7-21 18:34:32]COMMAND: ls -l junk.txt
+[2018-7-21 18:34:32]-rw-r--r--  1 progamut  staff  0 Jul 21 18:34 junk.txt
+
+[2018-7-21 18:34:32]COMMAND: touch junk.txt
+[2018-7-21 18:34:35]COMMAND: date
+[2018-7-21 18:34:35]Sat Jul 21 18:34:35 PDT 2018
+
+[2018-7-21 18:34:35]COMMAND: ls -l junk.txt
+[2018-7-21 18:34:35]-rw-r--r--  1 progamut  staff  0 Jul 21 18:34 junk.txt
+
+[2018-7-21 18:34:35]COMMAND: touch junk.txt
+[2018-7-21 18:34:38]COMMAND: date
+[2018-7-21 18:34:38]Sat Jul 21 18:34:38 PDT 2018
+
+[2018-7-21 18:34:38]COMMAND: ls -l junk.txt
+[2018-7-21 18:34:38]-rw-r--r--  1 progamut  staff  0 Jul 21 18:34 junk.txt
+
+[2018-7-21 18:34:38]COMMAND: touch junk.txt
+[2018-7-21 18:34:41]COMMAND: date
+[2018-7-21 18:34:41]Sat Jul 21 18:34:41 PDT 2018
+
+[2018-7-21 18:34:41]COMMAND: ls -l junk.txt
+[2018-7-21 18:34:41]-rw-r--r--  1 progamut  staff  0 Jul 21 18:34 junk.txt
+
+[2018-7-21 18:34:41]COMMAND: touch junk.txt
+[2018-7-21 18:34:44]COMMAND: date
+[2018-7-21 18:34:44]Sat Jul 21 18:34:44 PDT 2018
+
+[2018-7-21 18:34:44]COMMAND: ls -l junk.txt
+[2018-7-21 18:34:44]COMMAND: touch junk.txt
+[2018-7-21 18:34:47]COMMAND: date
+[2018-7-21 18:34:47]Sat Jul 21 18:34:47 PDT 2018
+
+[2018-7-21 18:34:47]COMMAND: ls -l junk.txt
+[2018-7-21 18:34:47]COMMAND: touch junk.txt
+[2018-7-21 18:34:50]COMMAND: date
+[2018-7-21 18:34:50]Sat Jul 21 18:34:50 PDT 2018
+
+[2018-7-21 18:34:50]COMMAND: ls -l junk.txt
+[2018-7-21 18:34:50]COMMAND: touch junk.txt
+[2018-7-21 18:34:53]COMMAND: date
+[2018-7-21 18:34:53]Sat Jul 21 18:34:53 PDT 2018
+
+[2018-7-21 18:34:53]COMMAND: ls -l junk.txt
+[2018-7-21 18:34:53]COMMAND: touch junk.txt
+[2018-7-21 18:34:56]COMMAND: date
+[2018-7-21 18:34:56]Sat Jul 21 18:34:56 PDT 2018
+
+[2018-7-21 18:34:56]COMMAND: ls -l junk.txt
+[2018-7-21 18:34:56]COMMAND: touch junk.txt
+[2018-7-21 18:34:59]COMMAND: date
+[2018-7-21 18:34:59]Sat Jul 21 18:34:59 PDT 2018
+
+[2018-7-21 18:34:59]COMMAND: ls -l junk.txt
+[2018-7-21 18:34:59]COMMAND: touch junk.txt
+[2018-7-21 18:35:2]COMMAND: date
+[2018-7-21 18:35:2]Sat Jul 21 18:35:02 PDT 2018
+
+[2018-7-21 18:35:2]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:2]COMMAND: touch junk.txt
+[2018-7-21 18:35:5]COMMAND: date
+[2018-7-21 18:35:5]Sat Jul 21 18:35:05 PDT 2018
+
+[2018-7-21 18:35:5]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:5]COMMAND: touch junk.txt
+[2018-7-21 18:35:8]COMMAND: date
+[2018-7-21 18:35:8]Sat Jul 21 18:35:08 PDT 2018
+
+[2018-7-21 18:35:8]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:8]COMMAND: touch junk.txt
+[2018-7-21 18:35:11]COMMAND: date
+[2018-7-21 18:35:11]Sat Jul 21 18:35:11 PDT 2018
+
+[2018-7-21 18:35:11]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:11]COMMAND: touch junk.txt
+[2018-7-21 18:35:14]COMMAND: date
+[2018-7-21 18:35:14]Sat Jul 21 18:35:14 PDT 2018
+
+[2018-7-21 18:35:14]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:14]COMMAND: touch junk.txt
+[2018-7-21 18:35:17]COMMAND: date
+[2018-7-21 18:35:17]Sat Jul 21 18:35:17 PDT 2018
+
+[2018-7-21 18:35:17]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:17]COMMAND: touch junk.txt
+[2018-7-21 18:35:20]COMMAND: date
+[2018-7-21 18:35:20]Sat Jul 21 18:35:20 PDT 2018
+
+[2018-7-21 18:35:20]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:20]COMMAND: touch junk.txt
+[2018-7-21 18:35:23]COMMAND: date
+[2018-7-21 18:35:23]Sat Jul 21 18:35:23 PDT 2018
+
+[2018-7-21 18:35:23]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:23]COMMAND: touch junk.txt
+[2018-7-21 18:35:26]COMMAND: date
+[2018-7-21 18:35:26]Sat Jul 21 18:35:26 PDT 2018
+
+[2018-7-21 18:35:26]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:26]COMMAND: touch junk.txt
+[2018-7-21 18:35:29]COMMAND: date
+[2018-7-21 18:35:29]Sat Jul 21 18:35:29 PDT 2018
+
+[2018-7-21 18:35:29]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:29]COMMAND: touch junk.txt
+[2018-7-21 18:35:32]COMMAND: date
+[2018-7-21 18:35:32]Sat Jul 21 18:35:32 PDT 2018
+
+[2018-7-21 18:35:32]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:32]COMMAND: touch junk.txt
+[2018-7-21 18:35:35]COMMAND: date
+[2018-7-21 18:35:35]Sat Jul 21 18:35:35 PDT 2018
+
+[2018-7-21 18:35:35]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:35]COMMAND: touch junk.txt
+[2018-7-21 18:35:38]COMMAND: date
+[2018-7-21 18:35:38]Sat Jul 21 18:35:38 PDT 2018
+
+[2018-7-21 18:35:38]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:38]COMMAND: touch junk.txt
+[2018-7-21 18:35:41]COMMAND: date
+[2018-7-21 18:35:41]Sat Jul 21 18:35:41 PDT 2018
+
+[2018-7-21 18:35:41]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:41]COMMAND: touch junk.txt
+[2018-7-21 18:35:44]COMMAND: date
+[2018-7-21 18:35:44]Sat Jul 21 18:35:44 PDT 2018
+
+[2018-7-21 18:35:44]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:44]COMMAND: touch junk.txt
+[2018-7-21 18:35:47]COMMAND: date
+[2018-7-21 18:35:47]Sat Jul 21 18:35:47 PDT 2018
+
+[2018-7-21 18:35:47]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:47]COMMAND: touch junk.txt
+[2018-7-21 18:35:50]COMMAND: date
+[2018-7-21 18:35:50]Sat Jul 21 18:35:50 PDT 2018
+
+[2018-7-21 18:35:50]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:50]COMMAND: touch junk.txt
+[2018-7-21 18:35:53]COMMAND: date
+[2018-7-21 18:35:53]Sat Jul 21 18:35:53 PDT 2018
+
+[2018-7-21 18:35:53]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:53]COMMAND: touch junk.txt
+[2018-7-21 18:35:56]COMMAND: date
+[2018-7-21 18:35:56]Sat Jul 21 18:35:56 PDT 2018
+
+[2018-7-21 18:35:56]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:56]COMMAND: touch junk.txt
+[2018-7-21 18:35:59]COMMAND: date
+[2018-7-21 18:35:59]Sat Jul 21 18:35:59 PDT 2018
+
+[2018-7-21 18:35:59]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:59]COMMAND: touch junk.txt
+[2018-7-21 18:36:2]COMMAND: date
+[2018-7-21 18:36:2]Sat Jul 21 18:36:02 PDT 2018
+
+[2018-7-21 18:36:2]COMMAND: ls -l junk.txt
+[2018-7-21 18:36:2]COMMAND: touch junk.txt
+[2018-7-21 18:36:5]COMMAND: date
+[2018-7-21 18:36:5]Sat Jul 21 18:36:05 PDT 2018
+
+[2018-7-21 18:36:5]COMMAND: ls -l junk.txt
+[2018-7-21 18:36:5]COMMAND: touch junk.txt
+[2018-7-21 18:36:8]COMMAND: date
+[2018-7-21 18:36:8]Sat Jul 21 18:36:08 PDT 2018
+
+[2018-7-21 18:36:8]COMMAND: ls -l junk.txt
+[2018-7-21 18:36:8]COMMAND: touch junk.txt
+[2018-7-21 18:36:11]COMMAND: date
+[2018-7-21 18:36:11]COMMAND: ls -l junk.txt
+[2018-7-21 18:36:11]COMMAND: touch junk.txt
+[2018-7-21 18:36:14]COMMAND: date
+[2018-7-21 18:36:14]COMMAND: ls -l junk.txt
+[2018-7-21 18:36:14]COMMAND: touch junk.txt
+[2018-7-21 18:36:17]COMMAND: date
+[2018-7-21 18:36:17]COMMAND: ls -l junk.txt
+[2018-7-21 18:36:17]COMMAND: touch junk.txt
+[2018-7-21 18:36:20]COMMAND: date
+[2018-7-21 18:36:20]COMMAND: ls -l junk.txt
+[2018-7-21 18:36:20]COMMAND: touch junk.txt
+[2018-7-21 18:36:23]COMMAND: date
+[2018-7-21 18:36:23]COMMAND: ls -l junk.txt
+[2018-7-21 18:36:23]COMMAND: touch junk.txt
+[2018-7-21 18:36:26]COMMAND: date
+[2018-7-21 18:36:26]COMMAND: ls -l junk.txt
+[2018-7-21 18:36:26]COMMAND: touch junk.txt
+[2018-7-21 18:36:29]COMMAND: date
+[2018-7-21 18:36:29]COMMAND: ls -l junk.txt
+[2018-7-21 18:36:29]COMMAND: touch junk.txt
+[2018-7-21 18:36:32]COMMAND: date
+[2018-7-21 18:36:32]COMMAND: ls -l junk.txt
+[2018-7-21 18:36:32]COMMAND: touch junk.txt
+[2018-7-21 18:36:35]COMMAND: date
+[2018-7-21 18:36:35]COMMAND: ls -l junk.txt
+[2018-7-21 18:36:35]COMMAND: touch junk.txt
+[2018-7-21 18:36:39]COMMAND: date
+[2018-7-21 18:36:39]COMMAND: ls -l junk.txt
+[2018-7-21 18:36:39]COMMAND: touch junk.txt
+[2018-7-21 18:36:42]COMMAND: date
+[2018-7-21 18:36:42]Sat Jul 21 18:36:42 PDT 2018
+
+[2018-7-21 18:36:42]COMMAND: ls -l junk.txt
+[2018-7-21 18:36:42]COMMAND: touch junk.txt
+[2018-7-21 18:36:49]Initialized
+[2018-7-21 18:36:49]Connected to Server @[127.0.0.1:25001]
+[2018-7-21 18:36:52]COMMAND: date
+[2018-7-21 18:36:52]COMMAND: ls -l junk.txt
+[2018-7-21 18:36:52]COMMAND: touch junk.txt
+[2018-7-21 18:36:55]COMMAND: date
+[2018-7-21 18:36:55]COMMAND: ls -l junk.txt
+[2018-7-21 18:36:55]COMMAND: touch junk.txt
+[2018-7-21 18:37:42]Initialized
+[2018-7-21 18:37:42]Connected to Server @[127.0.0.1:25001]
+[2018-7-21 18:37:45]COMMAND: date
+[2018-7-21 18:37:45]Sat Jul 21 18:37:45 PDT 2018
+
+[2018-7-21 18:37:45]COMMAND: ls -l junk.txt
+[2018-7-21 18:37:45]COMMAND: touch junk.txt
+[2018-7-21 18:37:48]COMMAND: date
+[2018-7-21 18:37:48]Sat Jul 21 18:37:48 PDT 2018
+
+[2018-7-21 18:37:48]COMMAND: ls -l junk.txt
+[2018-7-21 18:37:48]COMMAND: touch junk.txt
+[2018-7-21 18:37:51]COMMAND: date
+[2018-7-21 18:37:51]Sat Jul 21 18:37:51 PDT 2018
+
+[2018-7-21 18:37:51]COMMAND: ls -l junk.txt
+[2018-7-21 18:37:51]COMMAND: touch junk.txt
+[2018-7-21 18:37:54]COMMAND: date
+[2018-7-21 18:37:54]Sat Jul 21 18:37:54 PDT 2018
+
+[2018-7-21 18:37:54]COMMAND: ls -l junk.txt
+[2018-7-21 18:37:54]COMMAND: touch junk.txt
+[2018-7-21 18:37:57]COMMAND: date
+[2018-7-21 18:37:57]Sat Jul 21 18:37:57 PDT 2018
+
+[2018-7-21 18:37:57]COMMAND: ls -l junk.txt
+[2018-7-21 18:37:57]COMMAND: touch junk.txt
+[2018-7-21 18:38:0]COMMAND: date
+[2018-7-21 18:38:0]Sat Jul 21 18:38:00 PDT 2018
+
+[2018-7-21 18:38:0]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:0]COMMAND: touch junk.txt
+[2018-7-21 18:38:3]COMMAND: date
+[2018-7-21 18:38:3]Sat Jul 21 18:38:03 PDT 2018
+
+[2018-7-21 18:38:3]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:3]COMMAND: touch junk.txt
+[2018-7-21 18:38:6]COMMAND: date
+[2018-7-21 18:38:6]Sat Jul 21 18:38:06 PDT 2018
+
+[2018-7-21 18:38:6]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:6]COMMAND: touch junk.txt
+[2018-7-21 18:38:9]COMMAND: date
+[2018-7-21 18:38:9]Sat Jul 21 18:38:09 PDT 2018
+
+[2018-7-21 18:38:9]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:9]COMMAND: touch junk.txt
+[2018-7-21 18:38:12]COMMAND: date
+[2018-7-21 18:38:12]Sat Jul 21 18:38:12 PDT 2018
+
+[2018-7-21 18:38:12]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:12]COMMAND: touch junk.txt
+[2018-7-21 18:38:15]COMMAND: date
+[2018-7-21 18:38:15]Sat Jul 21 18:38:15 PDT 2018
+
+[2018-7-21 18:38:15]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:15]COMMAND: touch junk.txt
+[2018-7-21 18:38:18]COMMAND: date
+[2018-7-21 18:38:18]Sat Jul 21 18:38:18 PDT 2018
+
+[2018-7-21 18:38:18]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:18]COMMAND: touch junk.txt
+[2018-7-21 18:38:21]COMMAND: date
+[2018-7-21 18:38:21]Sat Jul 21 18:38:21 PDT 2018
+
+[2018-7-21 18:38:21]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:21]COMMAND: touch junk.txt
+[2018-7-21 18:38:24]COMMAND: date
+[2018-7-21 18:38:25]Sat Jul 21 18:38:24 PDT 2018
+
+[2018-7-21 18:38:25]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:25]COMMAND: touch junk.txt
+[2018-7-21 18:38:28]COMMAND: date
+[2018-7-21 18:38:28]Sat Jul 21 18:38:28 PDT 2018
+
+[2018-7-21 18:38:28]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:28]COMMAND: touch junk.txt
+[2018-7-21 18:38:31]COMMAND: date
+[2018-7-21 18:38:31]Sat Jul 21 18:38:31 PDT 2018
+
+[2018-7-21 18:38:31]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:31]COMMAND: touch junk.txt
+[2018-7-21 18:38:34]COMMAND: date
+[2018-7-21 18:38:34]Sat Jul 21 18:38:34 PDT 2018
+
+[2018-7-21 18:38:34]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:34]COMMAND: touch junk.txt
+[2018-7-21 18:38:37]COMMAND: date
+[2018-7-21 18:38:37]Sat Jul 21 18:38:37 PDT 2018
+
+[2018-7-21 18:38:37]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:37]COMMAND: touch junk.txt
+[2018-7-21 18:38:40]COMMAND: date
+[2018-7-21 18:38:40]Sat Jul 21 18:38:40 PDT 2018
+
+[2018-7-21 18:38:40]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:40]COMMAND: touch junk.txt
+[2018-7-21 18:38:43]COMMAND: date
+[2018-7-21 18:38:43]Sat Jul 21 18:38:43 PDT 2018
+
+[2018-7-21 18:38:43]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:43]COMMAND: touch junk.txt
+[2018-7-21 18:38:46]COMMAND: date
+[2018-7-21 18:38:46]Sat Jul 21 18:38:46 PDT 2018
+
+[2018-7-21 18:38:46]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:46]COMMAND: touch junk.txt
+[2018-7-21 18:38:49]COMMAND: date
+[2018-7-21 18:38:49]Sat Jul 21 18:38:49 PDT 2018
+
+[2018-7-21 18:38:49]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:49]COMMAND: touch junk.txt
+[2018-7-21 18:38:52]COMMAND: date
+[2018-7-21 18:38:52]Sat Jul 21 18:38:52 PDT 2018
+
+[2018-7-21 18:38:52]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:52]COMMAND: touch junk.txt
+[2018-7-21 18:38:55]COMMAND: date
+[2018-7-21 18:38:55]Sat Jul 21 18:38:55 PDT 2018
+
+[2018-7-21 18:38:55]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:55]COMMAND: touch junk.txt
+[2018-7-21 18:38:58]COMMAND: date
+[2018-7-21 18:38:58]Sat Jul 21 18:38:58 PDT 2018
+
+[2018-7-21 18:38:58]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:58]COMMAND: touch junk.txt
+[2018-7-21 18:39:1]COMMAND: date
+[2018-7-21 18:39:1]Sat Jul 21 18:39:01 PDT 2018
+
+[2018-7-21 18:39:1]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:1]COMMAND: touch junk.txt
+[2018-7-21 18:39:4]COMMAND: date
+[2018-7-21 18:39:4]Sat Jul 21 18:39:04 PDT 2018
+
+[2018-7-21 18:39:4]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:4]COMMAND: touch junk.txt
+[2018-7-21 18:39:7]COMMAND: date
+[2018-7-21 18:39:7]Sat Jul 21 18:39:07 PDT 2018
+
+[2018-7-21 18:39:7]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:7]COMMAND: touch junk.txt
+[2018-7-21 18:39:10]COMMAND: date
+[2018-7-21 18:39:10]Sat Jul 21 18:39:10 PDT 2018
+
+[2018-7-21 18:39:10]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:10]COMMAND: touch junk.txt
+[2018-7-21 18:39:13]COMMAND: date
+[2018-7-21 18:39:13]Sat Jul 21 18:39:13 PDT 2018
+
+[2018-7-21 18:39:13]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:13]COMMAND: touch junk.txt
+[2018-7-21 18:39:16]COMMAND: date
+[2018-7-21 18:39:16]Sat Jul 21 18:39:16 PDT 2018
+
+[2018-7-21 18:39:16]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:16]COMMAND: touch junk.txt
+[2018-7-21 18:39:19]COMMAND: date
+[2018-7-21 18:39:19]Sat Jul 21 18:39:19 PDT 2018
+
+[2018-7-21 18:39:19]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:19]COMMAND: touch junk.txt
+[2018-7-21 18:39:22]COMMAND: date
+[2018-7-21 18:39:22]Sat Jul 21 18:39:22 PDT 2018
+
+[2018-7-21 18:39:22]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:22]COMMAND: touch junk.txt
+[2018-7-21 18:39:25]COMMAND: date
+[2018-7-21 18:39:25]Sat Jul 21 18:39:25 PDT 2018
+
+[2018-7-21 18:39:25]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:25]COMMAND: touch junk.txt
+[2018-7-21 18:39:28]COMMAND: date
+[2018-7-21 18:39:28]Sat Jul 21 18:39:28 PDT 2018
+
+[2018-7-21 18:39:28]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:28]COMMAND: touch junk.txt
+[2018-7-21 18:39:31]COMMAND: date
+[2018-7-21 18:39:31]Sat Jul 21 18:39:31 PDT 2018
+
+[2018-7-21 18:39:31]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:31]COMMAND: touch junk.txt
+[2018-7-21 18:39:34]COMMAND: date
+[2018-7-21 18:39:34]Sat Jul 21 18:39:34 PDT 2018
+
+[2018-7-21 18:39:34]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:34]COMMAND: touch junk.txt
+[2018-7-21 18:39:37]COMMAND: date
+[2018-7-21 18:39:37]Sat Jul 21 18:39:37 PDT 2018
+
+[2018-7-21 18:39:37]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:37]COMMAND: touch junk.txt
+[2018-7-21 18:39:40]COMMAND: date
+[2018-7-21 18:39:40]Sat Jul 21 18:39:40 PDT 2018
+
+[2018-7-21 18:39:40]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:40]COMMAND: touch junk.txt
+[2018-7-21 18:39:43]COMMAND: date
+[2018-7-21 18:39:43]Sat Jul 21 18:39:43 PDT 2018
+
+[2018-7-21 18:39:43]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:43]COMMAND: touch junk.txt
+[2018-7-21 18:39:46]COMMAND: date
+[2018-7-21 18:39:46]Sat Jul 21 18:39:46 PDT 2018
+
+[2018-7-21 18:39:46]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:46]COMMAND: touch junk.txt
+[2018-7-21 18:39:49]COMMAND: date
+[2018-7-21 18:39:49]Sat Jul 21 18:39:49 PDT 2018
+
+[2018-7-21 18:39:49]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:49]COMMAND: touch junk.txt
+[2018-7-21 18:39:52]COMMAND: date
+[2018-7-21 18:39:52]Sat Jul 21 18:39:52 PDT 2018
+
+[2018-7-21 18:39:52]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:52]COMMAND: touch junk.txt
+[2018-7-21 18:39:55]COMMAND: date
+[2018-7-21 18:39:55]Sat Jul 21 18:39:55 PDT 2018
+
+[2018-7-21 18:39:55]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:55]COMMAND: touch junk.txt
+[2018-7-21 18:39:58]COMMAND: date
+[2018-7-21 18:39:58]Sat Jul 21 18:39:58 PDT 2018
+
+[2018-7-21 18:39:58]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:58]COMMAND: touch junk.txt
+[2018-7-21 18:40:1]COMMAND: date
+[2018-7-21 18:40:1]Sat Jul 21 18:40:01 PDT 2018
+
+[2018-7-21 18:40:1]COMMAND: ls -l junk.txt
+[2018-7-21 18:40:1]COMMAND: touch junk.txt
+[2018-7-21 18:40:4]COMMAND: date
+[2018-7-21 18:40:4]Sat Jul 21 18:40:04 PDT 2018
+
+[2018-7-21 18:40:4]COMMAND: ls -l junk.txt
+[2018-7-21 18:40:4]COMMAND: touch junk.txt
+[2018-7-21 18:40:7]COMMAND: date
+[2018-7-21 18:40:7]Sat Jul 21 18:40:07 PDT 2018
+
+[2018-7-21 18:40:7]COMMAND: ls -l junk.txt
+[2018-7-21 18:40:7]COMMAND: touch junk.txt
+[2018-7-21 18:40:10]COMMAND: date
+[2018-7-21 18:40:10]Sat Jul 21 18:40:10 PDT 2018
+
+[2018-7-21 18:40:10]COMMAND: ls -l junk.txt
+[2018-7-21 18:40:10]COMMAND: touch junk.txt
+[2018-7-21 18:40:13]COMMAND: date
+[2018-7-21 18:40:13]Sat Jul 21 18:40:13 PDT 2018
+
+[2018-7-21 18:40:13]COMMAND: ls -l junk.txt
+[2018-7-21 18:40:13]COMMAND: touch junk.txt
+[2018-7-21 18:40:16]COMMAND: date
+[2018-7-21 18:40:16]Sat Jul 21 18:40:16 PDT 2018
+
+[2018-7-21 18:40:16]COMMAND: ls -l junk.txt
+[2018-7-21 18:40:16]COMMAND: touch junk.txt
+[2018-7-21 18:40:19]COMMAND: date
+[2018-7-21 18:40:19]Sat Jul 21 18:40:19 PDT 2018
+
+[2018-7-21 18:40:19]COMMAND: ls -l junk.txt
+[2018-7-21 18:40:19]COMMAND: touch junk.txt
+[2018-7-21 18:40:22]COMMAND: date
+[2018-7-21 18:40:22]Sat Jul 21 18:40:22 PDT 2018
+
+[2018-7-21 18:40:22]COMMAND: ls -l junk.txt
+[2018-7-21 18:40:22]COMMAND: touch junk.txt
+[2018-7-21 18:40:25]COMMAND: date
+[2018-7-21 18:40:25]Unable to send command to server
+[2018-7-21 18:48:48]Initialized
+[2018-7-21 18:48:48]Connected to Server @[127.0.0.1:25001]
+[2018-7-21 18:50:22]Initialized
+[2018-7-21 18:50:22]Connected to Server @[10.0.0.166:25001]
+[2018-7-21 18:50:25]COMMAND: date
+[2018-7-21 18:50:25]Sat Jul 21 18:50:25 PDT 2018
+
+[2018-7-21 18:50:25]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:25]COMMAND: touch junk.txt
+[2018-7-21 18:50:28]COMMAND: date
+[2018-7-21 18:50:28]Sat Jul 21 18:50:28 PDT 2018
+
+[2018-7-21 18:50:28]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:28]COMMAND: touch junk.txt
+[2018-7-21 18:50:31]COMMAND: date
+[2018-7-21 18:50:31]Sat Jul 21 18:50:31 PDT 2018
+
+[2018-7-21 18:50:31]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:31]COMMAND: touch junk.txt
+[2018-7-21 18:50:34]COMMAND: date
+[2018-7-21 18:50:34]Sat Jul 21 18:50:34 PDT 2018
+
+[2018-7-21 18:50:34]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:34]COMMAND: touch junk.txt
+[2018-7-21 18:50:37]COMMAND: date
+[2018-7-21 18:50:37]Sat Jul 21 18:50:37 PDT 2018
+
+[2018-7-21 18:50:37]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:37]COMMAND: touch junk.txt
+[2018-7-21 18:50:40]COMMAND: date
+[2018-7-21 18:50:40]Sat Jul 21 18:50:40 PDT 2018
+
+[2018-7-21 18:50:40]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:40]COMMAND: touch junk.txt
+[2018-7-21 18:50:43]COMMAND: date
+[2018-7-21 18:50:43]Sat Jul 21 18:50:43 PDT 2018
+
+[2018-7-21 18:50:43]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:43]COMMAND: touch junk.txt
+[2018-7-21 18:50:46]COMMAND: date
+[2018-7-21 18:50:46]Sat Jul 21 18:50:46 PDT 2018
+
+[2018-7-21 18:50:46]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:46]COMMAND: touch junk.txt
+[2018-7-21 18:50:49]COMMAND: date
+[2018-7-21 18:50:49]Sat Jul 21 18:50:49 PDT 2018
+
+[2018-7-21 18:50:49]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:49]COMMAND: touch junk.txt
+[2018-7-21 18:50:52]COMMAND: date
+[2018-7-21 18:50:52]Sat Jul 21 18:50:52 PDT 2018
+
+[2018-7-21 18:50:52]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:52]COMMAND: touch junk.txt
+[2018-7-21 18:50:55]COMMAND: date
+[2018-7-21 18:50:55]Sat Jul 21 18:50:55 PDT 2018
+
+[2018-7-21 18:50:55]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:55]COMMAND: touch junk.txt
+[2018-7-21 18:50:58]COMMAND: date
+[2018-7-21 18:50:58]Sat Jul 21 18:50:58 PDT 2018
+
+[2018-7-21 18:50:58]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:58]COMMAND: touch junk.txt
+[2018-7-21 18:51:1]COMMAND: date
+[2018-7-21 18:51:1]Sat Jul 21 18:51:01 PDT 2018
+
+[2018-7-21 18:51:1]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:1]COMMAND: touch junk.txt
+[2018-7-21 18:51:4]COMMAND: date
+[2018-7-21 18:51:4]Sat Jul 21 18:51:04 PDT 2018
+
+[2018-7-21 18:51:4]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:4]COMMAND: touch junk.txt
+[2018-7-21 18:51:7]COMMAND: date
+[2018-7-21 18:51:7]Sat Jul 21 18:51:07 PDT 2018
+
+[2018-7-21 18:51:7]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:7]COMMAND: touch junk.txt
+[2018-7-21 18:51:10]COMMAND: date
+[2018-7-21 18:51:10]Sat Jul 21 18:51:10 PDT 2018
+
+[2018-7-21 18:51:10]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:10]COMMAND: touch junk.txt
+[2018-7-21 18:51:13]COMMAND: date
+[2018-7-21 18:51:13]Sat Jul 21 18:51:13 PDT 2018
+
+[2018-7-21 18:51:13]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:13]COMMAND: touch junk.txt
+[2018-7-21 18:51:16]COMMAND: date
+[2018-7-21 18:51:16]Sat Jul 21 18:51:16 PDT 2018
+
+[2018-7-21 18:51:16]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:16]COMMAND: touch junk.txt
+[2018-7-21 18:51:19]COMMAND: date
+[2018-7-21 18:51:19]Sat Jul 21 18:51:19 PDT 2018
+
+[2018-7-21 18:51:19]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:19]COMMAND: touch junk.txt
+[2018-7-21 18:51:22]COMMAND: date
+[2018-7-21 18:51:22]Sat Jul 21 18:51:22 PDT 2018
+
+[2018-7-21 18:51:22]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:22]COMMAND: touch junk.txt
+[2018-7-21 18:51:25]COMMAND: date
+[2018-7-21 18:51:25]Sat Jul 21 18:51:25 PDT 2018
+
+[2018-7-21 18:51:25]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:25]COMMAND: touch junk.txt
+[2018-7-21 18:51:28]COMMAND: date
+[2018-7-21 18:51:28]Sat Jul 21 18:51:28 PDT 2018
+
+[2018-7-21 18:51:28]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:28]COMMAND: touch junk.txt
+[2018-7-21 18:51:31]COMMAND: date
+[2018-7-21 18:51:31]Sat Jul 21 18:51:31 PDT 2018
+
+[2018-7-21 18:51:31]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:31]COMMAND: touch junk.txt
+[2018-7-21 18:51:34]COMMAND: date
+[2018-7-21 18:51:34]Sat Jul 21 18:51:34 PDT 2018
+
+[2018-7-21 18:51:34]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:34]COMMAND: touch junk.txt
+[2018-7-21 18:51:37]COMMAND: date
+[2018-7-21 18:51:37]Sat Jul 21 18:51:37 PDT 2018
+
+[2018-7-21 18:51:37]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:37]COMMAND: touch junk.txt
+[2018-7-21 18:51:40]COMMAND: date
+[2018-7-21 18:51:40]Sat Jul 21 18:51:40 PDT 2018
+
+[2018-7-21 18:51:40]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:40]COMMAND: touch junk.txt
+[2018-7-21 19:7:9]Initialized
+[2018-7-21 19:7:9]Connected to Server @[10.0.0.166:25001]
+[2018-7-21 19:7:12]COMMAND: date
+[2018-7-21 19:7:12]Sat Jul 21 19:07:12 PDT 2018
+
+[2018-7-21 19:7:12]COMMAND: ls -l junk.txt
+[2018-7-21 19:7:12]-rw-r--r--  1 progamut  staff  0 Jul 21 18:51 junk.txt
+
+[2018-7-21 19:7:12]COMMAND: touch junk.txt
+[2018-7-21 19:7:15]COMMAND: date
+[2018-7-21 19:7:15]Sat Jul 21 19:07:15 PDT 2018
+
+[2018-7-21 19:7:15]COMMAND: ls -l junk.txt
+[2018-7-21 19:7:15]COMMAND: touch junk.txt
+[2018-7-21 19:7:18]COMMAND: date
+[2018-7-21 19:7:18]Sat Jul 21 19:07:18 PDT 2018
+
+[2018-7-21 19:7:18]COMMAND: ls -l junk.txt
+[2018-7-21 19:7:18]COMMAND: touch junk.txt
+[2018-7-21 19:7:21]COMMAND: date
+[2018-7-21 19:7:21]Sat Jul 21 19:07:21 PDT 2018
+
+[2018-7-21 19:7:21]COMMAND: ls -l junk.txt
+[2018-7-21 19:7:21]COMMAND: touch junk.txt
+[2018-7-21 19:7:24]COMMAND: date
+[2018-7-21 19:7:24]Sat Jul 21 19:07:24 PDT 2018
+
+[2018-7-21 19:7:24]COMMAND: ls -l junk.txt
+[2018-7-21 19:7:24]COMMAND: touch junk.txt
+[2018-7-21 19:7:27]COMMAND: date
+[2018-7-21 19:7:27]Sat Jul 21 19:07:27 PDT 2018
+
+[2018-7-21 19:7:27]COMMAND: ls -l junk.txt
+[2018-7-21 19:7:27]COMMAND: touch junk.txt
+[2018-7-21 19:7:30]COMMAND: date
+[2018-7-21 19:7:30]Unable to send command to server

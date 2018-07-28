@@ -1,0 +1,1163 @@
+[2018-7-21 17:49:6]Initialized
+[2018-7-21 17:49:6]Connected to Server @[127.0.0.1:25001]
+[2018-7-21 17:49:21]COMMAND: ls -l
+[2018-7-21 17:49:21]total 312
+-rwxr-xr-x  1 progamut  staff  12942 Jul 21 17:49 Client1Log.txt
+-rwxr-xr-x  1 progamut  staff    124 Jul 21 17:49 Client2Log.txt
+-rw-r--r--  1 progamut  staff    361 Jul 21 16:01 Makefile
+-rwxr-xr-x  1 progamut  staff  48541 Jul 21 17:49 ServerLog.txt
+-rwxr-xr-x  1 progamut  staff  14076 Jul 21 17:48 client
+-rw-r--r--  1 progamut  staff   3368 Jul 21 17:48 client.c
+-rw-r--r--  1 progamut  staff    183 Jul 21 16:01 client.h
+-rw-r--r--  1 progamut  staff   4512 Jul 21 17:48 client.o
+-rw-r--r--  1 progamut  staff   1175 Jul 21 15:48 log.c
+-rw-r--r--  1 progamut  staff    159 Jul 21 15:49 log.h
+-rw-r--r--  1 progamut  staff   2636 Jul 21 16:02 log.o
+-rw-r--r--  1 progamut  staff    380 Jul 21 15:00 message.h
+-rwxr-xr-x  1 progamut  staff  14852 Jul 21 17:48 server
+-rw-r--r--  1 progamut  staff   5605 Jul 21 17:48 server.c
+-rw-r--r--  1 progamut  staff    342 Jul 21 16:15 server.h
+-rw-r--r--  1 progamut  staff   7056 Jul 21 17:48 server.o
+
+[2018-7-21 17:49:38]COMMAND: cat server.c
+[2018-7-21 17:49:38]Unable to send command to server
+[2018-7-21 17:52:58]Initialized
+[2018-7-21 17:52:58]Connected to Server @[127.0.0.1:25000]
+[2018-7-21 17:53:15]COMMAND: ls -l
+[2018-7-21 17:53:15]total 320
+-rwxr-xr-x  1 progamut  staff  14643 Jul 21 17:53 Client1Log.txt
+-rwxr-xr-x  1 progamut  staff   1325 Jul 21 17:53 Client2Log.txt
+-rw-r--r--  1 progamut  staff    361 Jul 21 16:01 Makefile
+-rwxr-xr-x  1 progamut  staff  52598 Jul 21 17:53 ServerLog.txt
+-rwxr-xr-x  1 progamut  staff  14076 Jul 21 17:52 client
+-rw-r--r--  1 progamut  staff   3378 Jul 21 17:51 client.c
+-rw-r--r--  1 progamut  staff    183 Jul 21 16:01 client.h
+-rw-r--r--  1 progamut  staff   4480 Jul 21 17:52 client.o
+-rw-r--r--  1 progamut  staff   1175 Jul 21 15:48 log.c
+-rw-r--r--  1 progamut  staff    159 Jul 21 15:49 log.h
+-rw-r--r--  1 progamut  staff   2636 Jul 21 16:02 log.o
+-rw-r--r--  1 progamut  staff    417 Jul 21 17:51 message.h
+-rwxr-xr-x  1 progamut  staff  14852 Jul 21 17:52 server
+-rw-r--r--  1 progamut  staff   5616 Jul 21 17:52 server.c
+-rw-r--r--  1 progamut  staff    342 Jul 21 16:15 server.h
+-rw-r--r--  1 progamut  staff   7056 Jul 21 17:52 server.o
+
+[2018-7-21 17:53:18]COMMAND: ls -l /tmp
+[2018-7-21 17:53:18]lrwxr-xr-x@ 1 root  wheel  11 Nov 14  2017 /tmp -> private/tmp
+
+[2018-7-21 17:53:24]COMMAND: ls -l /tmp/
+[2018-7-21 17:53:24]total 0
+drwx------  3 progamut  wheel  96 Jul 18 05:09 com.apple.launchd.lFokSesu6k
+drwx------  3 progamut  wheel  96 Jul 18 05:09 com.apple.launchd.nIcO60kLjZ
+drwx------  2 root      wheel  64 Jul 18 05:08 cvcd
+drwxr-xr-x  2 root      wheel  64 Jul 18 05:08 powerlog
+
+[2018-7-21 17:53:32]COMMAND: cat client.c
+[2018-7-21 17:53:32]Unable to send command to server
+[2018-7-21 17:55:55]Initialized
+[2018-7-21 17:55:55]Connected to Server @[127.0.0.1:25001]
+[2018-7-21 18:34:40]Initialized
+[2018-7-21 18:34:40]Connected to Server @[127.0.0.1:25001]
+[2018-7-21 18:34:43]COMMAND: date
+[2018-7-21 18:34:43]Sat Jul 21 18:34:43 PDT 2018
+
+[2018-7-21 18:34:43]COMMAND: ls -l junk.txt
+[2018-7-21 18:34:43]-rw-r--r--  1 progamut  staff  0 Jul 21 18:34 junk.txt
+
+[2018-7-21 18:34:43]COMMAND: rm -rf junk.txt
+[2018-7-21 18:34:46]COMMAND: date
+[2018-7-21 18:34:46]Sat Jul 21 18:34:46 PDT 2018
+
+[2018-7-21 18:34:46]COMMAND: ls -l junk.txt
+[2018-7-21 18:34:46]-rw-r--r--  1 progamut  staff  0 Jul 21 18:34 junk.txt
+
+[2018-7-21 18:34:46]COMMAND: rm -rf junk.txt
+[2018-7-21 18:34:49]COMMAND: date
+[2018-7-21 18:34:49]Sat Jul 21 18:34:49 PDT 2018
+
+[2018-7-21 18:34:49]COMMAND: ls -l junk.txt
+[2018-7-21 18:34:49]-rw-r--r--  1 progamut  staff  0 Jul 21 18:34 junk.txt
+
+[2018-7-21 18:34:49]COMMAND: rm -rf junk.txt
+[2018-7-21 18:34:52]COMMAND: date
+[2018-7-21 18:34:52]Sat Jul 21 18:34:52 PDT 2018
+
+[2018-7-21 18:34:52]COMMAND: ls -l junk.txt
+[2018-7-21 18:34:52]-rw-r--r--  1 progamut  staff  0 Jul 21 18:34 junk.txt
+
+[2018-7-21 18:34:52]COMMAND: rm -rf junk.txt
+[2018-7-21 18:34:55]COMMAND: date
+[2018-7-21 18:34:55]Sat Jul 21 18:34:55 PDT 2018
+
+[2018-7-21 18:34:55]COMMAND: ls -l junk.txt
+[2018-7-21 18:34:55]-rw-r--r--  1 progamut  staff  0 Jul 21 18:34 junk.txt
+
+[2018-7-21 18:34:55]COMMAND: rm -rf junk.txt
+[2018-7-21 18:34:58]COMMAND: date
+[2018-7-21 18:34:59]Sat Jul 21 18:34:59 PDT 2018
+
+[2018-7-21 18:34:59]COMMAND: ls -l junk.txt
+[2018-7-21 18:34:59]-rw-r--r--  1 progamut  staff  0 Jul 21 18:34 junk.txt
+
+[2018-7-21 18:34:59]COMMAND: rm -rf junk.txt
+[2018-7-21 18:35:2]COMMAND: date
+[2018-7-21 18:35:2]Sat Jul 21 18:35:02 PDT 2018
+
+[2018-7-21 18:35:2]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:2]-rw-r--r--  1 progamut  staff  0 Jul 21 18:34 junk.txt
+
+[2018-7-21 18:35:2]COMMAND: rm -rf junk.txt
+[2018-7-21 18:35:5]COMMAND: date
+[2018-7-21 18:35:5]Sat Jul 21 18:35:05 PDT 2018
+
+[2018-7-21 18:35:5]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:5]-rw-r--r--  1 progamut  staff  0 Jul 21 18:35 junk.txt
+
+[2018-7-21 18:35:5]COMMAND: rm -rf junk.txt
+[2018-7-21 18:35:8]COMMAND: date
+[2018-7-21 18:35:8]Sat Jul 21 18:35:08 PDT 2018
+
+[2018-7-21 18:35:8]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:8]-rw-r--r--  1 progamut  staff  0 Jul 21 18:35 junk.txt
+
+[2018-7-21 18:35:8]COMMAND: rm -rf junk.txt
+[2018-7-21 18:35:11]COMMAND: date
+[2018-7-21 18:35:11]Sat Jul 21 18:35:11 PDT 2018
+
+[2018-7-21 18:35:11]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:11]-rw-r--r--  1 progamut  staff  0 Jul 21 18:35 junk.txt
+
+[2018-7-21 18:35:11]COMMAND: rm -rf junk.txt
+[2018-7-21 18:35:14]COMMAND: date
+[2018-7-21 18:35:14]Sat Jul 21 18:35:14 PDT 2018
+
+[2018-7-21 18:35:14]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:14]-rw-r--r--  1 progamut  staff  0 Jul 21 18:35 junk.txt
+
+[2018-7-21 18:35:14]COMMAND: rm -rf junk.txt
+[2018-7-21 18:35:17]COMMAND: date
+[2018-7-21 18:35:17]Sat Jul 21 18:35:17 PDT 2018
+
+[2018-7-21 18:35:17]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:17]-rw-r--r--  1 progamut  staff  0 Jul 21 18:35 junk.txt
+
+[2018-7-21 18:35:17]COMMAND: rm -rf junk.txt
+[2018-7-21 18:35:20]COMMAND: date
+[2018-7-21 18:35:20]Sat Jul 21 18:35:20 PDT 2018
+
+[2018-7-21 18:35:20]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:20]-rw-r--r--  1 progamut  staff  0 Jul 21 18:35 junk.txt
+
+[2018-7-21 18:35:20]COMMAND: rm -rf junk.txt
+[2018-7-21 18:35:23]COMMAND: date
+[2018-7-21 18:35:23]Sat Jul 21 18:35:23 PDT 2018
+
+[2018-7-21 18:35:23]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:23]-rw-r--r--  1 progamut  staff  0 Jul 21 18:35 junk.txt
+
+[2018-7-21 18:35:23]COMMAND: rm -rf junk.txt
+[2018-7-21 18:35:26]COMMAND: date
+[2018-7-21 18:35:26]Sat Jul 21 18:35:26 PDT 2018
+
+[2018-7-21 18:35:26]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:26]-rw-r--r--  1 progamut  staff  0 Jul 21 18:35 junk.txt
+
+[2018-7-21 18:35:26]COMMAND: rm -rf junk.txt
+[2018-7-21 18:35:29]COMMAND: date
+[2018-7-21 18:35:29]Sat Jul 21 18:35:29 PDT 2018
+
+[2018-7-21 18:35:29]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:29]-rw-r--r--  1 progamut  staff  0 Jul 21 18:35 junk.txt
+
+[2018-7-21 18:35:29]COMMAND: rm -rf junk.txt
+[2018-7-21 18:35:32]COMMAND: date
+[2018-7-21 18:35:32]Sat Jul 21 18:35:32 PDT 2018
+
+[2018-7-21 18:35:32]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:32]-rw-r--r--  1 progamut  staff  0 Jul 21 18:35 junk.txt
+
+[2018-7-21 18:35:32]COMMAND: rm -rf junk.txt
+[2018-7-21 18:35:35]COMMAND: date
+[2018-7-21 18:35:35]Sat Jul 21 18:35:35 PDT 2018
+
+[2018-7-21 18:35:35]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:35]-rw-r--r--  1 progamut  staff  0 Jul 21 18:35 junk.txt
+
+[2018-7-21 18:35:35]COMMAND: rm -rf junk.txt
+[2018-7-21 18:35:38]COMMAND: date
+[2018-7-21 18:35:38]Sat Jul 21 18:35:38 PDT 2018
+
+[2018-7-21 18:35:38]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:38]-rw-r--r--  1 progamut  staff  0 Jul 21 18:35 junk.txt
+
+[2018-7-21 18:35:38]COMMAND: rm -rf junk.txt
+[2018-7-21 18:35:41]COMMAND: date
+[2018-7-21 18:35:41]Sat Jul 21 18:35:41 PDT 2018
+
+[2018-7-21 18:35:41]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:41]-rw-r--r--  1 progamut  staff  0 Jul 21 18:35 junk.txt
+
+[2018-7-21 18:35:41]COMMAND: rm -rf junk.txt
+[2018-7-21 18:35:44]COMMAND: date
+[2018-7-21 18:35:44]Sat Jul 21 18:35:44 PDT 2018
+
+[2018-7-21 18:35:44]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:44]-rw-r--r--  1 progamut  staff  0 Jul 21 18:35 junk.txt
+
+[2018-7-21 18:35:44]COMMAND: rm -rf junk.txt
+[2018-7-21 18:35:47]COMMAND: date
+[2018-7-21 18:35:47]Sat Jul 21 18:35:47 PDT 2018
+
+[2018-7-21 18:35:47]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:47]-rw-r--r--  1 progamut  staff  0 Jul 21 18:35 junk.txt
+
+[2018-7-21 18:35:47]COMMAND: rm -rf junk.txt
+[2018-7-21 18:35:50]COMMAND: date
+[2018-7-21 18:35:50]Sat Jul 21 18:35:50 PDT 2018
+
+[2018-7-21 18:35:50]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:50]-rw-r--r--  1 progamut  staff  0 Jul 21 18:35 junk.txt
+
+[2018-7-21 18:35:50]COMMAND: rm -rf junk.txt
+[2018-7-21 18:35:53]COMMAND: date
+[2018-7-21 18:35:53]Sat Jul 21 18:35:53 PDT 2018
+
+[2018-7-21 18:35:53]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:53]-rw-r--r--  1 progamut  staff  0 Jul 21 18:35 junk.txt
+
+[2018-7-21 18:35:53]COMMAND: rm -rf junk.txt
+[2018-7-21 18:35:56]COMMAND: date
+[2018-7-21 18:35:56]Sat Jul 21 18:35:56 PDT 2018
+
+[2018-7-21 18:35:56]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:56]-rw-r--r--  1 progamut  staff  0 Jul 21 18:35 junk.txt
+
+[2018-7-21 18:35:56]COMMAND: rm -rf junk.txt
+[2018-7-21 18:35:59]COMMAND: date
+[2018-7-21 18:35:59]Sat Jul 21 18:35:59 PDT 2018
+
+[2018-7-21 18:35:59]COMMAND: ls -l junk.txt
+[2018-7-21 18:35:59]-rw-r--r--  1 progamut  staff  0 Jul 21 18:35 junk.txt
+
+[2018-7-21 18:35:59]COMMAND: rm -rf junk.txt
+[2018-7-21 18:36:2]COMMAND: date
+[2018-7-21 18:36:2]Sat Jul 21 18:36:02 PDT 2018
+
+[2018-7-21 18:36:2]COMMAND: ls -l junk.txt
+[2018-7-21 18:36:2]-rw-r--r--  1 progamut  staff  0 Jul 21 18:35 junk.txt
+
+[2018-7-21 18:36:2]COMMAND: rm -rf junk.txt
+[2018-7-21 18:36:5]COMMAND: date
+[2018-7-21 18:36:5]Sat Jul 21 18:36:05 PDT 2018
+
+[2018-7-21 18:36:5]COMMAND: ls -l junk.txt
+[2018-7-21 18:36:5]-rw-r--r--  1 progamut  staff  0 Jul 21 18:36 junk.txt
+
+[2018-7-21 18:36:5]COMMAND: rm -rf junk.txt
+[2018-7-21 18:36:8]COMMAND: date
+[2018-7-21 18:36:8]Sat Jul 21 18:36:08 PDT 2018
+
+[2018-7-21 18:36:8]COMMAND: ls -l junk.txt
+[2018-7-21 18:36:8]-rw-r--r--  1 progamut  staff  0 Jul 21 18:36 junk.txt
+
+[2018-7-21 18:36:8]COMMAND: rm -rf junk.txt
+[2018-7-21 18:36:11]COMMAND: date
+[2018-7-21 18:36:11]COMMAND: ls -l junk.txt
+[2018-7-21 18:36:11]COMMAND: rm -rf junk.txt
+[2018-7-21 18:36:14]COMMAND: date
+[2018-7-21 18:36:14]COMMAND: ls -l junk.txt
+[2018-7-21 18:36:14]COMMAND: rm -rf junk.txt
+[2018-7-21 18:36:17]COMMAND: date
+[2018-7-21 18:36:17]COMMAND: ls -l junk.txt
+[2018-7-21 18:36:17]COMMAND: rm -rf junk.txt
+[2018-7-21 18:36:20]COMMAND: date
+[2018-7-21 18:36:20]COMMAND: ls -l junk.txt
+[2018-7-21 18:36:20]COMMAND: rm -rf junk.txt
+[2018-7-21 18:36:23]COMMAND: date
+[2018-7-21 18:36:23]COMMAND: ls -l junk.txt
+[2018-7-21 18:36:23]COMMAND: rm -rf junk.txt
+[2018-7-21 18:36:26]COMMAND: date
+[2018-7-21 18:36:26]COMMAND: ls -l junk.txt
+[2018-7-21 18:36:26]COMMAND: rm -rf junk.txt
+[2018-7-21 18:36:29]COMMAND: date
+[2018-7-21 18:36:29]COMMAND: ls -l junk.txt
+[2018-7-21 18:36:29]COMMAND: rm -rf junk.txt
+[2018-7-21 18:36:32]COMMAND: date
+[2018-7-21 18:36:32]COMMAND: ls -l junk.txt
+[2018-7-21 18:36:32]COMMAND: rm -rf junk.txt
+[2018-7-21 18:37:44]Initialized
+[2018-7-21 18:37:44]Connected to Server @[127.0.0.1:25001]
+[2018-7-21 18:37:47]COMMAND: date
+[2018-7-21 18:37:47]Sat Jul 21 18:37:47 PDT 2018
+
+[2018-7-21 18:37:47]COMMAND: ls -l junk.txt
+[2018-7-21 18:37:47]-rw-r--r--  1 progamut  staff  0 Jul 21 18:37 junk.txt
+
+[2018-7-21 18:37:47]COMMAND: rm -rf junk.txt
+[2018-7-21 18:37:50]COMMAND: date
+[2018-7-21 18:37:50]Sat Jul 21 18:37:50 PDT 2018
+
+[2018-7-21 18:37:50]COMMAND: ls -l junk.txt
+[2018-7-21 18:37:50]-rw-r--r--  1 progamut  staff  0 Jul 21 18:37 junk.txt
+
+[2018-7-21 18:37:50]COMMAND: rm -rf junk.txt
+[2018-7-21 18:37:53]COMMAND: date
+[2018-7-21 18:37:53]Sat Jul 21 18:37:53 PDT 2018
+
+[2018-7-21 18:37:53]COMMAND: ls -l junk.txt
+[2018-7-21 18:37:53]-rw-r--r--  1 progamut  staff  0 Jul 21 18:37 junk.txt
+
+[2018-7-21 18:37:53]COMMAND: rm -rf junk.txt
+[2018-7-21 18:37:56]COMMAND: date
+[2018-7-21 18:37:56]Sat Jul 21 18:37:56 PDT 2018
+
+[2018-7-21 18:37:56]COMMAND: ls -l junk.txt
+[2018-7-21 18:37:56]-rw-r--r--  1 progamut  staff  0 Jul 21 18:37 junk.txt
+
+[2018-7-21 18:37:56]COMMAND: rm -rf junk.txt
+[2018-7-21 18:37:59]COMMAND: date
+[2018-7-21 18:37:59]Sat Jul 21 18:37:59 PDT 2018
+
+[2018-7-21 18:37:59]COMMAND: ls -l junk.txt
+[2018-7-21 18:37:59]-rw-r--r--  1 progamut  staff  0 Jul 21 18:37 junk.txt
+
+[2018-7-21 18:37:59]COMMAND: rm -rf junk.txt
+[2018-7-21 18:38:2]COMMAND: date
+[2018-7-21 18:38:2]Sat Jul 21 18:38:02 PDT 2018
+
+[2018-7-21 18:38:2]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:2]-rw-r--r--  1 progamut  staff  0 Jul 21 18:38 junk.txt
+
+[2018-7-21 18:38:2]COMMAND: rm -rf junk.txt
+[2018-7-21 18:38:5]COMMAND: date
+[2018-7-21 18:38:5]Sat Jul 21 18:38:05 PDT 2018
+
+[2018-7-21 18:38:5]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:5]-rw-r--r--  1 progamut  staff  0 Jul 21 18:38 junk.txt
+
+[2018-7-21 18:38:5]COMMAND: rm -rf junk.txt
+[2018-7-21 18:38:8]COMMAND: date
+[2018-7-21 18:38:8]Sat Jul 21 18:38:08 PDT 2018
+
+[2018-7-21 18:38:8]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:8]-rw-r--r--  1 progamut  staff  0 Jul 21 18:38 junk.txt
+
+[2018-7-21 18:38:8]COMMAND: rm -rf junk.txt
+[2018-7-21 18:38:11]COMMAND: date
+[2018-7-21 18:38:11]Sat Jul 21 18:38:11 PDT 2018
+
+[2018-7-21 18:38:11]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:11]-rw-r--r--  1 progamut  staff  0 Jul 21 18:38 junk.txt
+
+[2018-7-21 18:38:11]COMMAND: rm -rf junk.txt
+[2018-7-21 18:38:14]COMMAND: date
+[2018-7-21 18:38:14]Sat Jul 21 18:38:14 PDT 2018
+
+[2018-7-21 18:38:14]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:14]-rw-r--r--  1 progamut  staff  0 Jul 21 18:38 junk.txt
+
+[2018-7-21 18:38:14]COMMAND: rm -rf junk.txt
+[2018-7-21 18:38:17]COMMAND: date
+[2018-7-21 18:38:17]Sat Jul 21 18:38:17 PDT 2018
+
+[2018-7-21 18:38:17]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:17]-rw-r--r--  1 progamut  staff  0 Jul 21 18:38 junk.txt
+
+[2018-7-21 18:38:17]COMMAND: rm -rf junk.txt
+[2018-7-21 18:38:20]COMMAND: date
+[2018-7-21 18:38:20]Sat Jul 21 18:38:20 PDT 2018
+
+[2018-7-21 18:38:20]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:20]-rw-r--r--  1 progamut  staff  0 Jul 21 18:38 junk.txt
+
+[2018-7-21 18:38:20]COMMAND: rm -rf junk.txt
+[2018-7-21 18:38:23]COMMAND: date
+[2018-7-21 18:38:23]Sat Jul 21 18:38:23 PDT 2018
+
+[2018-7-21 18:38:23]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:23]-rw-r--r--  1 progamut  staff  0 Jul 21 18:38 junk.txt
+
+[2018-7-21 18:38:23]COMMAND: rm -rf junk.txt
+[2018-7-21 18:38:26]COMMAND: date
+[2018-7-21 18:38:26]Sat Jul 21 18:38:26 PDT 2018
+
+[2018-7-21 18:38:26]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:26]-rw-r--r--  1 progamut  staff  0 Jul 21 18:38 junk.txt
+
+[2018-7-21 18:38:26]COMMAND: rm -rf junk.txt
+[2018-7-21 18:38:29]COMMAND: date
+[2018-7-21 18:38:29]Sat Jul 21 18:38:29 PDT 2018
+
+[2018-7-21 18:38:29]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:29]-rw-r--r--  1 progamut  staff  0 Jul 21 18:38 junk.txt
+
+[2018-7-21 18:38:29]COMMAND: rm -rf junk.txt
+[2018-7-21 18:38:32]COMMAND: date
+[2018-7-21 18:38:32]Sat Jul 21 18:38:32 PDT 2018
+
+[2018-7-21 18:38:32]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:32]-rw-r--r--  1 progamut  staff  0 Jul 21 18:38 junk.txt
+
+[2018-7-21 18:38:32]COMMAND: rm -rf junk.txt
+[2018-7-21 18:38:35]COMMAND: date
+[2018-7-21 18:38:35]Sat Jul 21 18:38:35 PDT 2018
+
+[2018-7-21 18:38:35]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:35]-rw-r--r--  1 progamut  staff  0 Jul 21 18:38 junk.txt
+
+[2018-7-21 18:38:35]COMMAND: rm -rf junk.txt
+[2018-7-21 18:38:38]COMMAND: date
+[2018-7-21 18:38:38]Sat Jul 21 18:38:38 PDT 2018
+
+[2018-7-21 18:38:38]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:38]-rw-r--r--  1 progamut  staff  0 Jul 21 18:38 junk.txt
+
+[2018-7-21 18:38:38]COMMAND: rm -rf junk.txt
+[2018-7-21 18:38:41]COMMAND: date
+[2018-7-21 18:38:41]Sat Jul 21 18:38:41 PDT 2018
+
+[2018-7-21 18:38:41]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:41]-rw-r--r--  1 progamut  staff  0 Jul 21 18:38 junk.txt
+
+[2018-7-21 18:38:41]COMMAND: rm -rf junk.txt
+[2018-7-21 18:38:44]COMMAND: date
+[2018-7-21 18:38:44]Sat Jul 21 18:38:44 PDT 2018
+
+[2018-7-21 18:38:44]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:44]-rw-r--r--  1 progamut  staff  0 Jul 21 18:38 junk.txt
+
+[2018-7-21 18:38:44]COMMAND: rm -rf junk.txt
+[2018-7-21 18:38:47]COMMAND: date
+[2018-7-21 18:38:47]Sat Jul 21 18:38:47 PDT 2018
+
+[2018-7-21 18:38:47]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:47]-rw-r--r--  1 progamut  staff  0 Jul 21 18:38 junk.txt
+
+[2018-7-21 18:38:47]COMMAND: rm -rf junk.txt
+[2018-7-21 18:38:50]COMMAND: date
+[2018-7-21 18:38:50]Sat Jul 21 18:38:50 PDT 2018
+
+[2018-7-21 18:38:50]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:50]-rw-r--r--  1 progamut  staff  0 Jul 21 18:38 junk.txt
+
+[2018-7-21 18:38:50]COMMAND: rm -rf junk.txt
+[2018-7-21 18:38:53]COMMAND: date
+[2018-7-21 18:38:53]Sat Jul 21 18:38:53 PDT 2018
+
+[2018-7-21 18:38:53]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:53]-rw-r--r--  1 progamut  staff  0 Jul 21 18:38 junk.txt
+
+[2018-7-21 18:38:53]COMMAND: rm -rf junk.txt
+[2018-7-21 18:38:56]COMMAND: date
+[2018-7-21 18:38:56]Sat Jul 21 18:38:56 PDT 2018
+
+[2018-7-21 18:38:56]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:56]-rw-r--r--  1 progamut  staff  0 Jul 21 18:38 junk.txt
+
+[2018-7-21 18:38:56]COMMAND: rm -rf junk.txt
+[2018-7-21 18:38:59]COMMAND: date
+[2018-7-21 18:38:59]Sat Jul 21 18:38:59 PDT 2018
+
+[2018-7-21 18:38:59]COMMAND: ls -l junk.txt
+[2018-7-21 18:38:59]-rw-r--r--  1 progamut  staff  0 Jul 21 18:38 junk.txt
+
+[2018-7-21 18:38:59]COMMAND: rm -rf junk.txt
+[2018-7-21 18:39:2]COMMAND: date
+[2018-7-21 18:39:2]Sat Jul 21 18:39:02 PDT 2018
+
+[2018-7-21 18:39:2]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:2]-rw-r--r--  1 progamut  staff  0 Jul 21 18:39 junk.txt
+
+[2018-7-21 18:39:2]COMMAND: rm -rf junk.txt
+[2018-7-21 18:39:5]COMMAND: date
+[2018-7-21 18:39:5]Sat Jul 21 18:39:05 PDT 2018
+
+[2018-7-21 18:39:5]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:5]-rw-r--r--  1 progamut  staff  0 Jul 21 18:39 junk.txt
+
+[2018-7-21 18:39:5]COMMAND: rm -rf junk.txt
+[2018-7-21 18:39:8]COMMAND: date
+[2018-7-21 18:39:8]Sat Jul 21 18:39:08 PDT 2018
+
+[2018-7-21 18:39:8]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:8]-rw-r--r--  1 progamut  staff  0 Jul 21 18:39 junk.txt
+
+[2018-7-21 18:39:8]COMMAND: rm -rf junk.txt
+[2018-7-21 18:39:11]COMMAND: date
+[2018-7-21 18:39:11]Sat Jul 21 18:39:11 PDT 2018
+
+[2018-7-21 18:39:11]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:11]-rw-r--r--  1 progamut  staff  0 Jul 21 18:39 junk.txt
+
+[2018-7-21 18:39:11]COMMAND: rm -rf junk.txt
+[2018-7-21 18:39:14]COMMAND: date
+[2018-7-21 18:39:14]Sat Jul 21 18:39:14 PDT 2018
+
+[2018-7-21 18:39:14]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:14]-rw-r--r--  1 progamut  staff  0 Jul 21 18:39 junk.txt
+
+[2018-7-21 18:39:14]COMMAND: rm -rf junk.txt
+[2018-7-21 18:39:17]COMMAND: date
+[2018-7-21 18:39:17]Sat Jul 21 18:39:17 PDT 2018
+
+[2018-7-21 18:39:17]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:17]-rw-r--r--  1 progamut  staff  0 Jul 21 18:39 junk.txt
+
+[2018-7-21 18:39:17]COMMAND: rm -rf junk.txt
+[2018-7-21 18:39:20]COMMAND: date
+[2018-7-21 18:39:20]Sat Jul 21 18:39:20 PDT 2018
+
+[2018-7-21 18:39:20]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:20]-rw-r--r--  1 progamut  staff  0 Jul 21 18:39 junk.txt
+
+[2018-7-21 18:39:20]COMMAND: rm -rf junk.txt
+[2018-7-21 18:39:23]COMMAND: date
+[2018-7-21 18:39:23]Sat Jul 21 18:39:23 PDT 2018
+
+[2018-7-21 18:39:23]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:23]-rw-r--r--  1 progamut  staff  0 Jul 21 18:39 junk.txt
+
+[2018-7-21 18:39:23]COMMAND: rm -rf junk.txt
+[2018-7-21 18:39:26]COMMAND: date
+[2018-7-21 18:39:26]Sat Jul 21 18:39:26 PDT 2018
+
+[2018-7-21 18:39:26]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:26]-rw-r--r--  1 progamut  staff  0 Jul 21 18:39 junk.txt
+
+[2018-7-21 18:39:26]COMMAND: rm -rf junk.txt
+[2018-7-21 18:39:29]COMMAND: date
+[2018-7-21 18:39:29]Sat Jul 21 18:39:29 PDT 2018
+
+[2018-7-21 18:39:29]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:30]-rw-r--r--  1 progamut  staff  0 Jul 21 18:39 junk.txt
+
+[2018-7-21 18:39:30]COMMAND: rm -rf junk.txt
+[2018-7-21 18:39:33]COMMAND: date
+[2018-7-21 18:39:33]Sat Jul 21 18:39:33 PDT 2018
+
+[2018-7-21 18:39:33]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:33]-rw-r--r--  1 progamut  staff  0 Jul 21 18:39 junk.txt
+
+[2018-7-21 18:39:33]COMMAND: rm -rf junk.txt
+[2018-7-21 18:39:36]COMMAND: date
+[2018-7-21 18:39:36]Sat Jul 21 18:39:36 PDT 2018
+
+[2018-7-21 18:39:36]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:36]-rw-r--r--  1 progamut  staff  0 Jul 21 18:39 junk.txt
+
+[2018-7-21 18:39:36]COMMAND: rm -rf junk.txt
+[2018-7-21 18:39:39]COMMAND: date
+[2018-7-21 18:39:39]Sat Jul 21 18:39:39 PDT 2018
+
+[2018-7-21 18:39:39]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:39]-rw-r--r--  1 progamut  staff  0 Jul 21 18:39 junk.txt
+
+[2018-7-21 18:39:39]COMMAND: rm -rf junk.txt
+[2018-7-21 18:39:42]COMMAND: date
+[2018-7-21 18:39:42]Sat Jul 21 18:39:42 PDT 2018
+
+[2018-7-21 18:39:42]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:42]-rw-r--r--  1 progamut  staff  0 Jul 21 18:39 junk.txt
+
+[2018-7-21 18:39:42]COMMAND: rm -rf junk.txt
+[2018-7-21 18:39:45]COMMAND: date
+[2018-7-21 18:39:45]Sat Jul 21 18:39:45 PDT 2018
+
+[2018-7-21 18:39:45]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:45]-rw-r--r--  1 progamut  staff  0 Jul 21 18:39 junk.txt
+
+[2018-7-21 18:39:45]COMMAND: rm -rf junk.txt
+[2018-7-21 18:39:48]COMMAND: date
+[2018-7-21 18:39:48]Sat Jul 21 18:39:48 PDT 2018
+
+[2018-7-21 18:39:48]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:48]-rw-r--r--  1 progamut  staff  0 Jul 21 18:39 junk.txt
+
+[2018-7-21 18:39:48]COMMAND: rm -rf junk.txt
+[2018-7-21 18:39:51]COMMAND: date
+[2018-7-21 18:39:51]Sat Jul 21 18:39:51 PDT 2018
+
+[2018-7-21 18:39:51]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:51]-rw-r--r--  1 progamut  staff  0 Jul 21 18:39 junk.txt
+
+[2018-7-21 18:39:51]COMMAND: rm -rf junk.txt
+[2018-7-21 18:39:54]COMMAND: date
+[2018-7-21 18:39:54]Sat Jul 21 18:39:54 PDT 2018
+
+[2018-7-21 18:39:54]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:54]-rw-r--r--  1 progamut  staff  0 Jul 21 18:39 junk.txt
+
+[2018-7-21 18:39:54]COMMAND: rm -rf junk.txt
+[2018-7-21 18:39:57]COMMAND: date
+[2018-7-21 18:39:57]Sat Jul 21 18:39:57 PDT 2018
+
+[2018-7-21 18:39:57]COMMAND: ls -l junk.txt
+[2018-7-21 18:39:57]-rw-r--r--  1 progamut  staff  0 Jul 21 18:39 junk.txt
+
+[2018-7-21 18:39:57]COMMAND: rm -rf junk.txt
+[2018-7-21 18:40:0]COMMAND: date
+[2018-7-21 18:40:0]Sat Jul 21 18:40:00 PDT 2018
+
+[2018-7-21 18:40:0]COMMAND: ls -l junk.txt
+[2018-7-21 18:40:0]-rw-r--r--  1 progamut  staff  0 Jul 21 18:39 junk.txt
+
+[2018-7-21 18:40:0]COMMAND: rm -rf junk.txt
+[2018-7-21 18:40:3]COMMAND: date
+[2018-7-21 18:40:3]Sat Jul 21 18:40:03 PDT 2018
+
+[2018-7-21 18:40:3]COMMAND: ls -l junk.txt
+[2018-7-21 18:40:3]-rw-r--r--  1 progamut  staff  0 Jul 21 18:40 junk.txt
+
+[2018-7-21 18:40:3]COMMAND: rm -rf junk.txt
+[2018-7-21 18:40:6]COMMAND: date
+[2018-7-21 18:40:6]Sat Jul 21 18:40:06 PDT 2018
+
+[2018-7-21 18:40:6]COMMAND: ls -l junk.txt
+[2018-7-21 18:40:6]-rw-r--r--  1 progamut  staff  0 Jul 21 18:40 junk.txt
+
+[2018-7-21 18:40:6]COMMAND: rm -rf junk.txt
+[2018-7-21 18:40:9]COMMAND: date
+[2018-7-21 18:40:9]Sat Jul 21 18:40:09 PDT 2018
+
+[2018-7-21 18:40:9]COMMAND: ls -l junk.txt
+[2018-7-21 18:40:9]-rw-r--r--  1 progamut  staff  0 Jul 21 18:40 junk.txt
+
+[2018-7-21 18:40:9]COMMAND: rm -rf junk.txt
+[2018-7-21 18:40:12]COMMAND: date
+[2018-7-21 18:40:12]Sat Jul 21 18:40:12 PDT 2018
+
+[2018-7-21 18:40:12]COMMAND: ls -l junk.txt
+[2018-7-21 18:40:12]-rw-r--r--  1 progamut  staff  0 Jul 21 18:40 junk.txt
+
+[2018-7-21 18:40:12]COMMAND: rm -rf junk.txt
+[2018-7-21 18:40:15]COMMAND: date
+[2018-7-21 18:40:15]Sat Jul 21 18:40:15 PDT 2018
+
+[2018-7-21 18:40:15]COMMAND: ls -l junk.txt
+[2018-7-21 18:40:15]-rw-r--r--  1 progamut  staff  0 Jul 21 18:40 junk.txt
+
+[2018-7-21 18:40:15]COMMAND: rm -rf junk.txt
+[2018-7-21 18:40:18]COMMAND: date
+[2018-7-21 18:40:18]Sat Jul 21 18:40:18 PDT 2018
+
+[2018-7-21 18:40:18]COMMAND: ls -l junk.txt
+[2018-7-21 18:40:18]-rw-r--r--  1 progamut  staff  0 Jul 21 18:40 junk.txt
+
+[2018-7-21 18:40:18]COMMAND: rm -rf junk.txt
+[2018-7-21 18:40:21]COMMAND: date
+[2018-7-21 18:40:21]Sat Jul 21 18:40:21 PDT 2018
+
+[2018-7-21 18:40:21]COMMAND: ls -l junk.txt
+[2018-7-21 18:40:21]-rw-r--r--  1 progamut  staff  0 Jul 21 18:40 junk.txt
+
+[2018-7-21 18:40:21]COMMAND: rm -rf junk.txt
+[2018-7-21 18:40:24]COMMAND: date
+[2018-7-21 18:40:24]Sat Jul 21 18:40:24 PDT 2018
+
+[2018-7-21 18:40:24]COMMAND: ls -l junk.txt
+[2018-7-21 18:40:24]-rw-r--r--  1 progamut  staff  0 Jul 21 18:40 junk.txt
+
+[2018-7-21 18:40:24]COMMAND: rm -rf junk.txt
+[2018-7-21 18:40:27]COMMAND: date
+[2018-7-21 18:40:27]Unable to send command to server
+[2018-7-21 18:50:26]Initialized
+[2018-7-21 18:50:26]Connected to Server @[127.0.0.1:25001]
+[2018-7-21 18:50:27]COMMAND: date
+[2018-7-21 18:50:27]Sat Jul 21 18:50:27 PDT 2018
+
+[2018-7-21 18:50:27]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:27]-rw-r--r--  1 progamut  staff  0 Jul 21 18:50 junk.txt
+
+[2018-7-21 18:50:27]COMMAND: rm -rf junk.txt
+[2018-7-21 18:50:28]COMMAND: date
+[2018-7-21 18:50:28]Sat Jul 21 18:50:28 PDT 2018
+
+[2018-7-21 18:50:28]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:28]-rw-r--r--  1 progamut  staff  0 Jul 21 18:50 junk.txt
+
+[2018-7-21 18:50:28]COMMAND: rm -rf junk.txt
+[2018-7-21 18:50:29]COMMAND: date
+[2018-7-21 18:50:29]Sat Jul 21 18:50:29 PDT 2018
+
+[2018-7-21 18:50:29]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:29]COMMAND: rm -rf junk.txt
+[2018-7-21 18:50:30]COMMAND: date
+[2018-7-21 18:50:30]Sat Jul 21 18:50:30 PDT 2018
+
+[2018-7-21 18:50:30]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:30]COMMAND: rm -rf junk.txt
+[2018-7-21 18:50:31]COMMAND: date
+[2018-7-21 18:50:31]Sat Jul 21 18:50:31 PDT 2018
+
+[2018-7-21 18:50:31]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:31]-rw-r--r--  1 progamut  staff  0 Jul 21 18:50 junk.txt
+
+[2018-7-21 18:50:31]COMMAND: rm -rf junk.txt
+[2018-7-21 18:50:32]COMMAND: date
+[2018-7-21 18:50:32]Sat Jul 21 18:50:32 PDT 2018
+
+[2018-7-21 18:50:32]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:32]COMMAND: rm -rf junk.txt
+[2018-7-21 18:50:33]COMMAND: date
+[2018-7-21 18:50:33]Sat Jul 21 18:50:33 PDT 2018
+
+[2018-7-21 18:50:33]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:33]COMMAND: rm -rf junk.txt
+[2018-7-21 18:50:34]COMMAND: date
+[2018-7-21 18:50:34]Sat Jul 21 18:50:34 PDT 2018
+
+[2018-7-21 18:50:34]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:34]-rw-r--r--  1 progamut  staff  0 Jul 21 18:50 junk.txt
+
+[2018-7-21 18:50:34]COMMAND: rm -rf junk.txt
+[2018-7-21 18:50:35]COMMAND: date
+[2018-7-21 18:50:35]Sat Jul 21 18:50:35 PDT 2018
+
+[2018-7-21 18:50:35]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:35]COMMAND: rm -rf junk.txt
+[2018-7-21 18:50:36]COMMAND: date
+[2018-7-21 18:50:36]Sat Jul 21 18:50:36 PDT 2018
+
+[2018-7-21 18:50:36]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:36]COMMAND: rm -rf junk.txt
+[2018-7-21 18:50:37]COMMAND: date
+[2018-7-21 18:50:37]Sat Jul 21 18:50:37 PDT 2018
+
+[2018-7-21 18:50:37]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:37]-rw-r--r--  1 progamut  staff  0 Jul 21 18:50 junk.txt
+
+[2018-7-21 18:50:37]COMMAND: rm -rf junk.txt
+[2018-7-21 18:50:38]COMMAND: date
+[2018-7-21 18:50:38]Sat Jul 21 18:50:38 PDT 2018
+
+[2018-7-21 18:50:38]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:38]COMMAND: rm -rf junk.txt
+[2018-7-21 18:50:39]COMMAND: date
+[2018-7-21 18:50:39]Sat Jul 21 18:50:39 PDT 2018
+
+[2018-7-21 18:50:39]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:39]COMMAND: rm -rf junk.txt
+[2018-7-21 18:50:40]COMMAND: date
+[2018-7-21 18:50:40]Sat Jul 21 18:50:40 PDT 2018
+
+[2018-7-21 18:50:40]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:40]-rw-r--r--  1 progamut  staff  0 Jul 21 18:50 junk.txt
+
+[2018-7-21 18:50:40]COMMAND: rm -rf junk.txt
+[2018-7-21 18:50:41]COMMAND: date
+[2018-7-21 18:50:41]Sat Jul 21 18:50:41 PDT 2018
+
+[2018-7-21 18:50:41]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:41]COMMAND: rm -rf junk.txt
+[2018-7-21 18:50:42]COMMAND: date
+[2018-7-21 18:50:42]Sat Jul 21 18:50:42 PDT 2018
+
+[2018-7-21 18:50:42]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:42]COMMAND: rm -rf junk.txt
+[2018-7-21 18:50:43]COMMAND: date
+[2018-7-21 18:50:43]Sat Jul 21 18:50:43 PDT 2018
+
+[2018-7-21 18:50:43]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:43]-rw-r--r--  1 progamut  staff  0 Jul 21 18:50 junk.txt
+
+[2018-7-21 18:50:43]COMMAND: rm -rf junk.txt
+[2018-7-21 18:50:44]COMMAND: date
+[2018-7-21 18:50:44]Sat Jul 21 18:50:44 PDT 2018
+
+[2018-7-21 18:50:44]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:44]COMMAND: rm -rf junk.txt
+[2018-7-21 18:50:45]COMMAND: date
+[2018-7-21 18:50:45]Sat Jul 21 18:50:45 PDT 2018
+
+[2018-7-21 18:50:45]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:45]COMMAND: rm -rf junk.txt
+[2018-7-21 18:50:46]COMMAND: date
+[2018-7-21 18:50:46]Sat Jul 21 18:50:46 PDT 2018
+
+[2018-7-21 18:50:46]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:46]-rw-r--r--  1 progamut  staff  0 Jul 21 18:50 junk.txt
+
+[2018-7-21 18:50:46]COMMAND: rm -rf junk.txt
+[2018-7-21 18:50:47]COMMAND: date
+[2018-7-21 18:50:47]Sat Jul 21 18:50:47 PDT 2018
+
+[2018-7-21 18:50:47]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:47]COMMAND: rm -rf junk.txt
+[2018-7-21 18:50:48]COMMAND: date
+[2018-7-21 18:50:48]Sat Jul 21 18:50:48 PDT 2018
+
+[2018-7-21 18:50:48]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:48]COMMAND: rm -rf junk.txt
+[2018-7-21 18:50:49]COMMAND: date
+[2018-7-21 18:50:49]Sat Jul 21 18:50:49 PDT 2018
+
+[2018-7-21 18:50:49]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:49]-rw-r--r--  1 progamut  staff  0 Jul 21 18:50 junk.txt
+
+[2018-7-21 18:50:49]COMMAND: rm -rf junk.txt
+[2018-7-21 18:50:51]COMMAND: date
+[2018-7-21 18:50:51]Sat Jul 21 18:50:51 PDT 2018
+
+[2018-7-21 18:50:51]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:51]COMMAND: rm -rf junk.txt
+[2018-7-21 18:50:52]COMMAND: date
+[2018-7-21 18:50:52]Sat Jul 21 18:50:52 PDT 2018
+
+[2018-7-21 18:50:52]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:52]COMMAND: rm -rf junk.txt
+[2018-7-21 18:50:53]COMMAND: date
+[2018-7-21 18:50:53]Sat Jul 21 18:50:53 PDT 2018
+
+[2018-7-21 18:50:53]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:53]-rw-r--r--  1 progamut  staff  0 Jul 21 18:50 junk.txt
+
+[2018-7-21 18:50:53]COMMAND: rm -rf junk.txt
+[2018-7-21 18:50:54]COMMAND: date
+[2018-7-21 18:50:54]Sat Jul 21 18:50:54 PDT 2018
+
+[2018-7-21 18:50:54]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:54]COMMAND: rm -rf junk.txt
+[2018-7-21 18:50:55]COMMAND: date
+[2018-7-21 18:50:55]Sat Jul 21 18:50:55 PDT 2018
+
+[2018-7-21 18:50:55]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:55]COMMAND: rm -rf junk.txt
+[2018-7-21 18:50:56]COMMAND: date
+[2018-7-21 18:50:56]Sat Jul 21 18:50:56 PDT 2018
+
+[2018-7-21 18:50:56]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:56]-rw-r--r--  1 progamut  staff  0 Jul 21 18:50 junk.txt
+
+[2018-7-21 18:50:56]COMMAND: rm -rf junk.txt
+[2018-7-21 18:50:57]COMMAND: date
+[2018-7-21 18:50:57]Sat Jul 21 18:50:57 PDT 2018
+
+[2018-7-21 18:50:57]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:57]COMMAND: rm -rf junk.txt
+[2018-7-21 18:50:58]COMMAND: date
+[2018-7-21 18:50:58]Sat Jul 21 18:50:58 PDT 2018
+
+[2018-7-21 18:50:58]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:58]COMMAND: rm -rf junk.txt
+[2018-7-21 18:50:59]COMMAND: date
+[2018-7-21 18:50:59]Sat Jul 21 18:50:59 PDT 2018
+
+[2018-7-21 18:50:59]COMMAND: ls -l junk.txt
+[2018-7-21 18:50:59]-rw-r--r--  1 progamut  staff  0 Jul 21 18:50 junk.txt
+
+[2018-7-21 18:50:59]COMMAND: rm -rf junk.txt
+[2018-7-21 18:51:0]COMMAND: date
+[2018-7-21 18:51:0]Sat Jul 21 18:51:00 PDT 2018
+
+[2018-7-21 18:51:0]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:0]COMMAND: rm -rf junk.txt
+[2018-7-21 18:51:1]COMMAND: date
+[2018-7-21 18:51:1]Sat Jul 21 18:51:01 PDT 2018
+
+[2018-7-21 18:51:1]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:1]COMMAND: rm -rf junk.txt
+[2018-7-21 18:51:2]COMMAND: date
+[2018-7-21 18:51:2]Sat Jul 21 18:51:02 PDT 2018
+
+[2018-7-21 18:51:2]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:2]-rw-r--r--  1 progamut  staff  0 Jul 21 18:51 junk.txt
+
+[2018-7-21 18:51:2]COMMAND: rm -rf junk.txt
+[2018-7-21 18:51:3]COMMAND: date
+[2018-7-21 18:51:3]Sat Jul 21 18:51:03 PDT 2018
+
+[2018-7-21 18:51:3]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:3]COMMAND: rm -rf junk.txt
+[2018-7-21 18:51:4]COMMAND: date
+[2018-7-21 18:51:4]Sat Jul 21 18:51:04 PDT 2018
+
+[2018-7-21 18:51:4]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:4]COMMAND: rm -rf junk.txt
+[2018-7-21 18:51:5]COMMAND: date
+[2018-7-21 18:51:5]Sat Jul 21 18:51:05 PDT 2018
+
+[2018-7-21 18:51:5]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:5]-rw-r--r--  1 progamut  staff  0 Jul 21 18:51 junk.txt
+
+[2018-7-21 18:51:5]COMMAND: rm -rf junk.txt
+[2018-7-21 18:51:6]COMMAND: date
+[2018-7-21 18:51:6]Sat Jul 21 18:51:06 PDT 2018
+
+[2018-7-21 18:51:6]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:6]COMMAND: rm -rf junk.txt
+[2018-7-21 18:51:7]COMMAND: date
+[2018-7-21 18:51:7]Sat Jul 21 18:51:07 PDT 2018
+
+[2018-7-21 18:51:7]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:7]COMMAND: rm -rf junk.txt
+[2018-7-21 18:51:8]COMMAND: date
+[2018-7-21 18:51:8]Sat Jul 21 18:51:08 PDT 2018
+
+[2018-7-21 18:51:8]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:8]-rw-r--r--  1 progamut  staff  0 Jul 21 18:51 junk.txt
+
+[2018-7-21 18:51:8]COMMAND: rm -rf junk.txt
+[2018-7-21 18:51:9]COMMAND: date
+[2018-7-21 18:51:9]Sat Jul 21 18:51:09 PDT 2018
+
+[2018-7-21 18:51:9]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:9]COMMAND: rm -rf junk.txt
+[2018-7-21 18:51:10]COMMAND: date
+[2018-7-21 18:51:10]Sat Jul 21 18:51:10 PDT 2018
+
+[2018-7-21 18:51:10]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:10]COMMAND: rm -rf junk.txt
+[2018-7-21 18:51:11]COMMAND: date
+[2018-7-21 18:51:11]Sat Jul 21 18:51:11 PDT 2018
+
+[2018-7-21 18:51:11]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:11]-rw-r--r--  1 progamut  staff  0 Jul 21 18:51 junk.txt
+
+[2018-7-21 18:51:11]COMMAND: rm -rf junk.txt
+[2018-7-21 18:51:12]COMMAND: date
+[2018-7-21 18:51:12]Sat Jul 21 18:51:12 PDT 2018
+
+[2018-7-21 18:51:12]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:12]COMMAND: rm -rf junk.txt
+[2018-7-21 18:51:13]COMMAND: date
+[2018-7-21 18:51:13]Sat Jul 21 18:51:13 PDT 2018
+
+[2018-7-21 18:51:13]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:13]COMMAND: rm -rf junk.txt
+[2018-7-21 18:51:14]COMMAND: date
+[2018-7-21 18:51:14]Sat Jul 21 18:51:14 PDT 2018
+
+[2018-7-21 18:51:14]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:14]-rw-r--r--  1 progamut  staff  0 Jul 21 18:51 junk.txt
+
+[2018-7-21 18:51:14]COMMAND: rm -rf junk.txt
+[2018-7-21 18:51:15]COMMAND: date
+[2018-7-21 18:51:15]Sat Jul 21 18:51:15 PDT 2018
+
+[2018-7-21 18:51:15]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:15]COMMAND: rm -rf junk.txt
+[2018-7-21 18:51:16]COMMAND: date
+[2018-7-21 18:51:16]Sat Jul 21 18:51:16 PDT 2018
+
+[2018-7-21 18:51:16]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:16]COMMAND: rm -rf junk.txt
+[2018-7-21 18:51:17]COMMAND: date
+[2018-7-21 18:51:17]Sat Jul 21 18:51:17 PDT 2018
+
+[2018-7-21 18:51:17]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:17]-rw-r--r--  1 progamut  staff  0 Jul 21 18:51 junk.txt
+
+[2018-7-21 18:51:17]COMMAND: rm -rf junk.txt
+[2018-7-21 18:51:18]COMMAND: date
+[2018-7-21 18:51:18]Sat Jul 21 18:51:18 PDT 2018
+
+[2018-7-21 18:51:18]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:18]COMMAND: rm -rf junk.txt
+[2018-7-21 18:51:19]COMMAND: date
+[2018-7-21 18:51:19]Sat Jul 21 18:51:19 PDT 2018
+
+[2018-7-21 18:51:19]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:19]COMMAND: rm -rf junk.txt
+[2018-7-21 18:51:20]COMMAND: date
+[2018-7-21 18:51:20]Sat Jul 21 18:51:20 PDT 2018
+
+[2018-7-21 18:51:20]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:20]-rw-r--r--  1 progamut  staff  0 Jul 21 18:51 junk.txt
+
+[2018-7-21 18:51:20]COMMAND: rm -rf junk.txt
+[2018-7-21 18:51:21]COMMAND: date
+[2018-7-21 18:51:21]Sat Jul 21 18:51:21 PDT 2018
+
+[2018-7-21 18:51:21]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:21]COMMAND: rm -rf junk.txt
+[2018-7-21 18:51:22]COMMAND: date
+[2018-7-21 18:51:22]Sat Jul 21 18:51:22 PDT 2018
+
+[2018-7-21 18:51:22]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:22]COMMAND: rm -rf junk.txt
+[2018-7-21 18:51:23]COMMAND: date
+[2018-7-21 18:51:23]Sat Jul 21 18:51:23 PDT 2018
+
+[2018-7-21 18:51:23]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:23]-rw-r--r--  1 progamut  staff  0 Jul 21 18:51 junk.txt
+
+[2018-7-21 18:51:23]COMMAND: rm -rf junk.txt
+[2018-7-21 18:51:24]COMMAND: date
+[2018-7-21 18:51:24]Sat Jul 21 18:51:24 PDT 2018
+
+[2018-7-21 18:51:24]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:24]COMMAND: rm -rf junk.txt
+[2018-7-21 18:51:25]COMMAND: date
+[2018-7-21 18:51:25]Sat Jul 21 18:51:25 PDT 2018
+
+[2018-7-21 18:51:25]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:25]COMMAND: rm -rf junk.txt
+[2018-7-21 18:51:26]COMMAND: date
+[2018-7-21 18:51:26]Sat Jul 21 18:51:26 PDT 2018
+
+[2018-7-21 18:51:26]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:26]-rw-r--r--  1 progamut  staff  0 Jul 21 18:51 junk.txt
+
+[2018-7-21 18:51:26]COMMAND: rm -rf junk.txt
+[2018-7-21 18:51:27]COMMAND: date
+[2018-7-21 18:51:27]Sat Jul 21 18:51:27 PDT 2018
+
+[2018-7-21 18:51:27]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:27]COMMAND: rm -rf junk.txt
+[2018-7-21 18:51:28]COMMAND: date
+[2018-7-21 18:51:28]Sat Jul 21 18:51:28 PDT 2018
+
+[2018-7-21 18:51:28]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:28]COMMAND: rm -rf junk.txt
+[2018-7-21 18:51:29]COMMAND: date
+[2018-7-21 18:51:29]Sat Jul 21 18:51:29 PDT 2018
+
+[2018-7-21 18:51:29]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:29]-rw-r--r--  1 progamut  staff  0 Jul 21 18:51 junk.txt
+
+[2018-7-21 18:51:29]COMMAND: rm -rf junk.txt
+[2018-7-21 18:51:30]COMMAND: date
+[2018-7-21 18:51:30]Sat Jul 21 18:51:30 PDT 2018
+
+[2018-7-21 18:51:30]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:30]COMMAND: rm -rf junk.txt
+[2018-7-21 18:51:31]COMMAND: date
+[2018-7-21 18:51:31]Sat Jul 21 18:51:31 PDT 2018
+
+[2018-7-21 18:51:31]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:31]-rw-r--r--  1 progamut  staff  0 Jul 21 18:51 junk.txt
+
+[2018-7-21 18:51:31]COMMAND: rm -rf junk.txt
+[2018-7-21 18:51:32]COMMAND: date
+[2018-7-21 18:51:32]Sat Jul 21 18:51:32 PDT 2018
+
+[2018-7-21 18:51:32]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:32]COMMAND: rm -rf junk.txt
+[2018-7-21 18:51:33]COMMAND: date
+[2018-7-21 18:51:33]Sat Jul 21 18:51:33 PDT 2018
+
+[2018-7-21 18:51:33]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:33]COMMAND: rm -rf junk.txt
+[2018-7-21 18:51:34]COMMAND: date
+[2018-7-21 18:51:34]Sat Jul 21 18:51:34 PDT 2018
+
+[2018-7-21 18:51:34]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:34]-rw-r--r--  1 progamut  staff  0 Jul 21 18:51 junk.txt
+
+[2018-7-21 18:51:34]COMMAND: rm -rf junk.txt
+[2018-7-21 18:51:35]COMMAND: date
+[2018-7-21 18:51:35]Sat Jul 21 18:51:35 PDT 2018
+
+[2018-7-21 18:51:35]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:35]COMMAND: rm -rf junk.txt
+[2018-7-21 18:51:36]COMMAND: date
+[2018-7-21 18:51:37]Sat Jul 21 18:51:37 PDT 2018
+
+[2018-7-21 18:51:37]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:37]COMMAND: rm -rf junk.txt
+[2018-7-21 18:51:38]COMMAND: date
+[2018-7-21 18:51:38]Sat Jul 21 18:51:38 PDT 2018
+
+[2018-7-21 18:51:38]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:38]-rw-r--r--  1 progamut  staff  0 Jul 21 18:51 junk.txt
+
+[2018-7-21 18:51:38]COMMAND: rm -rf junk.txt
+[2018-7-21 18:51:39]COMMAND: date
+[2018-7-21 18:51:39]Sat Jul 21 18:51:39 PDT 2018
+
+[2018-7-21 18:51:39]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:39]COMMAND: rm -rf junk.txt
+[2018-7-21 18:51:40]COMMAND: date
+[2018-7-21 18:51:40]Sat Jul 21 18:51:40 PDT 2018
+
+[2018-7-21 18:51:40]COMMAND: ls -l junk.txt
+[2018-7-21 18:51:40]COMMAND: rm -rf junk.txt
+[2018-7-21 19:7:11]Initialized
+[2018-7-21 19:7:11]Connected to Server @[127.0.0.1:25001]
+[2018-7-21 19:7:12]COMMAND: date
+[2018-7-21 19:7:12]Sat Jul 21 19:07:12 PDT 2018
+
+[2018-7-21 19:7:12]COMMAND: ls -l junk.txt
+[2018-7-21 19:7:12]-rw-r--r--  1 progamut  staff  0 Jul 21 19:07 junk.txt
+
+[2018-7-21 19:7:12]COMMAND: rm -rf junk.txt
+[2018-7-21 19:7:13]COMMAND: date
+[2018-7-21 19:7:13]Sat Jul 21 19:07:13 PDT 2018
+
+[2018-7-21 19:7:13]COMMAND: ls -l junk.txt
+[2018-7-21 19:7:13]COMMAND: rm -rf junk.txt
+[2018-7-21 19:7:14]COMMAND: date
+[2018-7-21 19:7:14]Sat Jul 21 19:07:14 PDT 2018
+
+[2018-7-21 19:7:14]COMMAND: ls -l junk.txt
+[2018-7-21 19:7:14]COMMAND: rm -rf junk.txt
+[2018-7-21 19:7:15]COMMAND: date
+[2018-7-21 19:7:15]Sat Jul 21 19:07:15 PDT 2018
+
+[2018-7-21 19:7:15]COMMAND: ls -l junk.txt
+[2018-7-21 19:7:15]-rw-r--r--  1 progamut  staff  0 Jul 21 19:07 junk.txt
+
+[2018-7-21 19:7:15]COMMAND: rm -rf junk.txt
+[2018-7-21 19:7:16]COMMAND: date
+[2018-7-21 19:7:16]Sat Jul 21 19:07:16 PDT 2018
+
+[2018-7-21 19:7:16]COMMAND: ls -l junk.txt
+[2018-7-21 19:7:16]COMMAND: rm -rf junk.txt
+[2018-7-21 19:7:17]COMMAND: date
+[2018-7-21 19:7:17]Sat Jul 21 19:07:17 PDT 2018
+
+[2018-7-21 19:7:17]COMMAND: ls -l junk.txt
+[2018-7-21 19:7:17]COMMAND: rm -rf junk.txt
+[2018-7-21 19:7:18]COMMAND: date
+[2018-7-21 19:7:18]Sat Jul 21 19:07:18 PDT 2018
+
+[2018-7-21 19:7:18]COMMAND: ls -l junk.txt
+[2018-7-21 19:7:18]-rw-r--r--  1 progamut  staff  0 Jul 21 19:07 junk.txt
+
+[2018-7-21 19:7:18]COMMAND: rm -rf junk.txt
+[2018-7-21 19:7:19]COMMAND: date
+[2018-7-21 19:7:19]Sat Jul 21 19:07:19 PDT 2018
+
+[2018-7-21 19:7:19]COMMAND: ls -l junk.txt
+[2018-7-21 19:7:19]COMMAND: rm -rf junk.txt
+[2018-7-21 19:7:20]COMMAND: date
+[2018-7-21 19:7:20]Sat Jul 21 19:07:20 PDT 2018
+
+[2018-7-21 19:7:20]COMMAND: ls -l junk.txt
+[2018-7-21 19:7:20]COMMAND: rm -rf junk.txt
+[2018-7-21 19:7:21]COMMAND: date
+[2018-7-21 19:7:21]Sat Jul 21 19:07:21 PDT 2018
+
+[2018-7-21 19:7:21]COMMAND: ls -l junk.txt
+[2018-7-21 19:7:21]-rw-r--r--  1 progamut  staff  0 Jul 21 19:07 junk.txt
+
+[2018-7-21 19:7:21]COMMAND: rm -rf junk.txt
+[2018-7-21 19:7:22]COMMAND: date
+[2018-7-21 19:7:22]Sat Jul 21 19:07:22 PDT 2018
+
+[2018-7-21 19:7:22]COMMAND: ls -l junk.txt
+[2018-7-21 19:7:23]COMMAND: rm -rf junk.txt
+[2018-7-21 19:7:24]COMMAND: date
+[2018-7-21 19:7:24]Sat Jul 21 19:07:24 PDT 2018
+
+[2018-7-21 19:7:24]COMMAND: ls -l junk.txt
+[2018-7-21 19:7:24]COMMAND: rm -rf junk.txt
+[2018-7-21 19:7:25]COMMAND: date
+[2018-7-21 19:7:25]Sat Jul 21 19:07:25 PDT 2018
+
+[2018-7-21 19:7:25]COMMAND: ls -l junk.txt
+[2018-7-21 19:7:25]-rw-r--r--  1 progamut  staff  0 Jul 21 19:07 junk.txt
+
+[2018-7-21 19:7:25]COMMAND: rm -rf junk.txt
+[2018-7-21 19:7:26]COMMAND: date
+[2018-7-21 19:7:26]Sat Jul 21 19:07:26 PDT 2018
+
+[2018-7-21 19:7:26]COMMAND: ls -l junk.txt
+[2018-7-21 19:7:26]COMMAND: rm -rf junk.txt
+[2018-7-21 19:7:27]COMMAND: date
+[2018-7-21 19:7:27]Sat Jul 21 19:07:27 PDT 2018
+
+[2018-7-21 19:7:27]COMMAND: ls -l junk.txt
+[2018-7-21 19:7:27]COMMAND: rm -rf junk.txt
+[2018-7-21 19:7:28]COMMAND: date
+[2018-7-21 19:7:28]Unable to send command to server
