@@ -1,12 +1,16 @@
 #ifndef SIMULATOR_H
+#define SIMULATOR_H
 
 #define THREAD_SLEEP_MICRO 10000
+
+#include "messages.h"
 
 typedef struct {
 	int round;
 	int numExploreMessages;
 	int numAcks;
 	int numNacks;
+	int numOtherMessages;
 	int parentChange;
 }Statistics;
 
@@ -15,7 +19,12 @@ typedef struct {
 	int uId;
 	int parentId;
 	int roundDone;
+	int connected;
 	int *connectivity;
+
+	message_t *recvBuffer; // queue of received messages
+	int recvBufferSize;
+	pthread_mutex_t recvBufferMutex;
 
 	pthread_t threadId;
 	pthread_mutex_t threadMutex;
@@ -43,6 +52,7 @@ typedef struct {
 	MASTER_NOTIFICATION masterNotification;
 }GlobalState;
 
-static GlobalState globalState;
+GlobalState globalState;
+
 
 #endif
