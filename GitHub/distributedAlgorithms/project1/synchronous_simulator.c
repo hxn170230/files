@@ -124,6 +124,8 @@ void simulate() {
 	// create master thread
 	DEBUG("Master thread init\n");
 	pthread_create(&globalState.masterThread, NULL, masterRoutine, NULL);
+	// wait for master thread to finish
+	pthread_join(globalState.masterThread, NULL);
 }
 
 void finish() {
@@ -187,7 +189,6 @@ int main(int argc, char *argv[]) {
 		}
 	}
 	simulate();
-	pthread_join(globalState.masterThread, NULL);
 	finish();
 	return 0;
 }
