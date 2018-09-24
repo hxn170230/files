@@ -487,10 +487,35 @@ def foodHeuristic(state, problem):
 
     if foodGrid.count() == 0:
         return 0
-    
+
+    tempPos = position
+    #maxPos1 = position
+    #maxPos2 = position
+    #maxDistance = 0 
+    #for i in range(0, len(foodGridList)):
+    #    for j in range(i, len(foodGridList)):
+    #        if maxDistance <= abs(foodGridList[i][0] - foodGridList[j][0]) + abs(foodGridList[i][1] - foodGridList[j][1]):
+    #            maxDistance = abs(foodGridList[i][0] - foodGridList[j][0]) + abs(foodGridList[i][1] - foodGridList[j][1])
+    #            maxPos1 = foodGridList[i]
+    #            maxPos2 = foodGridList[j]
+
+    #print foodGridList
+    #print maxDistance
+    #print maxPos1
+    #print maxPos2
+    #print position
+
+    #x = abs(position[0] - maxPos1[0]) + abs(position[1] - maxPos1[1])
+    #y = abs(position[0] - maxPos2[0]) + abs(position[1] - maxPos2[1])
+    #return maxDistance + min(x,y)
+
     for i in range(0, len(foodGridList)):
-        score = max(score, (abs(position[0] - foodGridList[i][0]) + abs(position[1] - foodGridList[i][1])))
-    
+        score = max(score, abs(tempPos[0] - foodGridList[i][0]) + abs(tempPos[1] - foodGridList[i][1]))
+        #tempPos = foodGridList[i]
+        #score = max(score, abs(position[0] - foodGridList[i][0]) + abs(position[1] - foodGridList[i][1]))
+        #score = max(score, foodGrid.count())
+        #score = min(score, (abs(position[0] - foodGridList[i][0]) + abs(position[1] - foodGridList[i][1])))
+
     return score
 
 class ClosestDotSearchAgent(SearchAgent):
