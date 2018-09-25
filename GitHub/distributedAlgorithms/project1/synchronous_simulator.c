@@ -38,7 +38,7 @@ void notifyNodes(MASTER_NOTIFICATION notification) {
 	pthread_cond_broadcast(&globalState.synchronyCondition);
 }
 
-#define MAX_ROUNDS 10
+#define MAX_ROUNDS 30
 void * masterRoutine(void *masterArgs) {
 	int index = 0;
 	int nodeId = 0;
