@@ -5,15 +5,15 @@
 
 #include "messages.h"
 
+// Node Statistics
 typedef struct {
 	int round;
 	int numExploreMessages;
 	int numAcks;
 	int numNacks;
-	int numOtherMessages;
-	int parentChange;
 }Statistics;
 
+// Node data
 typedef struct {
 	int nodeId;
 	int uId;
@@ -31,18 +31,19 @@ typedef struct {
 	pthread_t threadId;
 
 	int *connectivity;
-	int *waitList;
 	message_t *recvBuffer; // queue of received messages
 	message_t *processBuffer;
 
 	Statistics stats;
 }NodeState;
 
+// Master notifications
 typedef enum {
 	START_ROUND = 0,
 	END
 }MASTER_NOTIFICATION;
 
+// global state
 typedef struct {
 	int nProcess;
 	int currentRound;
@@ -57,6 +58,7 @@ typedef struct {
 	MASTER_NOTIFICATION masterNotification;
 }GlobalState;
 
+// global variable for the state of the system
 GlobalState globalState;
 
 

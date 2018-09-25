@@ -15,7 +15,6 @@ void sendMessage(int fromId, int toNodeId, message_t message) {
 	// update waitList
 	if ((message.type == MESSAGE_TYPE_EXPLORE || message.type == MESSAGE_TYPE_NACK_EXPLORE)) {
 		globalState.nodeStates[fromId]->waitListCount += 1;
-		globalState.nodeStates[fromId]->waitList[message.toId] = 1;
 	}
 	memcpy(&globalState.nodeStates[toNodeId]->recvBuffer[globalState.nodeStates[toNodeId]->recvBufferSize++], &message, sizeof(message));
 
@@ -182,7 +181,6 @@ void finish() {
 	for (nodeId = 0; nodeId < globalState.nProcess; nodeId++) {
 		free(globalState.nodeStates[nodeId]->connectivity);
 		free(globalState.nodeStates[nodeId]->recvBuffer);
-		free(globalState.nodeStates[nodeId]->waitList);
 		free(globalState.nodeStates[nodeId]);
 
 		pthread_mutex_destroy(&globalState.nodeStates[nodeId]->threadMutex);
@@ -277,8 +275,6 @@ int main(int argc, char *argv[]) {
 			}
 			DEBUG("Node[%d]: connected: %d\n", index, nodeState->connected);
 
-			nodeState->waitList = (int *)malloc(n*sizeof(int));
-			memset(nodeState->waitList, 0, n);
 
 			globalState.nodeStates[index] = nodeState;
 			globalState.nodeStates[index]->roundDone = 0;

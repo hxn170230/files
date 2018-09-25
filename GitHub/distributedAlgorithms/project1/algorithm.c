@@ -31,17 +31,6 @@ int algorithmEnd() {
 }
 
 void generateMessages(message_t *messages, int nodeId) {
-	// messages is the sendMsg
-	// check received messages
-	// 	explore:
-	//		remove msg.from from waitList
-	//		node.leaderId > msg.value ?
-	//			node.leaderId = msg.value
-	//			add explore(node.nodeId, node.leaderId) to all other nodes
-	//		else if sendMsg[msg.from] != explore:
-	//				add nack to msg.from
-	//	nack or ack:
-	//		remove msg.from from waitList
 
 	int index = 0;
 	int childIndex = 0;
@@ -69,9 +58,19 @@ void generateMessages(message_t *messages, int nodeId) {
 		return;
 	}
 
+	// check received messages
 	for (index = 0; index < globalState.nodeStates[nodeId]->connected; index++) {
 		message_t msg = globalState.nodeStates[nodeId]->processBuffer[index];
 		logMessage(nodeId, msg);
+		// explore:
+		// 	remove msg.from from waitList
+		//	node.leaderId > msg.value ?
+		//	node.leaderId = msg.value
+		//		add explore(node.nodeId, node.leaderId) to all other nodes
+		//	else if sendMsg[msg.from] != explore:
+		//	add nack to msg.from
+		// nack or ack:
+		//		remove msg.from from waitList
 		if (msg.type == MESSAGE_TYPE_EXPLORE || msg.type == MESSAGE_TYPE_NACK_EXPLORE) {
 			message_t sendMsg = {
 				.type = MESSAGE_TYPE_NONE,
@@ -81,7 +80,6 @@ void generateMessages(message_t *messages, int nodeId) {
 			};
 			if (msg.type == MESSAGE_TYPE_NACK_EXPLORE) {
 				globalState.nodeStates[nodeId]->waitListCount--;
-				globalState.nodeStates[nodeId]->waitList[msg.fromId] = 0;
 				DEBUG("Node[%d]: WaitListCount: %d\n", nodeId, globalState.nodeStates[nodeId]->waitListCount);
 			}
 			if (globalState.nodeStates[nodeId]->leaderId > msg.value) {
@@ -99,6 +97,7 @@ void generateMessages(message_t *messages, int nodeId) {
 							(globalState.nodeStates[nodeId]->stats).numAcks ++;
 						} else {
 							sendMsg.type = MESSAGE_TYPE_EXPLORE;
+							// update message type based on the content of the message due to other incoming and processed messages
 							if (messages[childIndex].type == MESSAGE_TYPE_ACK ||
 									messages[childIndex].type == MESSAGE_TYPE_NACK ||
 									messages[childIndex].type == MESSAGE_TYPE_NACK_EXPLORE) {
@@ -125,6 +124,7 @@ void generateMessages(message_t *messages, int nodeId) {
 				// send nack to this node
 				logMessage(nodeId, messages[msg.fromId]);
                        	       	sendMsg.type = MESSAGE_TYPE_NACK;
+				// if message contains explore already, change it to nack and explore
 				if (messages[msg.fromId].type == MESSAGE_TYPE_EXPLORE) {
 					sendMsg.type = MESSAGE_TYPE_NACK_EXPLORE;
 					(globalState.nodeStates[nodeId]->stats).numExploreMessages ++;
@@ -142,7 +142,6 @@ void generateMessages(message_t *messages, int nodeId) {
 			// remove from waitlist
 			globalState.nodeStates[nodeId]->waitListCount--;
 			DEBUG("Node[%d]: WaitListCount: %d\n", nodeId, globalState.nodeStates[nodeId]->waitListCount);
-			globalState.nodeStates[nodeId]->waitList[msg.fromId] = 0;
 		}
 	}
 	pthread_mutex_unlock(&globalState.nodeStates[nodeId]->recvBufferMutex);
@@ -152,11 +151,14 @@ void consumeMessages(int nodeId) {
 	int index = 0;
 	pthread_mutex_lock(&globalState.nodeStates[nodeId]->recvBufferMutex);
 
+	// remove messages from channel of communication and store in processBuffer
+	// processBuffer will be used in generateMessages in the next round
 	for (index = 0; index < globalState.nodeStates[nodeId]->recvBufferSize; index++) {
 		logMessage(nodeId, globalState.nodeStates[nodeId]->recvBuffer[index]);
 		memcpy(&globalState.nodeStates[nodeId]->processBuffer[index], &globalState.nodeStates[nodeId]->recvBuffer[index], sizeof(message_t));
 	}
 
+	// set received count
 	globalState.nodeStates[nodeId]->processBufferSize = globalState.nodeStates[nodeId]->recvBufferSize;
 	globalState.nodeStates[nodeId]->recvBufferSize = 0;
 
