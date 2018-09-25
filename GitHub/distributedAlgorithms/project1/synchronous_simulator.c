@@ -61,12 +61,13 @@ void * masterRoutine(void *masterArgs) {
 
 			DEBUG("Master: Node[%d] finished ROUND %d\n", nodeId, globalState.currentRound);
 		}
-		printStatistics();
 		if (algorithmEnd() == 1) {
 			done = 1;
 		}
+		INFO("Master: END ROUND %d\n", globalState.currentRound);
 	}
 
+	printStatistics();
 	notifyNodes(END);
 	waitForNodesToFinish();
 	DEBUG("Master THREAD done\n");
@@ -263,6 +264,10 @@ int main(int argc, char *argv[]) {
 			// TODO check malloc failure:
 
 
+			// children list init
+			nodeState->children = (int *)malloc(n*sizeof(int));
+			memset(nodeState->children, 0, n);
+
 			for (connectivityIndex = 0; connectivityIndex < n; connectivityIndex ++) {
 				nodeState->connectivity[connectivityIndex] = connectivity[index][connectivityIndex];
 				if (connectivityIndex == index) {
@@ -271,10 +276,12 @@ int main(int argc, char *argv[]) {
 
 				if (nodeState->connectivity[connectivityIndex] == 1) {
 					nodeState->connected+=1;
+					if (connectivityIndex != index) {
+						nodeState->children[connectivityIndex] = 1;
+					}
 				}
 			}
 			DEBUG("Node[%d]: connected: %d\n", index, nodeState->connected);
-
 
 			globalState.nodeStates[index] = nodeState;
 			globalState.nodeStates[index]->roundDone = 0;
@@ -284,6 +291,7 @@ int main(int argc, char *argv[]) {
 			globalState.nodeStates[index]->processBuffer = (message_t *)malloc(sizeof(message_t)*globalState.nodeStates[index]->connected);
 			globalState.nodeStates[index]->recvBufferSize = 0;
 			globalState.nodeStates[index]->processBufferSize = 0;
+
 
 			DEBUG("Node[%d]: Init Done\n", index);
 			// printNode(index);

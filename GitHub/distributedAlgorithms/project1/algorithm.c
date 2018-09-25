@@ -7,17 +7,33 @@
 
 void printStatistics() {
 	int nodeIndex = 0;
+	int childIndex = 0;
+
 	for (nodeIndex = 0; nodeIndex < globalState.nProcess; nodeIndex++) {
-		INFO("Node[%d]: (Parent %d Leader %d WaitListCount: %d Rounds: %d Explore: %d Acks: %d Nacks: %d)\n",
+		INFO("Node[%d]: Parent: %d Leader: %d\n",
 				nodeIndex,
 				(globalState.nodeStates[nodeIndex]->parentId),
-				(globalState.nodeStates[nodeIndex]->leaderId),
+				(globalState.nodeStates[nodeIndex]->leaderId));
+
+		INFO("\t Children: ( ");
+		for (childIndex = 0; childIndex < globalState.nProcess; childIndex++) {
+			if (globalState.nodeStates[nodeIndex]->children[childIndex] == 1) {
+				INFO("%d ", childIndex);
+			}
+		}
+		INFO(")\n\n");
+
+		INFO("\t Stats:");
+		INFO("\t (WaitListCount: %d Rounds: %d Explore: %d Acks: %d Nacks: %d)\n\n",
 				(globalState.nodeStates[nodeIndex]->waitListCount),
 				(globalState.nodeStates[nodeIndex]->stats).round,
 				(globalState.nodeStates[nodeIndex]->stats).numExploreMessages,
 				(globalState.nodeStates[nodeIndex]->stats).numAcks,
 				(globalState.nodeStates[nodeIndex]->stats).numNacks);
+
 	}
+
+	INFO("Total Number of rounds: \t %d\n", globalState.currentRound);
 }
 
 int algorithmEnd() {
@@ -141,8 +157,17 @@ void generateMessages(message_t *messages, int nodeId) {
 				msg.type == MESSAGE_TYPE_NACK) {
 			// remove from waitlist
 			globalState.nodeStates[nodeId]->waitListCount--;
+			if (msg.type == MESSAGE_TYPE_ACK) {
+				globalState.nodeStates[nodeId]->children[msg.fromId] = 1;
+			} else {
+				globalState.nodeStates[nodeId]->children[msg.fromId] = 0;
+			}
 			DEBUG("Node[%d]: WaitListCount: %d\n", nodeId, globalState.nodeStates[nodeId]->waitListCount);
 		}
+	}
+
+	if (globalState.nodeStates[nodeId]->waitListCount == 0) {
+		globalState.nodeStates[nodeId]->children[globalState.nodeStates[nodeId]->parentId] = 0;
 	}
 	pthread_mutex_unlock(&globalState.nodeStates[nodeId]->recvBufferMutex);
 }

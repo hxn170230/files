@@ -31,6 +31,7 @@ typedef struct {
 	pthread_t threadId;
 
 	int *connectivity;
+	int *children;
 	message_t *recvBuffer; // queue of received messages
 	message_t *processBuffer;
 
