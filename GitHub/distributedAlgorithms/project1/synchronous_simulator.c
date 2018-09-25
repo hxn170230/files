@@ -12,6 +12,12 @@ void sendMessage(int fromId, int toNodeId, message_t message) {
 	pthread_mutex_lock(&globalState.nodeStates[toNodeId]->recvBufferMutex);
 
 	logMessage(fromId, message);
+	// update waitList
+	if ((message.type == MESSAGE_TYPE_EXPLORE || message.type == MESSAGE_TYPE_NACK_EXPLORE)) {
+		globalState.nodeStates[fromId]->waitListCount += 1;
+		globalState.nodeStates[fromId]->waitList[message.toId] = 1;
+	}
+	DEBUG("Node[%d]: Recv size: %d\n", toNodeId, globalState.nodeStates[toNodeId]->recvBufferSize);
 	memcpy(&globalState.nodeStates[toNodeId]->recvBuffer[globalState.nodeStates[toNodeId]->recvBufferSize++], &message, sizeof(message));
 
 	pthread_mutex_unlock(&globalState.nodeStates[toNodeId]->recvBufferMutex);
@@ -32,7 +38,7 @@ void notifyNodes(MASTER_NOTIFICATION notification) {
 	pthread_cond_broadcast(&globalState.synchronyCondition);
 }
 
-#define MAX_ROUNDS 1000
+#define MAX_ROUNDS 10
 void * masterRoutine(void *masterArgs) {
 	int index = 0;
 	int nodeId = 0;
@@ -57,6 +63,7 @@ void * masterRoutine(void *masterArgs) {
 
 			DEBUG("Master: Node[%d] finished ROUND %d\n", nodeId, globalState.currentRound);
 		}
+		printStatistics();
 	}
 
 	notifyNodes(END);
@@ -73,8 +80,18 @@ void notifyMaster(int nodeId) {
 
 int processRoundK(int roundK, int nodeId) {
 	int messageIndex = 0;
-	message_t messages[globalState.nodeStates[nodeId]->connected];
+	int childIndex = 0;
+
+	message_t messages[globalState.nProcess];
 	memset(messages, 0, sizeof(messages));
+
+	for (childIndex = 0; childIndex < globalState.nProcess; childIndex++) {
+		messages[messageIndex].fromId = nodeId;
+		messages[messageIndex].type = MESSAGE_TYPE_NONE;
+		messages[messageIndex].toId = childIndex;
+		messages[messageIndex].value = nodeId;
+		messageIndex++;
+	}
 
 	pthread_mutex_lock(&globalState.nodeStates[nodeId]->threadMutex);
 	DEBUG("NODE[%d]: ROUND %d\n", nodeId, roundK);
@@ -84,14 +101,16 @@ int processRoundK(int roundK, int nodeId) {
 	DEBUG("Node[%d]: Generate messages done\n", nodeId);
 
 	// send messages
-	for (messageIndex = 0; messageIndex < globalState.nodeStates[nodeId]->connected; messageIndex++) {
-		sendMessage(nodeId, messages[messageIndex].toId, messages[messageIndex]);
+	for (messageIndex = 0; messageIndex < globalState.nProcess; messageIndex++) {
+		if (globalState.nodeStates[nodeId]->connectivity[messages[messageIndex].toId] == 1) {
+			sendMessage(nodeId, messages[messageIndex].toId, messages[messageIndex]);
+		}
 	}
 
 	// while recvBufferSize != connected size, keep receiving messages
 	while (globalState.nodeStates[nodeId]->recvBufferSize != globalState.nodeStates[nodeId]->connected) {
 		// wait for messages from all connected nodes
-		DEBUG("Node[%d]: recv buffer size: %d\n", nodeId, globalState.nodeStates[nodeId]->recvBufferSize);
+		DEBUG("Node[%d]: Waiting. Received: %d\n", nodeId, globalState.nodeStates[nodeId]->recvBufferSize);
 	}
 	// consume received messages
 	consumeMessages(nodeId);
@@ -139,25 +158,19 @@ void simulate() {
 	int nProcess = globalState.nProcess;
 	int index = 0;
 
-	DEBUG("Master mutex init\n");
 	pthread_mutex_init(&globalState.masterMutex, NULL);
-	DEBUG("Master condition init\n");
 	pthread_cond_init(&globalState.synchronyCondition, NULL);
 
 	for (index = 0; index < nProcess; index++) {
 		// create threads to simulate nodes
 		pthread_mutex_init(&globalState.nodeStates[index]->recvBufferMutex, NULL);
-		DEBUG("Node[%d] mutex init\n", index);
 		pthread_mutex_init(&(globalState.nodeStates[index]->threadMutex), NULL);
-		DEBUG("Node[%d] condition init\n", index);
 		pthread_cond_init(&globalState.nodeStates[index]->roundFinishCondition, NULL);
-		DEBUG("Node[%d] thread init\n", index);
 		pthread_create(&globalState.nodeStates[index]->threadId, NULL, nodeRoutine, &globalState.nodeStates[index]->nodeId);
 		// update global state with thread info
 	}
 
 	// create master thread
-	DEBUG("Master thread init\n");
 	pthread_create(&globalState.masterThread, NULL, masterRoutine, NULL);
 	pthread_join(globalState.masterThread, NULL);
 }
@@ -166,8 +179,8 @@ void finish() {
 	int nodeId = 0;
 	for (nodeId = 0; nodeId < globalState.nProcess; nodeId++) {
 		free(globalState.nodeStates[nodeId]->connectivity);
-		free(globalState.nodeStates[nodeId]->stats);
 		free(globalState.nodeStates[nodeId]->recvBuffer);
+		free(globalState.nodeStates[nodeId]->waitList);
 		free(globalState.nodeStates[nodeId]);
 
 		pthread_mutex_destroy(&globalState.nodeStates[nodeId]->threadMutex);
@@ -177,6 +190,28 @@ void finish() {
 	pthread_cond_destroy(&globalState.synchronyCondition);
 	pthread_mutex_destroy(&globalState.masterMutex);
 	free(globalState.nodeStates);
+}
+
+void printArgs(int n, int *uniqueIds, int connectivity[][n]) {
+	DEBUG("Number of Nodes: %d\n", n);
+
+	int index = 0;
+	int connectivityIndex = 0;
+
+	for (index = 0; index < n; index++) {
+		DEBUG("Node[%d]: UniqueId[%d]\n", index, uniqueIds[index]);
+		for (connectivityIndex = 0; connectivityIndex < n; connectivityIndex ++) {
+			DEBUG("\t Connectivity(%d): %d\n", index, connectivity[index][connectivityIndex]);
+		}
+	}
+}
+
+void printNode(int nodeId) {
+	DEBUG("Node[%d]: connectivity: %d\n", nodeId, globalState.nodeStates[nodeId]->connected);
+	int index = 0;
+	for (index = 0; index < globalState.nProcess; index++) {
+		DEBUG("\t %d connectivity: %d\n", index, globalState.nodeStates[nodeId]->connectivity[index]);
+	}
 }
 
 int main(int argc, char *argv[]) {
@@ -201,6 +236,8 @@ int main(int argc, char *argv[]) {
 		}
 	}
 	
+	// printArgs(n, uniqueIds, connectivity);
+	
 	globalState.nProcess = n;
 	globalState.nodeStates = (NodeState **)malloc(sizeof(NodeState *)*n);
 	if (globalState.nodeStates == NULL) {
@@ -209,31 +246,49 @@ int main(int argc, char *argv[]) {
 	}
 	for (index = 0; index < globalState.nProcess; index++) {
 		NodeState *nodeState = (NodeState *)malloc(sizeof(NodeState));
+
 		if (nodeState) {
+			memset(nodeState, 0, sizeof(NodeState));
+
 			DEBUG("Node: %d initing\n", index);
 			nodeState->nodeId = index;
 			nodeState->uId = uniqueIds[index];
-			nodeState->parentId = -1;
-			nodeState->connectivity = (int *)malloc(n*sizeof(int));
-			// TODO check malloc failure:
+
 			nodeState->connected = 0;
+			nodeState->parentId = index;
+			nodeState->leaderId = index;
+
+			nodeState->connectivity = (int *)malloc(n*sizeof(int));
+			memset(nodeState->connectivity, 0, n);
+			// TODO check malloc failure:
+
+
 			for (connectivityIndex = 0; connectivityIndex < n; connectivityIndex ++) {
 				nodeState->connectivity[connectivityIndex] = connectivity[index][connectivityIndex];
-				if (connectivity[index][connectivityIndex] != 0 && index != connectivityIndex) {
+				if (connectivityIndex == index) {
+					nodeState->connectivity[connectivityIndex] = 1;
+				}
+
+				if (nodeState->connectivity[connectivityIndex] == 1) {
 					nodeState->connected+=1;
 				}
 			}
 			DEBUG("Node[%d]: connected: %d\n", index, nodeState->connected);
-			nodeState->stats = (Statistics *)malloc(sizeof(Statistics));
-			// TODO check malloc failure
+
+			nodeState->waitList = (int *)malloc(n*sizeof(int));
+			memset(nodeState->waitList, 0, n);
+
 			globalState.nodeStates[index] = nodeState;
 			globalState.nodeStates[index]->roundDone = 0;
 
 			// recv buffer init
-			DEBUG("Node[%d]: recvBuffer init\n", index);
 			globalState.nodeStates[index]->recvBuffer = (message_t *)malloc(sizeof(message_t)*globalState.nodeStates[index]->connected);
-			DEBUG("Node[%d]: recvBuffer init done\n", index);
+			globalState.nodeStates[index]->processBuffer = (message_t *)malloc(sizeof(message_t)*globalState.nodeStates[index]->connected);
 			globalState.nodeStates[index]->recvBufferSize = 0;
+			globalState.nodeStates[index]->processBufferSize = 0;
+
+			DEBUG("Node[%d]: Init Done\n", index);
+			// printNode(index);
 		} else {
 			DEBUG("Node %d init failed\n", index);
 			// TODO clear all mallocs

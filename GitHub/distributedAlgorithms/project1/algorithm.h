@@ -6,5 +6,6 @@
 
 void generateMessages(message_t *messages, int nodeId);
 void consumeMessages(int nodeId);
+void printStatistics();
 
 #endif

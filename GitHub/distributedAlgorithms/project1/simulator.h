@@ -18,19 +18,24 @@ typedef struct {
 	int nodeId;
 	int uId;
 	int parentId;
+	int leaderId;
 	int roundDone;
 	int connected;
-	int *connectivity;
-
-	message_t *recvBuffer; // queue of received messages
+	int waitListCount;
 	int recvBufferSize;
-	pthread_mutex_t recvBufferMutex;
+	int processBufferSize;
 
-	pthread_t threadId;
+	pthread_mutex_t recvBufferMutex;
 	pthread_mutex_t threadMutex;
 	pthread_cond_t roundFinishCondition;
+	pthread_t threadId;
 
-	Statistics *stats;
+	int *connectivity;
+	int *waitList;
+	message_t *recvBuffer; // queue of received messages
+	message_t *processBuffer;
+
+	Statistics stats;
 }NodeState;
 
 typedef enum {

@@ -4,10 +4,11 @@
 #include "log.h"
 
 typedef enum {
-	MESSAGE_TYPE_EXPLORE = 0,
+	MESSAGE_TYPE_NONE = 0, // used for null message
+	MESSAGE_TYPE_EXPLORE,
 	MESSAGE_TYPE_ACK,
 	MESSAGE_TYPE_NACK,
-	MESSAGE_TYPE_NONE, // used for null
+	MESSAGE_TYPE_NACK_EXPLORE,
 
 	MESSAGE_TYPE_MAX
 }MESSAGE_TYPE;
