@@ -5,20 +5,52 @@
 #include "messages.h"
 #include "log.h"
 
+void printAdjMatrix(int n, int adjMatrix[][n]) {
+	int indexi = 0;
+	int indexj = 0;
+
+	for (indexi = 0; indexi < n; indexi++) {
+		for (indexj = 0; indexj < n; indexj++) {
+			INFO("%d ", adjMatrix[indexi][indexj]);
+		}
+		INFO("\n");
+	}
+}
+
 void printStatistics() {
 	int nodeIndex = 0;
 	int childIndex = 0;
+	int leaderId = 0;
+
+	int adjMatrix[globalState.nProcess][globalState.nProcess];
 
 	for (nodeIndex = 0; nodeIndex < globalState.nProcess; nodeIndex++) {
+		for (childIndex = 0; childIndex < globalState.nProcess; childIndex++) {
+			if (nodeIndex == childIndex) {
+				adjMatrix[nodeIndex][nodeIndex] = 1;
+			} else {
+				adjMatrix[nodeIndex][childIndex] = 0;
+			}
+		}
+	}
+
+	for (nodeIndex = 0; nodeIndex < globalState.nProcess; nodeIndex++) {
+
+		leaderId = globalState.nodeStates[nodeIndex]->leaderId;
 		INFO("Node[%d]: Parent: %d Leader: %d\n",
 				nodeIndex,
 				(globalState.nodeStates[nodeIndex]->parentId),
 				(globalState.nodeStates[nodeIndex]->leaderId));
 
+		adjMatrix[nodeIndex][globalState.nodeStates[nodeIndex]->parentId] = 1;
+		adjMatrix[globalState.nodeStates[nodeIndex]->parentId][nodeIndex] = 1;
+
 		INFO("\t Children: ( ");
 		for (childIndex = 0; childIndex < globalState.nProcess; childIndex++) {
 			if (globalState.nodeStates[nodeIndex]->children[childIndex] == 1) {
 				INFO("%d ", childIndex);
+				adjMatrix[nodeIndex][childIndex] = 1;
+				adjMatrix[childIndex][nodeIndex] = 1;
 			}
 		}
 		INFO(")\n\n");
@@ -33,7 +65,12 @@ void printStatistics() {
 
 	}
 
-	INFO("Total Number of rounds: \t %d\n", globalState.currentRound);
+	INFO("####################################################################################\n");
+	INFO("Total Number of Rounds : \t %d\n", globalState.currentRound);
+	INFO("LEADER : \t\t\t %d\n", leaderId);
+	INFO("Tree Adj Matrix: \n");
+	printAdjMatrix(globalState.nProcess, adjMatrix);
+	INFO("####################################################################################\n");
 }
 
 int algorithmEnd() {
@@ -98,6 +135,7 @@ void generateMessages(message_t *messages, int nodeId) {
 				globalState.nodeStates[nodeId]->waitListCount--;
 				DEBUG("Node[%d]: WaitListCount: %d\n", nodeId, globalState.nodeStates[nodeId]->waitListCount);
 			}
+			globalState.nodeStates[nodeId]->children[msg.fromId] = 0;
 			if (globalState.nodeStates[nodeId]->leaderId > msg.value) {
 				globalState.nodeStates[nodeId]->leaderId = msg.value;
 				globalState.nodeStates[nodeId]->parentId = msg.fromId;
