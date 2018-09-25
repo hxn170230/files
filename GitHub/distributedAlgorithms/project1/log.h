@@ -5,5 +5,6 @@
 #include <stdarg.h>
 
 void DEBUG(const char *format, ...);
+void INFO(const char *format, ...);
 
 #endif

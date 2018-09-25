@@ -11,7 +11,8 @@ messages.o: messages.c messages.h
 	gcc -g -c -Wall messages.c -I.
 
 log.o: log.c log.h
-	gcc -g -c -Wall log.c -I. -DLOG_DEBUG
+	#gcc -g -c -Wall log.c -I. -DLOG_DEBUG
+	gcc -g -c -Wall log.c -I.
 
 clean:
 	rm -rf synchronous_simulator.o

@@ -10,3 +10,9 @@ void DEBUG(const char *format, ...) {
 #else
 void DEBUG(const char *format, ...) {}
 #endif
+void INFO(const char *format, ...) {
+        va_list formatPtr;
+        va_start(formatPtr, format);
+        vfprintf(stdout, format, formatPtr);
+        va_end(formatPtr);
+}

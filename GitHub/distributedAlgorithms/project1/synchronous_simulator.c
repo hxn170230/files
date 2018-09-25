@@ -17,7 +17,6 @@ void sendMessage(int fromId, int toNodeId, message_t message) {
 		globalState.nodeStates[fromId]->waitListCount += 1;
 		globalState.nodeStates[fromId]->waitList[message.toId] = 1;
 	}
-	DEBUG("Node[%d]: Recv size: %d\n", toNodeId, globalState.nodeStates[toNodeId]->recvBufferSize);
 	memcpy(&globalState.nodeStates[toNodeId]->recvBuffer[globalState.nodeStates[toNodeId]->recvBufferSize++], &message, sizeof(message));
 
 	pthread_mutex_unlock(&globalState.nodeStates[toNodeId]->recvBufferMutex);
@@ -40,14 +39,14 @@ void notifyNodes(MASTER_NOTIFICATION notification) {
 
 #define MAX_ROUNDS 30
 void * masterRoutine(void *masterArgs) {
-	int index = 0;
 	int nodeId = 0;
+	int done = 0;
 
 	globalState.currentRound = 0;
 
-	for (index = 0; index < MAX_ROUNDS; index++) {
+	while (!done) {
 		globalState.currentRound += 1;
-		DEBUG("Master: Triggering ROUND %d\n", globalState.currentRound);
+		INFO("Master: START ROUND %d\n", globalState.currentRound);
 		notifyNodes(START_ROUND);
 
 		for (nodeId = 0; nodeId < globalState.nProcess; nodeId++) {
@@ -64,6 +63,9 @@ void * masterRoutine(void *masterArgs) {
 			DEBUG("Master: Node[%d] finished ROUND %d\n", nodeId, globalState.currentRound);
 		}
 		printStatistics();
+		if (algorithmEnd() == 1) {
+			done = 1;
+		}
 	}
 
 	notifyNodes(END);
@@ -193,24 +195,24 @@ void finish() {
 }
 
 void printArgs(int n, int *uniqueIds, int connectivity[][n]) {
-	DEBUG("Number of Nodes: %d\n", n);
+	INFO("Number of Nodes: %d\n", n);
 
 	int index = 0;
 	int connectivityIndex = 0;
 
 	for (index = 0; index < n; index++) {
-		DEBUG("Node[%d]: UniqueId[%d]\n", index, uniqueIds[index]);
+		INFO("Node[%d]: UniqueId[%d]\n", index, uniqueIds[index]);
 		for (connectivityIndex = 0; connectivityIndex < n; connectivityIndex ++) {
-			DEBUG("\t Connectivity(%d): %d\n", index, connectivity[index][connectivityIndex]);
+			INFO("\t Connectivity(%d): %d\n", index, connectivity[index][connectivityIndex]);
 		}
 	}
 }
 
 void printNode(int nodeId) {
-	DEBUG("Node[%d]: connectivity: %d\n", nodeId, globalState.nodeStates[nodeId]->connected);
+	INFO("Node[%d]: connectivity: %d\n", nodeId, globalState.nodeStates[nodeId]->connected);
 	int index = 0;
 	for (index = 0; index < globalState.nProcess; index++) {
-		DEBUG("\t %d connectivity: %d\n", index, globalState.nodeStates[nodeId]->connectivity[index]);
+		INFO("\t %d connectivity: %d\n", index, globalState.nodeStates[nodeId]->connectivity[index]);
 	}
 }
 

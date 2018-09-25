@@ -8,7 +8,7 @@
 void printStatistics() {
 	int nodeIndex = 0;
 	for (nodeIndex = 0; nodeIndex < globalState.nProcess; nodeIndex++) {
-		DEBUG("Node[%d]: (Parent %d Leader %d WaitListCount: %d Rounds: %d Explore: %d Acks: %d Nacks: %d)\n",
+		INFO("Node[%d]: (Parent %d Leader %d WaitListCount: %d Rounds: %d Explore: %d Acks: %d Nacks: %d)\n",
 				nodeIndex,
 				(globalState.nodeStates[nodeIndex]->parentId),
 				(globalState.nodeStates[nodeIndex]->leaderId),
@@ -18,6 +18,16 @@ void printStatistics() {
 				(globalState.nodeStates[nodeIndex]->stats).numAcks,
 				(globalState.nodeStates[nodeIndex]->stats).numNacks);
 	}
+}
+
+int algorithmEnd() {
+	int nodeIndex = 0;
+	for (nodeIndex = 0; nodeIndex < globalState.nProcess; nodeIndex++) {
+		if (globalState.nodeStates[nodeIndex]->waitListCount != 0) {
+			return 0;
+		}
+	}
+	return 1;
 }
 
 void generateMessages(message_t *messages, int nodeId) {
@@ -52,6 +62,7 @@ void generateMessages(message_t *messages, int nodeId) {
 					.value = globalState.nodeStates[nodeId]->uId,
 				};
 				memcpy(&messages[index], &sendMsg, sizeof(message_t));
+				(globalState.nodeStates[nodeId]->stats).numExploreMessages ++;
 			}
 		}
 		pthread_mutex_unlock(&globalState.nodeStates[nodeId]->recvBufferMutex);
