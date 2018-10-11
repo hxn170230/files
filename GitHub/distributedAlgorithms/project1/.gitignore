@@ -1,2 +1,2 @@
-./*.o
-./simulator
+*.o
+simulator
