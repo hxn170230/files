@@ -17,6 +17,17 @@ void printAdjMatrix(int n, int adjMatrix[][n]) {
 	}
 }
 
+int getNumMessages() {
+	int index = 0;
+	int total = 0;
+	for (index = 0; index < globalState.nProcess; index++) {
+		total += (globalState.nodeStates[index]->stats).numExploreMessages;
+		total += (globalState.nodeStates[index]->stats).numAcks;
+		total += (globalState.nodeStates[index]->stats).numNacks;
+	}
+	return total;
+}
+
 void printStatistics() {
 	int nodeIndex = 0;
 	int childIndex = 0;
@@ -67,6 +78,7 @@ void printStatistics() {
 
 	INFO("####################################################################################\n");
 	INFO("Total Number of Rounds : \t %d\n", globalState.currentRound);
+	INFO("Total Number of Messages: \t %d\n", getNumMessages());
 	INFO("LEADER : \t\t\t %d\n", leaderId);
 	INFO("Tree Adj Matrix: \n");
 	printAdjMatrix(globalState.nProcess, adjMatrix);
@@ -136,7 +148,7 @@ void generateMessages(message_t *messages, int nodeId) {
 				DEBUG("Node[%d]: WaitListCount: %d\n", nodeId, globalState.nodeStates[nodeId]->waitListCount);
 			}
 			globalState.nodeStates[nodeId]->children[msg.fromId] = 0;
-			if (globalState.nodeStates[nodeId]->leaderId > msg.value) {
+			if (globalState.nodeStates[nodeId]->leaderId < msg.value) {
 				globalState.nodeStates[nodeId]->leaderId = msg.value;
 				globalState.nodeStates[nodeId]->parentId = msg.fromId;
 				// send explore msg with parent nodeId and leader leaderId to all connected nodes
@@ -145,6 +157,7 @@ void generateMessages(message_t *messages, int nodeId) {
 				for (childIndex = 0; childIndex < globalState.nProcess; childIndex++) {
 					if (globalState.nodeStates[nodeId]->connectivity[childIndex] == 1 && childIndex != nodeId) {
 						sendMsg.toId = childIndex;
+						// TODO send ack after all explores have been acked or nacked
 						if (msg.fromId == childIndex) {
 							DEBUG("Node[%d]: Send ACK to %d\n", nodeId, sendMsg.toId);
 							sendMsg.type = MESSAGE_TYPE_ACK;
