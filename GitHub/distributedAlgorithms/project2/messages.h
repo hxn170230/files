@@ -13,6 +13,7 @@ typedef struct {
 	int level;
 	int componentId;
 	int leaderId;
+	int absorbed;
 }AlgorithmData;
 
 // messages to send/receive

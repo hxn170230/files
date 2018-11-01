@@ -67,7 +67,7 @@ static void sendMessage(message_t msg, int nodeId, int toId) {
 	addElementToQueue(&(globalState.nodeStates[toId]->recvQueue[nodeId]), msg);
 }
 
-static void create_message(message_t *msg, int nodeId, MESSAGE_TYPE type, int value, int toId) {
+static void create_message(message_t *msg, int nodeId, MESSAGE_TYPE type, int value, int toId, int absorbed) {
 	memset(msg, 0, sizeof(message_t));
 	AlgorithmData algoData = {
 		.level = globalState.nodeStates[nodeId]->level,
@@ -90,6 +90,7 @@ static void create_message(message_t *msg, int nodeId, MESSAGE_TYPE type, int va
 	msg->algoData.level = algoData.level;
 	msg->algoData.componentId = algoData.componentId;
 	msg->algoData.leaderId = algoData.leaderId;
+	msg->algoData.absorbed = absorbed;
 
 	msg->data.id1 = data.id1;
 	msg->data.id2 = data.id2;
@@ -146,13 +147,13 @@ static void findMWOE(int nodeId) {
 		minEdgeIndex = globalState.nodeStates[nodeId]->parentId;
 		DEBUG("Node[%d]: Current MWOEResponses: %d\n", nodeId, globalState.nodeStates[nodeId]->MWOEResponses);
 		if (globalState.nodeStates[nodeId]->MWOEResponses == 0) {
-			create_message(&msg, nodeId, MESSAGE_TYPE_MWOEREPORT, FAILURE, globalState.nodeStates[nodeId]->parentId);
+			create_message(&msg, nodeId, MESSAGE_TYPE_MWOEREPORT, FAILURE, globalState.nodeStates[nodeId]->parentId, 0);
 		} else {
 			// wait for children
 			return;
 		}
 	} else {
-		create_message(&msg, nodeId, MESSAGE_TYPE_TESTMWOE, SUCCESS, minEdgeIndex);
+		create_message(&msg, nodeId, MESSAGE_TYPE_TESTMWOE, SUCCESS, minEdgeIndex, 0);
 		globalState.nodeStates[nodeId]->MWOEResponses += 1;
 	}
 	sendMessage(msg, nodeId, minEdgeIndex);
@@ -161,7 +162,7 @@ static void findMWOE(int nodeId) {
 static void forwardToParent(MESSAGE_TYPE msgType, int fromId) {
 	message_t msg;
 	memset(&msg, 0, sizeof(message_t));
-	create_message(&msg, fromId, msgType, SUCCESS, globalState.nodeStates[fromId]->parentId);
+	create_message(&msg, fromId, msgType, SUCCESS, globalState.nodeStates[fromId]->parentId, 0);
 	sendMessage(msg, fromId, globalState.nodeStates[fromId]->parentId);
 }
 
@@ -188,16 +189,16 @@ static void checkAndSetMWOEData(int nodeId, message_t *msg) {
 	}
 }
 
-static void sendMWOEConnectResponse(int fromId, int toId, int status) {
+static void sendMWOEConnectResponse(int fromId, int toId, int status, int absorbed) {
 	message_t msg;
-        create_message(&msg, fromId, MESSAGE_TYPE_MWOECONNECT_RESP, status, toId);
+        create_message(&msg, fromId, MESSAGE_TYPE_MWOECONNECT_RESP, status, toId, absorbed);
 	sendMessage(msg, fromId, toId);
 }
 
 static void sendStartMWOEConnect(int nodeId) {
 	// send MESSAGE_TYPE_MWOE_SEND_CONNECT to MWOE id1
 	message_t msg;
-	create_message(&msg, nodeId, MESSAGE_TYPE_MWOE_SEND_CONNECT, SUCCESS, globalState.nodeStates[nodeId]->myMWOEData.id1);
+	create_message(&msg, nodeId, MESSAGE_TYPE_MWOE_SEND_CONNECT, SUCCESS, globalState.nodeStates[nodeId]->myMWOEData.id1, 0);
 	if (nodeId == globalState.nodeStates[nodeId]->myMWOEData.id1) {
 		sendMessage(msg, nodeId, nodeId);
 	} else {
@@ -207,14 +208,14 @@ static void sendStartMWOEConnect(int nodeId) {
 
 static void startBroadcast(int nodeId) {
 	message_t msg;
-	create_message(&msg, nodeId, MESSAGE_TYPE_INITIATE, SUCCESS, nodeId);
+	create_message(&msg, nodeId, MESSAGE_TYPE_INITIATE, SUCCESS, nodeId, 0);
 	// forwardToChildren(nodeId, nodeId, &msg);
 	sendMessage(msg, nodeId, nodeId);
 }
 
 static void sendTestMWOEResponse(int fromId, int toId, int status) {
 	message_t msg;
-	create_message(&msg, fromId, MESSAGE_TYPE_TESTMWOE_RESP, status, toId);
+	create_message(&msg, fromId, MESSAGE_TYPE_TESTMWOE_RESP, status, toId, 0);
 	sendMessage(msg, fromId, toId);
 }
 
@@ -226,7 +227,7 @@ static void sendCombineComponents(int nodeId, message_t *mesg) {
 		INFO("Node[%d]: Already connected!\n", nodeId);
 		return;
 	}*/
-	create_message(&msg, nodeId, MESSAGE_TYPE_MWOECONNECT, SUCCESS, globalState.nodeStates[nodeId]->myMWOEData.id2);
+	create_message(&msg, nodeId, MESSAGE_TYPE_MWOECONNECT, SUCCESS, globalState.nodeStates[nodeId]->myMWOEData.id2, 0);
 	sendMessage(msg, nodeId, globalState.nodeStates[nodeId]->myMWOEData.id2);
 }
 
@@ -279,14 +280,13 @@ static int processMessage(message_t *msg, int nodeId, int fromId) {
 				// component id == other 
 				sendTestMWOEResponse(nodeId, msg->fromId, FAILURE);
 			} else {
-				// defer
 				retVal = DEFER_MESSAGE;
 			}
 			break;
 		case MESSAGE_TYPE_TESTMWOE_RESP:
 			DEBUG("Node[%d]: TEST MWOE Response from %d\n", nodeId, msg->fromId);
 			if (getState(nodeId) != FINDING) {
-				DEBUG("Node[%d]: State not expected\n");
+				DEBUG("Node[%d]: State not expected\n", nodeId);
 			}
 			// check failure in msg->value
 			if (msg->value == SUCCESS && globalState.nodeStates[nodeId]->componentId != msg->algoData.componentId) {
@@ -323,7 +323,7 @@ static int processMessage(message_t *msg, int nodeId, int fromId) {
 		case MESSAGE_TYPE_MWOE_SEND_CONNECT:
 			setState(nodeId, FOUND);
 			// if toId == self? MWOEConnect to MWOEData
-			if (nodeId == msg->toId) {
+			if (nodeId == msg->data.id1) {
 				sendCombineComponents(nodeId, msg);
 			} else {
 				// toId != self? forward MWOE_SEND_CONNECT to all connected nodes except parent
@@ -332,37 +332,55 @@ static int processMessage(message_t *msg, int nodeId, int fromId) {
 			break;
 		case MESSAGE_TYPE_MWOECONNECT:
 			if (getState(nodeId) != FOUND) {
-				// defer message
-				DEBUG("Node[%d]: Connect received in %d state\n", nodeId, getState(nodeId));
-				retVal = DEFER_MESSAGE;
+				// donot merge the component since parents change during merge
+				// try to absorb the other component since parent of absorbing component doesnt change
+				if (globalState.nodeStates[nodeId]->level > msg->algoData.level) {
+					DEBUG("Node[%d]: Absorb operation of %d %d\n", nodeId, nodeId, msg->fromId);
+					sendMWOEConnectResponse(nodeId, msg->fromId, SUCCESS, 1);
+                                        // set the value of edge to TREE_EDGE
+	                                globalState.nodeStates[nodeId]->spanningTreeConnectivity[msg->fromId] = TREE_EDGE;
+				} else {
+					// defer message
+					DEBUG("Node[%d]: Connect received in %d state\n", nodeId, getState(nodeId));
+					retVal = DEFER_MESSAGE;
+				}
 			} else {
 				MWOEData msgData = msg->data;
-				if (globalState.nodeStates[nodeId]->myMWOEData.id1 == msgData.id2 &&
-						globalState.nodeStates[nodeId]->myMWOEData.id2 == msgData.id1 &&
-						globalState.nodeStates[nodeId]->myMWOEData.edgeWeight == msgData.edgeWeight) {
-					INFO("Node[%d]: CONNECT received from %d\n", nodeId, msg->fromId);
-					// merge or absorb based on level
-					if (globalState.nodeStates[nodeId]->level == msg->algoData.level) {
+				INFO("Node[%d]: CONNECT received from %d\n", nodeId, msg->fromId);
+				// merge or absorb based on level
+				if (globalState.nodeStates[nodeId]->level == msg->algoData.level) {
+					if (globalState.nodeStates[nodeId]->myMWOEData.id1 != msgData.id2 ||
+						globalState.nodeStates[nodeId]->myMWOEData.id2 != msgData.id1 ||
+						globalState.nodeStates[nodeId]->myMWOEData.edgeWeight != msgData.edgeWeight) {
+						DEBUG("Node[%d]: Should never reach here!\n", nodeId);
+						return DEFER_MESSAGE;
+					} else {
 						DEBUG("Node[%d]: Merge operation of %d %d\n", nodeId, nodeId, msg->fromId);
 						globalState.nodeStates[nodeId]->level += 1;
 						if (globalState.nodeStates[nodeId]->uId < msg->uId) {
 							globalState.nodeStates[nodeId]->leaderId = msg->uId;
 							globalState.nodeStates[nodeId]->componentId = msg->algoData.componentId;
 							globalState.nodeStates[nodeId]->parentId = msg->fromId;
+						} else {
+							globalState.nodeStates[nodeId]->leaderId = globalState.nodeStates[nodeId]->uId;
+							globalState.nodeStates[nodeId]->parentId = nodeId;
 						}
-					} else if (globalState.nodeStates[nodeId]->level > msg->algoData.level) {
-						DEBUG("Node[%d]: Absorb operation of %d %d\n", nodeId, nodeId, msg->fromId);
-						absorb = 1;
-					} else {
-						INFO("Node[%d]: Should not reach here\n", nodeId);
 					}
-					sendMWOEConnectResponse(nodeId, msg->fromId, SUCCESS);
-					// set the value of edge to TREE_EDGE
-					globalState.nodeStates[nodeId]->spanningTreeConnectivity[msg->fromId] = TREE_EDGE;
-					// expect a response now
+				} else if (globalState.nodeStates[nodeId]->level > msg->algoData.level) {
+					DEBUG("Node[%d]: Absorb operation of %d %d\n", nodeId, nodeId, msg->fromId);
+					absorb = 1;
 				} else {
-					DEBUG("Node[%d]: self MWOE data not equal to other\n", nodeId);
-					retVal = DEFER_MESSAGE;
+					INFO("Node[%d]: Might have been absorbed\n", nodeId);
+					// may be absorbed
+				}
+				sendMWOEConnectResponse(nodeId, msg->fromId, SUCCESS, absorb);
+					// set the value of edge to TREE_EDGE
+				globalState.nodeStates[nodeId]->spanningTreeConnectivity[msg->fromId] = TREE_EDGE;
+				if (absorb && msg->fromId == globalState.nodeStates[nodeId]->myMWOEData.id1) {
+					if (globalState.nodeStates[nodeId]->parentId == nodeId) {
+						startBroadcast(nodeId);
+					}
+					setState(nodeId, SLEEPING);
 				}
 			}
 			break;
@@ -371,10 +389,12 @@ static int processMessage(message_t *msg, int nodeId, int fromId) {
 				DEBUG("Node[%d]: CONNECT Resp received in wrong state(%d)\n", nodeId, getState(nodeId));
 			}
 			if (msg->value == SUCCESS) {
-				if (globalState.nodeStates[nodeId]->uId < msg->uId) {
-					globalState.nodeStates[nodeId]->leaderId = msg->uId;
+				if (globalState.nodeStates[nodeId]->uId < msg->uId || msg->algoData.absorbed) {
+					DEBUG("Node[%d]: changing leader\n", nodeId);
+					globalState.nodeStates[nodeId]->leaderId = msg->algoData.leaderId;
 					globalState.nodeStates[nodeId]->parentId = msg->fromId;
 					globalState.nodeStates[nodeId]->componentId = msg->algoData.componentId;
+					globalState.nodeStates[nodeId]->level = msg->algoData.level;
 				}
 				globalState.nodeStates[nodeId]->spanningTreeConnectivity[msg->fromId] = TREE_EDGE;
 			} else {
@@ -406,7 +426,7 @@ int generateMessages(int nodeId) {
 
 	if (globalState.currentRound == 1) {
 		message_t msg;
-		create_message(&msg, nodeId, MESSAGE_TYPE_INITIATE, SUCCESS, nodeId);
+		create_message(&msg, nodeId, MESSAGE_TYPE_INITIATE, SUCCESS, nodeId, 0);
 		DEBUG("Node[%d]: leader: %d msg leader: %d\n", nodeId, globalState.nodeStates[nodeId]->leaderId, msg.algoData.leaderId);
 		sendMessage(msg, nodeId, nodeId);
 		globalState.nodeStates[nodeId]->recvBufferSize = globalState.nProcess;
