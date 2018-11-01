@@ -6,13 +6,13 @@ void logMessage(int nodeId, message_t message) {
 }
 
 void logSendMessage(int nodeId, message_t message) {
-        DEBUG("Node[%d]: Send Message(type:%d to:%d from: %d value: %d delay: %d uId: %d level: %d component: %d)\n",
+        DEBUG("Node[%d]: Send Message(type:%d to:%d from: %d value: %d delay: %d uId: %d level: %d component: %d leader: %d)\n",
 			nodeId, message.type, message.toId, message.fromId, message.value, message.delay,
-			message.uId, message.algoData.level, message.algoData.componentId);
+			message.uId, message.algoData.level, message.algoData.componentId, message.algoData.leaderId);
 }
 
 void logRecvMessage(int nodeId, message_t message) {
-        DEBUG("Node[%d]: Recv Message(type:%d to:%d from: %d value: %d delay: %d uId: %d level: %d component: %d)\n",
+        DEBUG("Node[%d]: Recv Message(type:%d to:%d from: %d value: %d delay: %d uId: %d level: %d component: %d leader: %d)\n",
 			nodeId, message.type, message.toId, message.fromId, message.value, message.delay,
-			message.uId, message.algoData.level, message.algoData.componentId);
+			message.uId, message.algoData.level, message.algoData.componentId, message.algoData.leaderId);
 }

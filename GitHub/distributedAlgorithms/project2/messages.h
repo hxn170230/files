@@ -12,6 +12,7 @@ typedef struct {
 typedef struct {
 	int level;
 	int componentId;
+	int leaderId;
 }AlgorithmData;
 
 // messages to send/receive
