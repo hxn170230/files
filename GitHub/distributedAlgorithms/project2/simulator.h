@@ -6,22 +6,22 @@
 #define SUCCESS 1
 #define FAILURE 0
 
-#define SAME_COMPONENT 1
-#define OTHER_COMPONENT 0
-#define REJECTED_EDGE 2
-
-#define MAX_RAND_RANGE 1
-#define MAX_ROUNDS 40
+#define MAX_RAND_RANGE 20
+#define MAX_ROUNDS 20
+#define MAX_INT 2147483647
 
 #include "messages.h"
 
 typedef enum {
-	BROADCAST_INITIATED,
-	WAITING_FOR_LEADER,
-	FINDING_MWOE,
-	MWOE_SENT_TO_LEADER,
-	CONNECT_SENT,
-	CONNECT_RECEIVED,
+	BASIC_EDGE = 0,
+	TREE_EDGE,
+	REJECTED_EDGE,
+}EdgeStatus_T;
+
+typedef enum {
+	SLEEPING,
+	FINDING,
+	FOUND,
 }STATUS_T;
 
 // Node Statistics
@@ -53,21 +53,23 @@ typedef struct {
 	int waitListCount;
 	int MWOEResponses;
 	int recvBufferSize;
+	int algorithmEnd;
 
 	STATUS_T status;
 
 	pthread_mutex_t threadMutex;
+	pthread_mutex_t recvSizeMutex;
 	pthread_cond_t roundFinishCondition;
 	pthread_t threadId;
 
 	MWOEData myMWOEData;
 
 	int *connectivity;
-	int *spanningTreeConnectivity;
-	int *children;
+	int *spanningTreeConnectivity; // classifies edge as tree edge, rejected edge or basic edge
 
 	queue_t *recvQueue; // queue of received messages
-	queue_t *processQueue; // queue of received messages
+	queue_t *processQueue; // queue of messages to be processed
+	queue_t *deferQueue; // queue of deferred messages
 
 	Statistics stats;
 }NodeState;

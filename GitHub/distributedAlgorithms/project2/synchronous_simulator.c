@@ -76,7 +76,7 @@ int processRoundK(int roundK, int nodeId) {
 	// while recvBufferSize != connected size, keep receiving messages
 	while (globalState.nodeStates[nodeId]->recvBufferSize < globalState.nProcess) {
 		// wait for messages from all connected nodes
-		DEBUG("Node[%d]: Waiting. Received: %d\n", nodeId, globalState.nodeStates[nodeId]->recvBufferSize);
+		//DEBUG("Node[%d]: Waiting. Received: %d\n", nodeId, globalState.nodeStates[nodeId]->recvBufferSize);
 	}
 	// consume received messages
 	consumeMessages(nodeId);
@@ -130,6 +130,7 @@ void simulate() {
 	for (index = 0; index < nProcess; index++) {
 		// create threads to simulate nodes
 		pthread_mutex_init(&(globalState.nodeStates[index]->threadMutex), NULL);
+		pthread_mutex_init(&(globalState.nodeStates[index]->recvSizeMutex), NULL);
 		pthread_cond_init(&globalState.nodeStates[index]->roundFinishCondition, NULL);
 		pthread_create(&globalState.nodeStates[index]->threadId, NULL, nodeRoutine, &globalState.nodeStates[index]->nodeId);
 		// update global state with thread info
@@ -149,9 +150,12 @@ void finish() {
 		free(globalState.nodeStates[nodeId]->recvQueue);
 		pthread_mutex_destroy(&(globalState.nodeStates[nodeId]->processQueue->queueMutex));
 		free(globalState.nodeStates[nodeId]->processQueue);
+		pthread_mutex_destroy(&(globalState.nodeStates[nodeId]->deferQueue->queueMutex));
+		free(globalState.nodeStates[nodeId]->deferQueue);
 		free(globalState.nodeStates[nodeId]);
 
 		pthread_mutex_destroy(&globalState.nodeStates[nodeId]->threadMutex);
+		pthread_mutex_destroy(&globalState.nodeStates[nodeId]->recvSizeMutex);
 		pthread_cond_destroy(&globalState.nodeStates[nodeId]->roundFinishCondition);
 	}
 	pthread_cond_destroy(&globalState.synchronyCondition);
@@ -259,8 +263,9 @@ int main(int argc, char *argv[]) {
 			nodeState->uId = uniqueIds[index];
 
 			nodeState->connected = 0;
+			nodeState->algorithmEnd = 0;
 			nodeState->parentId = index;
-			nodeState->leaderId = index;
+			nodeState->leaderId = nodeState->uId;
 			nodeState->level = 0;
 			nodeState->componentId = index;
 			nodeState->MWOEResponses = 0;
@@ -268,6 +273,9 @@ int main(int argc, char *argv[]) {
 			nodeState->status = 0;
 
 			memset(&(nodeState->myMWOEData), 0, sizeof(MWOEData));
+			nodeState->myMWOEData.id1 = 2147483647;
+			nodeState->myMWOEData.id2 = 2147483647;
+			nodeState->myMWOEData.edgeWeight = 2147483647;
 
 			nodeState->connectivity = (int *)malloc(n*sizeof(int));
 			memset(nodeState->connectivity, 0, n);
@@ -276,17 +284,29 @@ int main(int argc, char *argv[]) {
 			nodeState->spanningTreeConnectivity = (int *)malloc(n*sizeof(int));
 			memset(nodeState->spanningTreeConnectivity, 0, n);
 
-			// children list init
-			nodeState->children = (int *)malloc(n*sizeof(int));
-			memset(nodeState->children, 0, n);
-
 			nodeState->recvQueue = (queue_t *)malloc(n * sizeof(queue_t));
 			pthread_mutex_init(&nodeState->recvQueue->queueMutex, NULL);
+
 			nodeState->processQueue = (queue_t *)malloc(n * sizeof(queue_t));
 			pthread_mutex_init(&nodeState->processQueue->queueMutex, NULL);
 
+			nodeState->deferQueue = (queue_t *)malloc(n * sizeof(queue_t));
+			pthread_mutex_init(&nodeState->deferQueue->queueMutex, NULL);
+
 			for (connectivityIndex = 0; connectivityIndex < n; connectivityIndex ++) {
 				nodeState->connectivity[connectivityIndex] = connectivity[index][connectivityIndex];
+
+				nodeState->recvQueue[connectivityIndex].front = 0;
+				nodeState->recvQueue[connectivityIndex].back = 0;
+				nodeState->recvQueue[connectivityIndex].nodeId = connectivityIndex;
+
+				nodeState->processQueue[connectivityIndex].front = 0;
+				nodeState->processQueue[connectivityIndex].back = 0;
+				nodeState->processQueue[connectivityIndex].nodeId = connectivityIndex;
+
+				nodeState->deferQueue[connectivityIndex].front = 0;
+				nodeState->deferQueue[connectivityIndex].back = 0;
+				nodeState->deferQueue[connectivityIndex].nodeId = connectivityIndex;
 
 				if (connectivityIndex == index) {
 					nodeState->connectivity[connectivityIndex] = 1;
@@ -294,19 +314,11 @@ int main(int argc, char *argv[]) {
 
 				if (nodeState->connectivity[connectivityIndex] != 0) {
 					nodeState->connected+=1;
-					if (connectivityIndex != index) {
-						nodeState->recvQueue[connectivityIndex].front = 0;
-						nodeState->recvQueue[connectivityIndex].back = 0;
-						nodeState->recvQueue[connectivityIndex].nodeId = connectivityIndex;
-						nodeState->processQueue[connectivityIndex].front = 0;
-						nodeState->processQueue[connectivityIndex].back = 0;
-						nodeState->processQueue[connectivityIndex].nodeId = connectivityIndex;
-					}
 				}
+				nodeState->spanningTreeConnectivity[connectivityIndex] = 0;
 			}
 			DEBUG("Node[%d]: connected: %d\n", index, nodeState->connected);
 
-			memset(&nodeState->myMWOEData, 0, sizeof(MWOEData));
 			globalState.nodeStates[index] = nodeState;
 			globalState.nodeStates[index]->roundDone = 0;
 
