@@ -6,7 +6,7 @@
 typedef struct {
 	int id1;
 	int id2;
-	int edgeWeight;
+	float edgeWeight;
 }MWOEData;
 
 typedef struct {

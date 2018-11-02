@@ -231,7 +231,7 @@ int main(int argc, char *argv[]) {
 	scanf("%d", &n);
 
 	int uniqueIds[n];
-	int connectivity[n][n];
+	float connectivity[n][n];
 
 	for (index = 0; index < n; index++) {
 		scanf("%d", &uniqueIds[index]);
@@ -240,7 +240,7 @@ int main(int argc, char *argv[]) {
 	for (index = 0; index < n; index++) {
 		int edgeLink = 0;
 		for (edgeLink = 0; edgeLink < n; edgeLink++) {
-			scanf("%d", &connectivity[index][edgeLink]);
+			scanf("%f", &connectivity[index][edgeLink]);
 		}
 	}
 	
@@ -277,7 +277,7 @@ int main(int argc, char *argv[]) {
 			nodeState->myMWOEData.id2 = 2147483647;
 			nodeState->myMWOEData.edgeWeight = 2147483647;
 
-			nodeState->connectivity = (int *)malloc(n*sizeof(int));
+			nodeState->connectivity = (float *)malloc(n*sizeof(float));
 			memset(nodeState->connectivity, 0, n);
 			// TODO check malloc failure:
 
@@ -312,7 +312,7 @@ int main(int argc, char *argv[]) {
 					nodeState->connectivity[connectivityIndex] = 1;
 				}
 
-				if (nodeState->connectivity[connectivityIndex] != 0) {
+				if (nodeState->connectivity[connectivityIndex] != -1) {
 					nodeState->connected+=1;
 				}
 				nodeState->spanningTreeConnectivity[connectivityIndex] = 0;

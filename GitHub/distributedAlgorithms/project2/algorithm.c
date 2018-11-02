@@ -38,14 +38,29 @@ int algorithmEnd() {
 void printStatistics() {
 	int nodeId = 0;
 
+	INFO("******************************************************************\n");
+	INFO("Leader of MST: %d\n", globalState.nodeStates[nodeId]->leaderId);
+	INFO("Component ID : %d\n", globalState.nodeStates[nodeId]->componentId);
+	INFO("Spanning Tree Adj Matrix: \n");
+
 	for (nodeId = 0; nodeId < globalState.nProcess; nodeId++) {
-		INFO("Node[%d]: uId(%d) Parent(%d) Leader(%d) Component(%d) Level(%d)\n", nodeId,
+		DEBUG("Node[%d]: uId(%d) Parent(%d) Leader(%d) Component(%d) Level(%d)\n", nodeId,
 				globalState.nodeStates[nodeId]->uId,
 				globalState.nodeStates[nodeId]->parentId,
 				globalState.nodeStates[nodeId]->leaderId,
 				globalState.nodeStates[nodeId]->componentId,
 				globalState.nodeStates[nodeId]->level);
+		int index = 0;
+		for (index = 0; index < globalState.nProcess; index++) {
+			if (globalState.nodeStates[nodeId]->spanningTreeConnectivity[index] == TREE_EDGE && nodeId != index) {
+				INFO("%f ", globalState.nodeStates[nodeId]->connectivity[index]);
+			} else {
+				INFO("-1 ");
+			}
+		}
+		INFO("\n");
 	}
+	INFO("******************************************************************\n");
 }
 
 static int uniform_rv(int rangeLow, int rangeHigh) {
@@ -100,7 +115,7 @@ static void create_message(message_t *msg, int nodeId, MESSAGE_TYPE type, int va
 static void forwardToChildren(int nodeId, int fromId, message_t *msg) {
 	int index = 0;
 	for (index = 0; index < globalState.nProcess; index++) {
-		if (globalState.nodeStates[nodeId]->connectivity[index] != 0 &&
+		if (globalState.nodeStates[nodeId]->connectivity[index] != -1 &&
 				globalState.nodeStates[nodeId]->spanningTreeConnectivity[index] == TREE_EDGE &&
 				nodeId != index && fromId != index) {
 			INFO("Node[%d] forward message to %d\n", nodeId, index);
@@ -120,14 +135,14 @@ static void forwardToChildren(int nodeId, int fromId, message_t *msg) {
 static void findMWOE(int nodeId) {
 	int index = 0;
 	int minEdgeIndex = MAX_INT;
-	int minEdgeValue = MAX_INT;
+	float minEdgeValue = MAX_FLOAT;
 
 	globalState.nodeStates[nodeId]->myMWOEData.id1 = MAX_INT;
         globalState.nodeStates[nodeId]->myMWOEData.id2 = MAX_INT;
-        globalState.nodeStates[nodeId]->myMWOEData.edgeWeight = MAX_INT;
+        globalState.nodeStates[nodeId]->myMWOEData.edgeWeight = MAX_FLOAT;
 
 	for (index = 0; index < globalState.nProcess; index++) {
-		if (globalState.nodeStates[nodeId]->connectivity[index] != 0 &&
+		if (globalState.nodeStates[nodeId]->connectivity[index] != -1 &&
 				globalState.nodeStates[nodeId]->spanningTreeConnectivity[index] == BASIC_EDGE &&
 				nodeId != index) {
 			if (minEdgeValue > globalState.nodeStates[nodeId]->connectivity[index]) {
@@ -137,7 +152,7 @@ static void findMWOE(int nodeId) {
 		}
 	}
 	INFO("Node[%d]: Min Edge So far: %d value(%d)\n", nodeId, minEdgeIndex, minEdgeValue);
-	if (minEdgeValue != MAX_INT)
+	if (minEdgeValue != MAX_FLOAT)
 		globalState.nodeStates[nodeId]->myMWOEData.id1 = nodeId;
 	globalState.nodeStates[nodeId]->myMWOEData.id2 = minEdgeIndex;
 	globalState.nodeStates[nodeId]->myMWOEData.edgeWeight = minEdgeValue;
@@ -231,18 +246,16 @@ static void sendCombineComponents(int nodeId, message_t *mesg) {
 	sendMessage(msg, nodeId, globalState.nodeStates[nodeId]->myMWOEData.id2);
 }
 
-#if 0
 static void changeParent(int nodeId) {
 	message_t msg;
-	create_message(&msg, nodeId, MESSAGE_TYPE_CHANGE_PARENT, SUCCESS, globalState.nodeStates[nodeId]->myMWOEData.id2);
+	create_message(&msg, nodeId, MESSAGE_TYPE_CHANGE_PARENT, SUCCESS, globalState.nodeStates[nodeId]->myMWOEData.id2, 0);
 	forwardToChildren(nodeId, globalState.nodeStates[nodeId]->parentId, &msg);
 }
-#endif
 
 static void resetMWOEData(int nodeId) {
 	globalState.nodeStates[nodeId]->myMWOEData.id1 = MAX_INT;
         globalState.nodeStates[nodeId]->myMWOEData.id2 = MAX_INT;
-        globalState.nodeStates[nodeId]->myMWOEData.id2 = MAX_INT;
+        globalState.nodeStates[nodeId]->myMWOEData.edgeWeight = MAX_FLOAT;
 }
 
 #define DEFER_MESSAGE 1
@@ -296,7 +309,9 @@ static int processMessage(message_t *msg, int nodeId, int fromId) {
 				forwardToParent(MESSAGE_TYPE_MWOEREPORT, nodeId);
 			} else {
 				globalState.nodeStates[nodeId]->MWOEResponses -= 1;
-				globalState.nodeStates[nodeId]->spanningTreeConnectivity[msg->fromId] = REJECTED_EDGE;
+				if (globalState.nodeStates[nodeId]->spanningTreeConnectivity[msg->fromId] != TREE_EDGE) {
+					globalState.nodeStates[nodeId]->spanningTreeConnectivity[msg->fromId] = REJECTED_EDGE;
+				}
 				resetMWOEData(nodeId);
 				findMWOE(nodeId);
 			}
@@ -321,9 +336,9 @@ static int processMessage(message_t *msg, int nodeId, int fromId) {
 			}
 			break;
 		case MESSAGE_TYPE_MWOE_SEND_CONNECT:
-			setState(nodeId, FOUND);
 			// if toId == self? MWOEConnect to MWOEData
 			if (nodeId == msg->data.id1) {
+				setState(nodeId, FOUND);
 				sendCombineComponents(nodeId, msg);
 			} else {
 				// toId != self? forward MWOE_SEND_CONNECT to all connected nodes except parent
@@ -395,6 +410,9 @@ static int processMessage(message_t *msg, int nodeId, int fromId) {
 					globalState.nodeStates[nodeId]->parentId = msg->fromId;
 					globalState.nodeStates[nodeId]->componentId = msg->algoData.componentId;
 					globalState.nodeStates[nodeId]->level = msg->algoData.level;
+					if (msg->algoData.absorbed) {
+						changeParent(nodeId);
+					}
 				}
 				globalState.nodeStates[nodeId]->spanningTreeConnectivity[msg->fromId] = TREE_EDGE;
 			} else {
@@ -406,6 +424,11 @@ static int processMessage(message_t *msg, int nodeId, int fromId) {
 			setState(nodeId, SLEEPING);
 			break;
 		case MESSAGE_TYPE_CHANGE_PARENT:
+			DEBUG("Node[%d]: CHANGE Leader message arrived\n", nodeId);
+			globalState.nodeStates[nodeId]->leaderId = msg->algoData.leaderId;
+			globalState.nodeStates[nodeId]->parentId = fromId;
+			globalState.nodeStates[nodeId]->componentId = msg->algoData.componentId;
+			globalState.nodeStates[nodeId]->level = msg->algoData.level;
 			break;
 		default:
 			DEBUG("Node[%d]: unknown message?\n", nodeId);
@@ -434,7 +457,7 @@ int generateMessages(int nodeId) {
 	}
 
 	for (index = 0; index < globalState.nProcess; index++) {
-		if (globalState.nodeStates[nodeId]->connectivity[index] != 0 || index == nodeId) {
+		if (globalState.nodeStates[nodeId]->connectivity[index] != -1 || index == nodeId) {
 			message_t *msg = NULL;
 			do {
 				msg = peekNextElement(&(globalState.nodeStates[nodeId]->processQueue[index]));

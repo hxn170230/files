@@ -9,6 +9,8 @@
 #define MAX_RAND_RANGE 20
 #define MAX_ROUNDS 20
 #define MAX_INT 2147483647
+#include <float.h>
+#define MAX_FLOAT FLT_MAX
 
 #include "messages.h"
 
@@ -64,7 +66,7 @@ typedef struct {
 
 	MWOEData myMWOEData;
 
-	int *connectivity;
+	float *connectivity;
 	int *spanningTreeConnectivity; // classifies edge as tree edge, rejected edge or basic edge
 
 	queue_t *recvQueue; // queue of received messages
