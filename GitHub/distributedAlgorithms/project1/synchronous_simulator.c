@@ -34,12 +34,12 @@ void notifyNodes(MASTER_NOTIFICATION notification) {
 
 #define MAX_ROUNDS 1000
 void * masterRoutine(void *masterArgs) {
-	int index = 0;
 	int nodeId = 0;
+	int done = 0;
 
 	globalState.currentRound = 0;
 
-	for (index = 0; index < MAX_ROUNDS; index++) {
+	while(!done){
 		globalState.currentRound += 1;
 		DEBUG("Master: Triggering ROUND %d\n", globalState.currentRound);
 		notifyNodes(START_ROUND);
@@ -53,10 +53,16 @@ void * masterRoutine(void *masterArgs) {
 				pthread_cond_wait(&globalState.nodeStates[nodeId]->roundFinishCondition, &globalState.nodeStates[nodeId]->threadMutex);
 			}
 			globalState.nodeStates[nodeId]->roundDone = 0;
+			globalState.nodeStates[nodeId]->parentId = nodeId;
+			globalState.nodeStates[nodeId]->leaderId = nodeId;
 			pthread_mutex_unlock(&globalState.nodeStates[nodeId]->threadMutex);
 
 			DEBUG("Master: Node[%d] finished ROUND %d\n", nodeId, globalState.currentRound);
 		}
+		if (algorithmEnd() == 1) {
+			done = 1;
+		}
+		DEBUG("Master: END ROUND %d\n", globalState.currentRound);
 	}
 
 	notifyNodes(END);
@@ -94,7 +100,7 @@ int processRoundK(int roundK, int nodeId) {
 		DEBUG("Node[%d]: recv buffer size: %d\n", nodeId, globalState.nodeStates[nodeId]->recvBufferSize);
 	}
 	// consume received messages
-	consumeMessages(nodeId);
+	consumeMessages(messages, nodeId);
 
 	globalState.nodeStates[nodeId]->roundDone = 1;
 	pthread_mutex_unlock(&globalState.nodeStates[nodeId]->threadMutex);

@@ -17,10 +17,13 @@ typedef struct {
 typedef struct {
 	int nodeId;
 	int uId;
+	int leaderId;
 	int parentId;
+	int parentUpdated;
 	int roundDone;
 	int connected;
 	int *connectivity;
+	int *children;
 
 	message_t *recvBuffer; // queue of received messages
 	int recvBufferSize;
